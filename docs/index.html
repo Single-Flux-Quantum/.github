@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SFQ Paper Map — Curated Superconducting Electronics Literature</title>
+  <meta name="description" content="Search, filter, and explore 156+ curated research papers on Single Flux Quantum (SFQ), RSFQ, ERSFQ, AQFP, cryogenic EDA, and quantum control.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --bg-surface: #0f172a;
+      --bg-surface-elevated: #1e293b;
+      --border: #334155;
+      --border-subtle: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --accent: #38bdf8;
+      --accent-glow: rgba(56, 189, 248, 0.15);
+      --accent-hover: #0284c7;
+      --badge-bg: #1e293b;
+      --badge-text: #7dd3fc;
+      --card-highlight: rgba(56, 189, 248, 0.05);
+      --table-stripe: rgba(30, 41, 59, 0.4);
+      --row-hover: rgba(56, 189, 248, 0.08);
+      --radius: 10px;
+      --transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="light"] {
+      --bg: #f8fafc;
+      --bg-surface: #ffffff;
+      --bg-surface-elevated: #f1f5f9;
+      --border: #cbd5e1;
+      --border-subtle: #e2e8f0;
+      --text: #0f172a;
+      --text-muted: #475569;
+      --text-dim: #64748b;
+      --accent: #0284c7;
+      --accent-glow: rgba(2, 132, 199, 0.12);
+      --accent-hover: #0369a1;
+      --badge-bg: #e0f2fe;
+      --badge-text: #0369a1;
+      --card-highlight: rgba(2, 132, 199, 0.03);
+      --table-stripe: #f8fafc;
+      --row-hover: rgba(2, 132, 199, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* Ambient background gradient glow */
+    .ambient-glow {
+      position: fixed;
+      top: -200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1000px;
+      height: 450px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.12) 0%, rgba(99, 102, 241, 0.06) 50%, transparent 75%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    header {
+      position: relative;
+      z-index: 10;
+      border-bottom: 1px solid var(--border-subtle);
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    [data-theme="light"] header {
+      background: rgba(255, 255, 255, 0.85);
+    }
+
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 9px;
+      background: linear-gradient(135deg, #0284c7, #6366f1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: #fff;
+    }
+
+    .brand-title {
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      background: linear-gradient(120deg, var(--text), var(--accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-sub {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .header-link {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .header-link:hover {
+      color: var(--accent);
+    }
+
+    .theme-toggle {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border);
+      color: var(--text);
+      cursor: pointer;
+      padding: 0.45rem 0.75rem;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: var(--transition);
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--accent);
+    }
+
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem 2rem 4rem;
+      flex: 1;
+    }
+
+    .hero {
+      margin-bottom: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 850px;
+    }
+
+    /* Controls Panel */
+    .controls-panel {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1.75rem;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .controls-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    .search-wrapper {
+      flex: 1 1 320px;
+      position: relative;
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 0.7rem 1rem 0.7rem 2.6rem;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.95rem;
+      transition: var(--transition);
+    }
+
+    .search-input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.9rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+      pointer-events: none;
+    }
+
+    .search-shortcut {
+      position: absolute;
+      right: 0.8rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      background: var(--border);
+      color: var(--text-dim);
+      border: 1px solid var(--border-subtle);
+      pointer-events: none;
+    }
+
+    .filter-select {
+      flex: 0 1 260px;
+      padding: 0.7rem 1rem;
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.92rem;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    .filter-select:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .stats-badge {
+      margin-left: auto;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      background: var(--bg-surface-elevated);
+      padding: 0.5rem 0.9rem;
+      border-radius: 8px;
+      border: 1px solid var(--border-subtle);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      white-space: nowrap;
+    }
+
+    .stats-count {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    /* Category Pill Bar */
+    .pills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      padding-top: 0.25rem;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .pill-btn {
+      background: transparent;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      padding: 0.35rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .pill-btn:hover {
+      border-color: var(--border);
+      color: var(--text);
+      background: var(--bg-surface-elevated);
+    }
+
+    .pill-btn.active {
+      background: var(--accent-glow);
+      border-color: var(--accent);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Table Container */
+    .table-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      background: var(--bg-surface-elevated);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 0.9rem 1.1rem;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    thead th.sortable {
+      cursor: pointer;
+      transition: var(--transition);
+    }
+
+    thead th.sortable:hover {
+      color: var(--accent);
+      background: var(--border-subtle);
+    }
+
+    .sort-indicator {
+      display: inline-block;
+      margin-left: 0.35rem;
+      opacity: 0.4;
+      font-size: 0.75rem;
+    }
+
+    th[aria-sort="ascending"] .sort-indicator {
+      opacity: 1;
+      color: var(--accent);
+    }
+    th[aria-sort="descending"] .sort-indicator {
+      opacity: 1;
+      color: var(--accent);
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border-subtle);
+      transition: var(--transition);
+    }
+
+    tbody tr:nth-child(even) {
+      background: var(--table-stripe);
+    }
+
+    tbody tr:hover {
+      background: var(--row-hover);
+    }
+
+    tbody td {
+      padding: 1rem 1.1rem;
+      vertical-align: top;
+    }
+
+    .col-title {
+      min-width: 320px;
+      max-width: 480px;
+    }
+
+    .paper-title {
+      font-weight: 600;
+      font-size: 0.96rem;
+      line-height: 1.4;
+      margin-bottom: 0.35rem;
+    }
+
+    .paper-title a {
+      color: var(--text);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .paper-title a:hover {
+      color: var(--accent);
+    }
+
+    .paper-innovation {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-top: 0.25rem;
+    }
+
+    .paper-innovation.expanded {
+      -webkit-line-clamp: unset;
+      overflow: visible;
+    }
+
+    .toggle-summary-btn {
+      background: none;
+      border: none;
+      color: var(--accent);
+      font-size: 0.74rem;
+      cursor: pointer;
+      padding: 0;
+      margin-top: 0.2rem;
+      font-weight: 500;
+      display: inline-block;
+    }
+
+    .col-authors {
+      min-width: 220px;
+      max-width: 300px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .col-year {
+      min-width: 80px;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 600;
+      color: var(--accent);
+      font-size: 0.88rem;
+      white-space: nowrap;
+    }
+
+    .col-venue {
+      min-width: 170px;
+      font-size: 0.83rem;
+      color: var(--text-dim);
+    }
+
+    .col-domain {
+      min-width: 180px;
+    }
+
+    .domain-badge {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      margin: 0.15rem 0.25rem 0.15rem 0;
+      text-transform: capitalize;
+    }
+
+    .col-links {
+      min-width: 120px;
+      white-space: nowrap;
+    }
+
+    .link-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 0.35rem 0.65rem;
+      border-radius: 6px;
+      text-decoration: none;
+      background: var(--bg-surface-elevated);
+      color: var(--text);
+      border: 1px solid var(--border);
+      transition: var(--transition);
+    }
+
+    .link-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-glow);
+    }
+
+    .empty-state {
+      padding: 4rem 2rem;
+      text-align: center;
+      color: var(--text-muted);
+    }
+
+    .empty-state h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+
+    footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: 2rem;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+      background: var(--bg-surface);
+      margin-top: auto;
+    }
+
+    footer a {
+      color: var(--text-muted);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    footer a:hover {
+      color: var(--accent);
+    }
+
+    @media (max-width: 768px) {
+      .header-container {
+        padding: 1rem;
+      }
+      main {
+        padding: 1rem 1rem 3rem;
+      }
+      .controls-row {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .filter-select, .stats-badge {
+        width: 100%;
+      }
+      .stats-badge {
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="ambient-glow"></div>
+
+  <header>
+    <div class="header-container">
+      <a href="https://github.com/single-flux-quantum" class="brand">
+        <div class="brand-icon">Φ₀</div>
+        <div>
+          <div class="brand-title">Single-Flux-Quantum Lab</div>
+          <div class="brand-sub">Curated Superconducting Digital Electronics Literature</div>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <a href="https://github.com/single-flux-quantum/sfq-lab" class="header-link" target="_blank" rel="noopener noreferrer">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+          Parent Lab
+        </a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span id="theme-icon">☀️</span>
+          <span id="theme-label">Light</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>SFQ Research Paper Map</h1>
+      <p>
+        Explore 156+ curated papers spanning RSFQ/ERSFQ/AQFP logic, cryogenic EDA tools, resistor-JTL clocking, hybrid CMOS links, Cryo-RAM, and quantum control.
+      </p>
+    </section>
+
+    <section class="controls-panel">
+      <div class="controls-row">
+        <div class="search-wrapper">
+          <span class="search-icon">🔍</span>
+          <input
+            type="search"
+            id="search-input"
+            class="search-input"
+            placeholder="Search by title, author, venue, keyword, or innovation..."
+            autocomplete="off"
+          />
+          <span class="search-shortcut">/</span>
+        </div>
+
+        <select id="domain-select" class="filter-select">
+          <option value="">All Research Domains</option>
+        </select>
+
+        <div id="stats-badge" class="stats-badge" aria-live="polite">
+          Showing <span id="visible-count" class="stats-count">156</span> of <span id="total-count">156</span> papers
+        </div>
+      </div>
+
+      <div class="pills-container" id="pills-bar">
+        <!-- Rendered by JS -->
+      </div>
+    </section>
+
+    <div class="table-card">
+      <div class="table-wrapper">
+        <table id="papers-table">
+          <thead>
+            <tr>
+              <th class="sortable col-title" data-sort="title" aria-sort="none">
+                Paper & Innovation <span class="sort-indicator">↕</span>
+              </th>
+              <th class="sortable col-authors" data-sort="authors" aria-sort="none">
+                Authors <span class="sort-indicator">↕</span>
+              </th>
+              <th class="sortable col-year" data-sort="year" aria-sort="descending">
+                Year <span class="sort-indicator">↓</span>
+              </th>
+              <th class="sortable col-venue" data-sort="venue" aria-sort="none">
+                Venue <span class="sort-indicator">↕</span>
+              </th>
+              <th class="col-domain">Research Domain</th>
+              <th class="col-links">Access</th>
+            </tr>
+          </thead>
+          <tbody id="papers-tbody">
+            <!-- Rendered by JS -->
+          </tbody>
+        </table>
+      </div>
+      <div id="empty-state" class="empty-state" style="display: none;">
+        <h3>No matching papers found</h3>
+        <p>Try clearing your search query or selecting "All Research Domains".</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      Single-Flux-Quantum Lab Catalog · Synchronized with <code>sfq-lab/docs/PAPERS.md</code> & <code>tas.bib</code> ·
+      <a href="https://github.com/single-flux-quantum/.github" target="_blank" rel="noopener noreferrer">.github Org Repository</a> ·
+      Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      const DOMAIN_LABELS = {
+        "circuits-and-logic": "Circuits & Logic",
+        "cryo-eda": "Cryo-EDA & Timing",
+        "clocking-and-power": "Clocking & Power",
+        "hybrid-interfaces": "Hybrid CMOS Interfaces",
+        "cryo-memory": "Cryogenic Memory",
+        "compute-architectures": "Compute & Processors",
+        "quantum-and-detectors": "Quantum & Detectors",
+        "sensors-and-metrology": "Sensors & Metrology",
+        "cell-library-and-fabrication": "Cell Libraries & Fab"
+      };
+
+      let papersData = [];
+      let activeFilter = "";
+      let sortKey = "year";
+      let sortDir = -1; // -1 = descending, 1 = ascending
+
+      const searchInput = document.getElementById("search-input");
+      const domainSelect = document.getElementById("domain-select");
+      const pillsBar = document.getElementById("pills-bar");
+      const tbody = document.getElementById("papers-tbody");
+      const table = document.getElementById("papers-table");
+      const visibleCountEl = document.getElementById("visible-count");
+      const totalCountEl = document.getElementById("total-count");
+      const emptyState = document.getElementById("empty-state");
+      const themeToggle = document.getElementById("theme-toggle");
+      const themeIcon = document.getElementById("theme-icon");
+      const themeLabel = document.getElementById("theme-label");
+
+      // Theme toggle
+      function initTheme() {
+        const saved = localStorage.getItem("sfq_theme") || "dark";
+        document.documentElement.setAttribute("data-theme", saved);
+        updateThemeUI(saved);
+      }
+
+      function updateThemeUI(theme) {
+        if (theme === "light") {
+          themeIcon.textContent = "🌙";
+          themeLabel.textContent = "Dark";
+        } else {
+          themeIcon.textContent = "☀️";
+          themeLabel.textContent = "Light";
+        }
+      }
+
+      themeToggle.addEventListener("click", () => {
+        const current = document.documentElement.getAttribute("data-theme") || "dark";
+        const next = current === "light" ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", next);
+        localStorage.setItem("sfq_theme", next);
+        updateThemeUI(next);
+      });
+
+      initTheme();
+
+      // Quick shortcut '/' to focus search
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "/" && document.activeElement !== searchInput) {
+          e.preventDefault();
+          searchInput.focus();
+        }
+      });
+
+      function escapeHtml(str) {
+        if (!str) return "";
+        return String(str)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+      }
+
+      function buildDomainFilters(data) {
+        const counts = {};
+        data.forEach(p => {
+          (p.categories || []).forEach(c => {
+            counts[c] = (counts[c] || 0) + 1;
+          });
+        });
+
+        // Populate select
+        const domains = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+        domains.forEach(d => {
+          const opt = document.createElement("option");
+          opt.value = d;
+          opt.textContent = `${DOMAIN_LABELS[d] || d} (${counts[d]})`;
+          domainSelect.appendChild(opt);
+        });
+
+        // Populate pill buttons
+        const allBtn = document.createElement("button");
+        allBtn.className = "pill-btn active";
+        allBtn.dataset.domain = "";
+        allBtn.textContent = `All (${data.length})`;
+        pillsBar.appendChild(allBtn);
+
+        domains.forEach(d => {
+          const btn = document.createElement("button");
+          btn.className = "pill-btn";
+          btn.dataset.domain = d;
+          btn.textContent = `${DOMAIN_LABELS[d] || d} (${counts[d]})`;
+          pillsBar.appendChild(btn);
+        });
+
+        pillsBar.addEventListener("click", (e) => {
+          const btn = e.target.closest(".pill-btn");
+          if (!btn) return;
+          const val = btn.dataset.domain;
+          setCategoryFilter(val);
+        });
+
+        domainSelect.addEventListener("change", () => {
+          setCategoryFilter(domainSelect.value);
+        });
+      }
+
+      function setCategoryFilter(val) {
+        activeFilter = val;
+        domainSelect.value = val;
+        pillsBar.querySelectorAll(".pill-btn").forEach(b => {
+          b.classList.toggle("active", b.dataset.domain === val);
+        });
+        render();
+      }
+
+      function getSortValue(item, key) {
+        if (key === "year") {
+          return parseInt(item.year, 10) || 0;
+        }
+        return (item[key] || "").toLowerCase();
+      }
+
+      function sortPapers(items) {
+        return items.sort((a, b) => {
+          const va = getSortValue(a, sortKey);
+          const vb = getSortValue(b, sortKey);
+          if (typeof va === "number" && typeof vb === "number") {
+            return (va - vb) * sortDir;
+          }
+          return String(va).localeCompare(String(vb), undefined, { numeric: true }) * sortDir;
+        });
+      }
+
+      function render() {
+        const query = searchInput.value.trim().toLowerCase();
+        
+        let filtered = papersData.filter(p => {
+          const matchesCategory = !activeFilter || (p.categories || []).includes(activeFilter);
+          if (!matchesCategory) return false;
+
+          if (!query) return true;
+
+          const textToSearch = [
+            p.title,
+            p.authors,
+            p.venue,
+            p.year,
+            p.innovation,
+            (p.categories || []).join(" ")
+          ].join(" ").toLowerCase();
+
+          return textToSearch.includes(query);
+        });
+
+        const sorted = sortPapers(filtered);
+
+        tbody.innerHTML = "";
+        visibleCountEl.textContent = sorted.length;
+        emptyState.style.display = sorted.length === 0 ? "block" : "none";
+
+        sorted.forEach((p, idx) => {
+          const tr = document.createElement("tr");
+
+          // Badges for domains
+          const badgesHtml = (p.categories || []).map(cat => {
+            const label = DOMAIN_LABELS[cat] || cat;
+            return `<span class="domain-badge">${escapeHtml(label)}</span>`;
+          }).join("");
+
+          // Innovation summary with expandable button if long
+          const innovationHtml = p.innovation
+            ? `<div class="paper-innovation" id="innov-${idx}">${escapeHtml(p.innovation)}</div>
+               ${p.innovation.length > 140 ? `<button type="button" class="toggle-summary-btn" data-target="innov-${idx}">+ More</button>` : ''}`
+            : "";
+
+          tr.innerHTML = `
+            <td class="col-title">
+              <div class="paper-title">
+                <a href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(p.title)}</a>
+              </div>
+              ${innovationHtml}
+            </td>
+            <td class="col-authors">${escapeHtml(p.authors || "—")}</td>
+            <td class="col-year">${escapeHtml(p.year || "—")}</td>
+            <td class="col-venue">${escapeHtml(p.venue || "IEEE Trans. Appl. Supercond.")}</td>
+            <td class="col-domain">${badgesHtml}</td>
+            <td class="col-links">
+              <a href="${escapeHtml(p.url)}" class="link-btn" target="_blank" rel="noopener noreferrer">
+                DOI ↗
+              </a>
+            </td>
+          `;
+
+          tbody.appendChild(tr);
+        });
+      }
+
+      // Toggle summary expansion
+      tbody.addEventListener("click", (e) => {
+        if (e.target.classList.contains("toggle-summary-btn")) {
+          const targetId = e.target.dataset.target;
+          const el = document.getElementById(targetId);
+          if (el) {
+            const isExpanded = el.classList.toggle("expanded");
+            e.target.textContent = isExpanded ? "− Less" : "+ More";
+          }
+        }
+      });
+
+      // Search input handler
+      searchInput.addEventListener("input", render);
+
+      // Sorting handler
+      table.querySelectorAll("th.sortable").forEach(th => {
+        th.addEventListener("click", () => {
+          const key = th.dataset.sort;
+          if (sortKey === key) {
+            sortDir = -sortDir;
+          } else {
+            sortKey = key;
+            sortDir = key === "year" ? -1 : 1;
+          }
+
+          table.querySelectorAll("th.sortable").forEach(h => {
+            h.setAttribute("aria-sort", "none");
+            const ind = h.querySelector(".sort-indicator");
+            if (ind) ind.textContent = "↕";
+          });
+
+          th.setAttribute("aria-sort", sortDir > 0 ? "ascending" : "descending");
+          const ind = th.querySelector(".sort-indicator");
+          if (ind) ind.textContent = sortDir > 0 ? "↑" : "↓";
+
+          render();
+        });
+      });
+
+      // Load data
+      fetch("papers.json")
+        .then(res => {
+          if (!res.ok) throw new Error(`HTTP ${res.status}: Failed to load papers.json`);
+          return res.json();
+        })
+        .then(data => {
+          papersData = data;
+          totalCountEl.textContent = data.length;
+          buildDomainFilters(data);
+          render();
+        })
+        .catch(err => {
+          tbody.innerHTML = `
+            <tr>
+              <td colspan="6" style="text-align: center; color: #ef4444; padding: 3rem;">
+                <strong>Error loading paper catalog:</strong> ${escapeHtml(err.message)}<br>
+                <small>Please ensure <code>papers.json</code> is accessible in the same directory.</small>
+              </td>
+            </tr>
+          `;
+        });
+    })();
+  </script>
+</body>
+</html>
