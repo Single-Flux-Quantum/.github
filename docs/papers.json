@@ -15,8 +15,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "This paper presents the design, numerical optimization, fabrication, and experimental demonstration of a **1000-fold Double-Flux-Quantum Amplifier (DFQA)** quantum voltage multiplier based on a newly discovered design principle: **directional SFQ propagation governed by asymme...",
-    "url": "https://doi.org/10.1109/TASC.2019.2895606",
-    "doi": "10.1109/TASC.2019.2895606"
+    "url": "https://doi.org/10.1109/tasc.2019.2895606",
+    "doi": "10.1109/tasc.2019.2895606"
   },
   {
     "slug": "50-gflops-floating-point-adder-and-multiplier-using-gate-level-pipelined-single-flux-quantum-logic-with-frequency-increased-clock-distribution",
@@ -33,8 +33,8 @@
       "circuits-and-logic"
     ],
     "innovation": "We demonstrate the functioning of a high-throughput, gate-level-pipelined floating-point adder and multiplier over 50 GHz. The gate-level-pipelined floating-point adder and multiplier requires dedicated circuit blocks to wait until other ci...",
-    "url": "https://doi.org/10.1109/TASC.2023.3250614",
-    "doi": "10.1109/TASC.2023.3250614"
+    "url": "https://doi.org/10.1109/tasc.2023.3250614",
+    "doi": "10.1109/tasc.2023.3250614"
   },
   {
     "slug": "64-ghz-datapath-demonstration-for-bit-parallel-sfq-microprocessors-based-on-a-gate-level-pipeline-structure",
@@ -51,8 +51,8 @@
       "circuits-and-logic"
     ],
     "innovation": "We successfully demonstrated an 8-bit-wide, bit-parallel datapath composed of an arithmetic logic unit and register files for high-throughput oriented SFQ microprocessors based on a gate-level-pipeline structure. Achieving high-speed operat...",
-    "url": "https://doi.org/10.1109/TASC.2021.3061353",
-    "doi": "10.1109/TASC.2021.3061353"
+    "url": "https://doi.org/10.1109/tasc.2021.3061353",
+    "doi": "10.1109/tasc.2021.3061353"
   },
   {
     "slug": "a-4-nb-layer-cell-library-suitable-for-lsi-superconductor-digital-circuits",
@@ -69,8 +69,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper presents the development and experimental demonstration of **SIMIT-Nb03P**, an LSI-oriented Single-Flux-Quantum (SFQ) standard cell library fabricated in an industrial-grade 4-niobium-layer planarized process ($6\\,\\text{kA}/\\text{cm}^2$). To suppress parasitic magne...",
-    "url": "https://doi.org/10.1109/TASC.2025.3526189",
-    "doi": "10.1109/TASC.2025.3526189"
+    "url": "https://doi.org/10.1109/tasc.2025.3528389",
+    "doi": "10.1109/tasc.2025.3528389"
   },
   {
     "slug": "a-combinational-logic-optimization-method-for-large-scale-sfq-circuits",
@@ -85,8 +85,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This work aims to optimize the superconducting single flux quantum (SFQ) combinational logic synthesis process to cope with the scaling up of superconducting SFQ integration. The majority of current research is based on ABC logic synthesis ...",
-    "url": "https://doi.org/10.1109/TASC.2024.3454314",
-    "doi": "10.1109/TASC.2024.3454314"
+    "url": "https://doi.org/10.1109/tasc.2024.3454314",
+    "doi": "10.1109/tasc.2024.3454314"
   },
   {
     "slug": "a-high-throughput-multiply-accumulate-unit-with-long-feedback-loop-using-low-voltage-rapid-single-flux-quantum-circuits",
@@ -103,8 +103,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper demonstrates the design, analytical modeling, and experimental cryogenic validation of a high-throughput, gate-level-pipelined 8-bit multiply-accumulate (MAC) unit with a long feedback loop using energy-efficient **Low-Voltage Rapid Single-Flux-Quantum (LV-RSFQ)** c...",
-    "url": "https://doi.org/10.1109/TASC.2023.3239329",
-    "doi": "10.1109/TASC.2023.3239329"
+    "url": "https://doi.org/10.1109/tasc.2023.3239329",
+    "doi": "10.1109/tasc.2023.3239329"
   },
   {
     "slug": "a-hybrid-josephson-transmission-line-and-passive-transmission-line-routing-framework-for-single-flux-quantum-logic",
@@ -124,8 +124,8 @@
       "circuits-and-logic"
     ],
     "innovation": "The single flux quantum (SFQ) logic family is a novel digital logic as it provides ultrafast and energy-efficient circuits. For large-scale SFQ circuit design, specialized electronic design automation (EDA) tools are required due to the dif...",
-    "url": "https://doi.org/10.1109/TASC.2022.3206280",
-    "doi": "10.1109/TASC.2022.3206280"
+    "url": "https://doi.org/10.1109/tasc.2022.3206280",
+    "doi": "10.1109/tasc.2022.3206280"
   },
   {
     "slug": "a-local-optimization-method-for-single-flux-quantum-logic-circuits-design-utilizing-synchronizer-ips",
@@ -144,8 +144,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper presents a local logic and physical optimization methodology based on scalable **Synchronizer Intellectual Property (IP) macrocells (the $D_{\\text{syn}}$ series: $1 \\times N$ columns for $N = 2 \\sim 5$)** integrated into the self-developed **JSICcomplier** EDA toolc...",
-    "url": "https://doi.org/10.1109/TASC.2023.3242084",
-    "doi": "10.1109/TASC.2023.3242084"
+    "url": "https://doi.org/10.1109/tasc.2023.3242084",
+    "doi": "10.1109/tasc.2023.3242084"
   },
   {
     "slug": "a-logic-verification-framework-for-sfq-and-aqfp-superconducting-circuits",
@@ -163,8 +163,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper presents the first scalable, technology-independent **Combinational and Sequential Logical Equivalence Checking (LEC) framework** specifically tailored for superconducting electronics (SCE), including Rapid Single Flux Quantum (RSFQ) and 4-phase Adiabatic Quantum Fl...",
-    "url": "https://doi.org/10.1109/TASC.2021.3119606",
-    "doi": "10.1109/TASC.2021.3119606"
+    "url": "https://doi.org/10.1109/tasc.2021.3119606",
+    "doi": "10.1109/tasc.2021.3119606"
   },
   {
     "slug": "a-minimum-skew-clock-tree-synthesis-algorithm-for-single-flux-quantum-logic-circuits",
@@ -182,8 +182,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper introduces **qCTS**, an SFQ-specific clock tree synthesis and legalization framework that directly models active clock splitter propagation delays ($d_{\\text{spl}} \\approx 5.5\\text{ ps}$) and placement blockages. By combining a modified Method of Means and Medians (...",
-    "url": "https://doi.org/10.1109/TASC.2019.2943930",
-    "doi": "10.1109/TASC.2019.2943930"
+    "url": "https://doi.org/10.1109/tasc.2019.2943930",
+    "doi": "10.1109/tasc.2019.2943930"
   },
   {
     "slug": "a-multi-stage-fpga-based-instrumentation-platform-for-characterization-and-signal-integrity-testing-of-superconducting-interconnects-at-cryogenic-temperatures",
@@ -198,8 +198,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "This paper introduces a custom, modular, multi-stage cryogenic instrumentation platform utilizing commercial 28 nm **Xilinx Artix-7 FPGAs (XC7A35T)** operating directly at cryogenic temperature stages (**4 K** and **50 K** inside a dilution refrigerator and liquid helium/nitro...",
-    "url": "https://doi.org/10.1109/TASC.2025.3542338",
-    "doi": "10.1109/TASC.2025.3542338"
+    "url": "https://doi.org/10.1109/tasc.2025.3542338",
+    "doi": "10.1109/tasc.2025.3542338"
   },
   {
     "slug": "a-new-family-of-biosfq-logic-memory-cells",
@@ -217,8 +217,8 @@
       "circuits-and-logic"
     ],
     "innovation": "The authors introduce **bioSFQ**, a quasi-analog superconductor logic and memory architecture that maps neuromorphic deep learning primitives onto Josephson junction circuits. Stored synaptic states and multi-bit data are represented as continuous/quasi-analog circulating curr...",
-    "url": "https://doi.org/10.1109/TASC.2021.3138369",
-    "doi": "10.1109/TASC.2021.3138369"
+    "url": "https://doi.org/10.1109/tasc.2021.3138369",
+    "doi": "10.1109/tasc.2021.3138369"
   },
   {
     "slug": "a-novel-clock-tree-aware-placement-methodology-for-single-flux-quantum-logic-circuits-with-maximum-path-length-consideration",
@@ -237,8 +237,8 @@
       "circuits-and-logic"
     ],
     "innovation": "The authors propose a comprehensive two-stage analytical placement methodology tailored specifically to the unique constraints of gate-level pipelined Single-Flux-Quantum (SFQ) superconducting logic circuits. Addressing the dual challenges of massive clock distribution network...",
-    "url": "https://doi.org/10.1109/TASC.2022.3168853",
-    "doi": "10.1109/TASC.2022.3168853"
+    "url": "https://doi.org/10.1109/tasc.2022.3162637",
+    "doi": "10.1109/tasc.2022.3162637"
   },
   {
     "slug": "a-robust-and-self-adaptive-clocking-technique-for-sfq-circuits",
@@ -255,8 +255,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2018.2849405",
-    "doi": "10.1109/TASC.2018.2849405"
+    "url": "https://doi.org/10.1109/tasc.2018.2856836",
+    "doi": "10.1109/tasc.2018.2856836"
   },
   {
     "slug": "a-solution-for-ultra-low-bit-error-rate-interface-of-superconductor-semiconductor-by-using-an-error-correction-code-encoder",
@@ -274,8 +274,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper presents an Error-Correction-Code (ECC) encoder based on a single-error-correcting **$[38, 32]$ linear block code (Hamming code)** implemented in Single-Flux-Quantum (SFQ) logic to overcome high bit-error-rate (BER) and narrow DC bias margins in superconductor-to-se...",
-    "url": "https://doi.org/10.1109/TASC.2019.2900581",
-    "doi": "10.1109/TASC.2019.2900581"
+    "url": "https://doi.org/10.1109/tasc.2019.2900581",
+    "doi": "10.1109/tasc.2019.2900581"
   },
   {
     "slug": "a-static-timing-analysis-tool-for-rsfq-and-ersfq-superconducting-digital-circuit-applications",
@@ -293,8 +293,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper introduces **SuperSTA**, a static timing analysis (STA) engine tailored for Single-Flux-Quantum (RSFQ and ERSFQ) superconducting digital circuits. It addresses the fundamental difference between SFQ and CMOS—namely that all SFQ logic gates are clocked pulse-based st...",
-    "url": "https://doi.org/10.1109/TASC.2018.2815919",
-    "doi": "10.1109/TASC.2018.2815919"
+    "url": "https://doi.org/10.1109/tasc.2018.2815919",
+    "doi": "10.1109/tasc.2018.2815919"
   },
   {
     "slug": "ac-biased-sfq-clock-splitters-for-current-mitigation",
@@ -310,8 +310,8 @@
       "circuits-and-logic"
     ],
     "innovation": "High current requirements in single flux quantum (SFQ) circuits pose scalability challenges, contributing to issues such as high thermal loads, static power dissipation, and increased sensitivity to flux trapping under nonideal shielding or...",
-    "url": "https://doi.org/10.1109/TASC.2025.3629027",
-    "doi": "10.1109/TASC.2025.3629027"
+    "url": "https://doi.org/10.1109/tasc.2025.3629027",
+    "doi": "10.1109/tasc.2025.3629027"
   },
   {
     "slug": "ac-biased-shift-registers-as-fabrication-process-benchmark-circuits-and-flux-trapping-diagnostic-tool",
@@ -328,8 +328,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper establishes **AC-biased shift registers** as the primary diagnostic benchmark vehicle for superconducting Very Large Scale Integration (VLSI) fabrication processes. Fabricated at MIT Lincoln Laboratory in an 8-metal-layer, fully planarized $0.4\\,\\mu\\text{m}$ Nb/Al-A...",
-    "url": "https://doi.org/10.1109/TASC.2017.2669585",
-    "doi": "10.1109/TASC.2017.2669585"
+    "url": "https://doi.org/10.1109/tasc.2017.2669585",
+    "doi": "10.1109/tasc.2017.2669585"
   },
   {
     "slug": "all-digital-phase-locked-loop-in-single-flux-quantum-circuit-technology",
@@ -346,8 +346,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Single flux quantum (SFQ) technology is one of the promising candidates for next generation very large-scale integration circuits. This article presents the design of an all-digital phase-locked loop (PLL) using the rapid SFQ technology wit...",
-    "url": "https://doi.org/10.1109/TASC.2022.3151728",
-    "doi": "10.1109/TASC.2022.3151728"
+    "url": "https://doi.org/10.1109/tasc.2022.3151728",
+    "doi": "10.1109/tasc.2022.3151728"
   },
   {
     "slug": "all-jj-logic-based-on-bistable-jjs",
@@ -365,8 +365,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper presents an **Inductor-Less (\"All-JJ\") Superconducting Logic Family** utilizing **Superconductor-Ferromagnet-Superconductor (SFS) Bistable $2\\varphi$-Josephson Junctions** to eliminate bulky geometric storage loop inductors ($>8\\text{ pH}$). Bistable $2\\varphi$-JJs ...",
-    "url": "https://doi.org/10.1109/TASC.2023.3260774",
-    "doi": "10.1109/TASC.2023.3260774"
+    "url": "https://doi.org/10.1109/tasc.2023.3260774",
+    "doi": "10.1109/tasc.2023.3260774"
   },
   {
     "slug": "an-8-b-multiplier-using-single-stage-full-adder-cell-in-single-flux-quantum-circuit-technology",
@@ -385,8 +385,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Single-flux-quantum (SFQ) circuits operate at higher frequencies with much lower power consumption when compared to their CMOS counterparts. Synchronous SFQ circuits require full path balancing by inserting D-Flipflops as needed, an operati...",
-    "url": "https://doi.org/10.1109/TASC.2021.3091963",
-    "doi": "10.1109/TASC.2021.3091963"
+    "url": "https://doi.org/10.1109/tasc.2021.3091963",
+    "doi": "10.1109/tasc.2021.3091963"
   },
   {
     "slug": "an-automatic-placement-and-routing-methodology-for-asynchronous-sfq-circuit-design",
@@ -405,8 +405,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper introduces an automated physical design (Place & Route - P&R) methodology for **asynchronous Single-Flux-Quantum (SFQ)** circuits using commercial CMOS Electronic Design Automation (EDA) tools (**Cadence Innovus** and **Synopsys Design Vision**). By designing a dual...",
-    "url": "https://doi.org/10.1109/TASC.2019.2942263",
-    "doi": "10.1109/TASC.2019.2942263"
+    "url": "https://doi.org/10.1109/tasc.2019.2942263",
+    "doi": "10.1109/tasc.2019.2942263"
   },
   {
     "slug": "an-efficient-pipelined-architecture-for-superconducting-single-flux-quantum-logic-circuits-utilizing-dual-clocks",
@@ -423,8 +423,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper introduces a Dual Clocking Method (DCM) architecture for Single-Flux-Quantum (SFQ) digital circuits that eliminates or drastically reduces path-balancing D-flip-flop (DFF) overhead. By utilizing a fast local micro clock ($f_{\\text{Fast}}$) for internal logic evaluat...",
-    "url": "https://doi.org/10.1109/TASC.2019.2955095",
-    "doi": "10.1109/TASC.2019.2955095"
+    "url": "https://doi.org/10.1109/tasc.2019.2955095",
+    "doi": "10.1109/tasc.2019.2955095"
   },
   {
     "slug": "an-integrated-row-based-cell-placement-and-interconnect-synthesis-tool-for-large-sfq-logic-circuits",
@@ -444,8 +444,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper introduces an integrated **row-based physical design toolchain** for large-scale Single-Flux-Quantum (SFQ) digital circuits combining force-directed global placement (`SimPL`), logic-level cell grouping, a novel **HL-tree clock network** (hybrid H-tree global distri...",
-    "url": "https://doi.org/10.1109/TASC.2017.2675889",
-    "doi": "10.1109/TASC.2017.2675889"
+    "url": "https://doi.org/10.1109/tasc.2017.2675889",
+    "doi": "10.1109/tasc.2017.2675889"
   },
   {
     "slug": "an-rtl-to-gdsii-flow-for-single-flux-quantum-circuits-based-on-an-industrial-eda-toolchain",
@@ -465,8 +465,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper presents an industrial **RTL-to-GDSII (RTL-to-OASIS) automated ASIC design flow** for RSFQ and ERSFQ superconducting circuits built directly on the **Synopsys Fusion Compiler** platform. The toolchain adapts commercial CMOS EDA engines to handle SFQ pulse logic, uni...",
-    "url": "https://doi.org/10.1109/TASC.2023.3238298",
-    "doi": "10.1109/TASC.2023.3238298"
+    "url": "https://doi.org/10.1109/tasc.2023.3238298",
+    "doi": "10.1109/tasc.2023.3238298"
   },
   {
     "slug": "an-sfq-digital-to-analog-converter",
@@ -484,8 +484,8 @@
       "sensors-and-metrology"
     ],
     "innovation": "Demonstrates a 4-bit non-latching Single-Flux Quantum (SFQ) digital-to-analog converter (DAC) operating at data rates up to 1 GHz.",
-    "url": "https://doi.org/10.1109/77.621714",
-    "doi": "10.1109/77.621714"
+    "url": "https://doi.org/10.1109/77.621739",
+    "doi": "10.1109/77.621739"
   },
   {
     "slug": "analysis-of-a-shielding-approach-for-magnetic-field-tolerant-sfq-circuits",
@@ -503,8 +503,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Investigates an on-chip grid-patterned superconducting shield (M3 layer in Hypres 4.5 kA/cm² Nb process) to protect SFQ cells from external stray and bias-induced magnetic fields.",
-    "url": "https://doi.org/10.1109/TASC.2017.2669646",
-    "doi": "10.1109/TASC.2017.2669646"
+    "url": "https://doi.org/10.1109/tasc.2017.2669646",
+    "doi": "10.1109/tasc.2017.2669646"
   },
   {
     "slug": "asynchronous-dynamic-single-flux-quantum-majority-gates",
@@ -523,8 +523,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Introduces asynchronous, clockless 3-input and 5-input dynamic single-flux quantum (DSFQ) majority gates based on self-resetting dual-time-constant superconductive storage loops.",
-    "url": "https://doi.org/10.1109/TASC.2020.2978428",
-    "doi": "10.1109/TASC.2020.2978428"
+    "url": "https://doi.org/10.1109/tasc.2020.2978428",
+    "doi": "10.1109/tasc.2020.2978428"
   },
   {
     "slug": "asynchronous-single-flux-quantum-logic-gates-using-self-clocking",
@@ -542,8 +542,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Proposes a general self-clocking methodology for Single Flux Quantum (SFQ) logic circuits that constructs asynchronous gates from standard clocked SFQ cells by using a confluence buffer (CB) to merge incoming data pulses into an internal trigger clock.",
-    "url": "https://doi.org/10.1109/TASC.2023.3244148",
-    "doi": "10.1109/TASC.2023.3244148"
+    "url": "https://doi.org/10.1109/tasc.2023.3244148",
+    "doi": "10.1109/tasc.2023.3244148"
   },
   {
     "slug": "black-box-optimization-of-superconducting-circuits-using-reduced-complexity-neural-networks",
@@ -560,8 +560,8 @@
       "sensors-and-metrology"
     ],
     "innovation": "Single-flux quantum (SFQ) logic based high-speedperiodic-threshold flash converter circuits require multiple non-linear and correlated parameters tuned precisely to function optimally. These parameters cannot be pre-determined from simulati...",
-    "url": "https://doi.org/10.1109/TASC.2021.3061338",
-    "doi": "10.1109/TASC.2021.3061338"
+    "url": "https://doi.org/10.1109/tasc.2021.3061338",
+    "doi": "10.1109/tasc.2021.3061338"
   },
   {
     "slug": "braiding-operations-for-a-topological-josephson-junction-array-using-a-bipolar-current-pulse-generator-controlled-by-sfq-logic-circuits",
@@ -576,8 +576,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "Majorana bound states can occur in a topological Josephson junction (JJ) array in the presence of a fractal vortex with 2$\\pi$-phase winding. The braiding operation was theoretically demonstrated using current pulses, compatible with the si...",
-    "url": "https://doi.org/10.1109/TASC.2024.3372865",
-    "doi": "10.1109/TASC.2024.3372865"
+    "url": "https://doi.org/10.1109/tasc.2024.3372865",
+    "doi": "10.1109/tasc.2024.3372865"
   },
   {
     "slug": "characterization-of-flux-trapping-in-and-fabrication-of-large-scale-superconductor-circuits-using-ac-biased-shift-registers-with-108500-josephson-junctions",
@@ -594,8 +594,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A variety of superconductor integrated circuits composed of six ac-powered SFQ shift registers with a total of 27078 bits and 108500 Josephson junctions (JJs) per 5 mm × 5 mm chip have been designed, fabricated, and tested to characterize f...",
-    "url": "https://doi.org/10.1109/TASC.2025.3530390",
-    "doi": "10.1109/TASC.2025.3530390"
+    "url": "https://doi.org/10.1109/tasc.2025.3530390",
+    "doi": "10.1109/tasc.2025.3530390"
   },
   {
     "slug": "clockless-dynamic-sfq-and-gate-with-high-input-skew-tolerance",
@@ -611,8 +611,8 @@
       "circuits-and-logic"
     ],
     "innovation": "In conventional Rapid Single Flux Quantum (RSFQ) logic, the standard 2-input AND gate is synchronous, requiring both input pulses ($A$ and $B$) to arrive within a narrow coincidence window before an explicit clock pulse ($CLK$) interrogates the gate. If input pulses arrive wit...",
-    "url": "https://doi.org/10.1109/TASC.2020.3006442",
-    "doi": "10.1109/TASC.2020.3006442"
+    "url": "https://doi.org/10.1109/tasc.2019.2896137",
+    "doi": "10.1109/tasc.2019.2896137"
   },
   {
     "slug": "cmos-to-sfq-interface-circuits-for-rz-and-nrz-coded-signals-transformation",
@@ -629,8 +629,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Interfacing room-temperature or cryogenic semiconductor electronics ($300\\text{ K}$ or $4.2\\text{ K}$ CMOS) with Superconductive Single-Flux-Quantum (SFQ) circuits requires high-sensitivity input interface receivers. Semiconductor data links use voltage-level transitions ($100...",
-    "url": "https://doi.org/10.1109/TASC.2010.2089481",
-    "doi": "10.1109/TASC.2010.2089481"
+    "url": "https://doi.org/10.1109/tasc.2024.3376983",
+    "doi": "10.1109/tasc.2024.3376983"
   },
   {
     "slug": "compact-superconducting-lookup-table-composed-of-two-dimensional-memory-cell-array-reconfigured-by-external-dc-control-currents",
@@ -649,8 +649,8 @@
       "circuits-and-logic"
     ],
     "innovation": "We investigated the hardware implementation of an area-efficient superconducting lookup table (LUT) based on a single flux quantum (SFQ) logic by using a newly proposed small memory cell. The memory cell is composed of a nondestructive read...",
-    "url": "https://doi.org/10.1109/TASC.2021.3049771",
-    "doi": "10.1109/TASC.2021.3049771"
+    "url": "https://doi.org/10.1109/tasc.2021.3049771",
+    "doi": "10.1109/tasc.2021.3049771"
   },
   {
     "slug": "current-recycling-in-heterogeneous-rsfq-circuits",
@@ -667,8 +667,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Large-scale Superconductive Single-Flux-Quantum (SFQ) systems operating with standard parallel DC biasing require massive supply currents (often $10 - 100\\text{ A}$), generating immense thermal conduction through cryogenic power leads and causing parasitic magnetic field coupl...",
-    "url": "https://doi.org/10.1109/TASC.2019.2905307",
-    "doi": "10.1109/TASC.2019.2905307"
+    "url": "https://doi.org/10.1109/tasc.2025.3530381",
+    "doi": "10.1109/tasc.2025.3530381"
   },
   {
     "slug": "current-recycling-new-results",
@@ -683,8 +683,8 @@
       "compute-architectures"
     ],
     "innovation": "Current recycling is essential for reducing the hundreds of amperes of DC bias current required by multi-thousand-junction superconducting circuits. However, practical implementation hinges on resolving two critical challenges:",
-    "url": "https://doi.org/10.1109/TASC.2014.2369324",
-    "doi": "10.1109/TASC.2014.2369324"
+    "url": "https://doi.org/10.1109/tasc.2019.2904961",
+    "doi": "10.1109/tasc.2019.2904961"
   },
   {
     "slug": "demonstration-of-a-47-8-ghz-high-speed-fft-processor-using-single-flux-quantum-technology",
@@ -703,8 +703,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A fast Fourier transform (FFT) is an algorithm that computes the discrete Fourier transform (DFT) of a sequence at high speed. FFT can convert a signal from time domain to frequency domain, and is wildly used in digital signal processing fi...",
-    "url": "https://doi.org/10.1109/TASC.2021.3059984",
-    "doi": "10.1109/TASC.2021.3059984"
+    "url": "https://doi.org/10.1109/tasc.2021.3059984",
+    "doi": "10.1109/tasc.2021.3059984"
   },
   {
     "slug": "demonstration-of-a-single-flux-quantum-microprocessor-operating-with-josephson-cmos-hybrid-memory",
@@ -722,8 +722,8 @@
       "circuits-and-logic"
     ],
     "innovation": "We have been developing Josephson-CMOS hybrid memory to realize large-scale single-flux-quantum (SFQ) digital systems. In this article, we present the first demonstration of a Josephson-cryo complementary-metal-oxide-semicoductor (CMOS) mem...",
-    "url": "https://doi.org/10.1109/TASC.2020.2994208",
-    "doi": "10.1109/TASC.2020.2994208"
+    "url": "https://doi.org/10.1109/tasc.2020.2994208",
+    "doi": "10.1109/tasc.2020.2994208"
   },
   {
     "slug": "demonstration-of-interface-circuits-between-half-and-single-flux-quantum-circuits",
@@ -742,8 +742,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Superconducting computing encompasses two distinct logic paradigms: **Single-Flux-Quantum (SFQ)** logic—which excels at ultra-high-speed processing ($50 - 100\\text{ GHz}$) using voltage pulse signals—and **Half-Flux-Quantum (HFQ)** / **Adiabatic Quantum Flux Parametron (AQFP)*...",
-    "url": "https://doi.org/10.1109/TASC.2018.2839750",
-    "doi": "10.1109/TASC.2018.2839750"
+    "url": "https://doi.org/10.1109/tasc.2021.3072846",
+    "doi": "10.1109/tasc.2021.3072846"
   },
   {
     "slug": "demonstration-of-single-flux-quantum-64-b-lookup-table-with-cryo-cmos-decoders-for-reconfiguration",
@@ -761,8 +761,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "Reconfigurable computing architectures (such as FPGAs and dynamically reconfigurable Look-Up Tables) in superconductor electronics offer unparalleled versatility for signal processing and adaptive accelerators. However, monolithic all-superconductor LUTs require extensive rout...",
-    "url": "https://doi.org/10.1109/TASC.2014.2372776",
-    "doi": "10.1109/TASC.2014.2372776"
+    "url": "https://doi.org/10.1109/tasc.2022.3191984",
+    "doi": "10.1109/tasc.2022.3191984"
   },
   {
     "slug": "design-and-component-demonstration-of-an-sfq-complex-event-detector-corresponding-to-regular-expressions",
@@ -778,8 +778,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "A complex event processor (CEP) is a real-time processing system for extracting meaningful data from an input data stream. One potential application of the CEP system is for a network intrusion detection system (NIDS), which monitors packet...",
-    "url": "https://doi.org/10.1109/TASC.2023.3241266",
-    "doi": "10.1109/TASC.2023.3241266"
+    "url": "https://doi.org/10.1109/tasc.2023.3241266",
+    "doi": "10.1109/tasc.2023.3241266"
   },
   {
     "slug": "design-and-evaluation-of-2-bit-input-single-flux-quantum-autocorrelator-system-for-astronomical-data-analysis",
@@ -796,8 +796,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "Wideband digital spectrometers and autocorrelators for radio astronomy (such as millimeter-wave telescopes and radio interferometer arrays) require tens of gigahertz of instantaneous processing bandwidth. Digitizing and computing autocorrelation functions at $> 20\\text{ GHz}$ ...",
-    "url": "https://doi.org/10.1109/TASC.2016.2644266",
-    "doi": "10.1109/TASC.2016.2644266"
+    "url": "https://doi.org/10.1109/tasc.2021.3053919",
+    "doi": "10.1109/tasc.2021.3053919"
   },
   {
     "slug": "design-and-fabrication-of-low-power-single-flux-quantum-circuits-toward-quantum-bit-control",
@@ -815,8 +815,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Scaling superconducting quantum processors to thousands of qubits requires co-locating classical control and readout electronics at the millikelvin stage ($10 - 20\\text{ mK}$) inside dilution refrigerators. However, conventional RSFQ circuits operating at $4.2\\text{ K}$ with c...",
-    "url": "https://doi.org/10.1109/TASC.2019.2903102",
-    "doi": "10.1109/TASC.2019.2903102"
+    "url": "https://doi.org/10.1109/tasc.2023.3251304",
+    "doi": "10.1109/tasc.2023.3251304"
   },
   {
     "slug": "design-and-implementation-of-a-single-flux-quantum-logic-based-memory-controller-for-josephson-cmos-hybrid-memory-systems",
@@ -834,8 +834,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Josephson-CMOS hybrid memory architectures combine the high integration density of cryogenic CMOS SRAM arrays with the tens-of-gigahertz processing speed of superconducting SFQ processors. However, bridging these disparate technology domains requires an ultra-fast on-chip **Me...",
-    "url": "https://doi.org/10.1109/TASC.2020.3005897",
-    "doi": "10.1109/TASC.2020.3005897"
+    "url": "https://doi.org/10.1109/tasc.2020.3012382",
+    "doi": "10.1109/tasc.2020.3012382"
   },
   {
     "slug": "design-and-implementation-of-an-sfq-based-single-chip-fft-processor",
@@ -852,8 +852,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Real-time digital signal processing for wideband radio astronomy (such as the Square Kilometre Array, SKA), radar, and cryogenic quantum instrumentation requires multi-gigahertz Fast Fourier Transform (FFT) processors with extreme throughput and sub-watt power budgets. Semicon...",
-    "url": "https://doi.org/10.1109/TASC.2016.2644263",
-    "doi": "10.1109/TASC.2016.2644263"
+    "url": "https://doi.org/10.1109/tasc.2017.2667398",
+    "doi": "10.1109/tasc.2017.2667398"
   },
   {
     "slug": "design-and-implementation-of-two-stage-time-to-digital-converter-based-on-rapid-single-flux-quantum-circuits",
@@ -870,8 +870,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Time-to-Digital Converters (TDCs) measuring time intervals between asynchronous physical events with picosecond precision are essential for Time-Correlated Single-Photon Counting (TCSPC), Superconducting Nanowire Single-Photon Detector (SNSPD) arrays, fluorescence lifetime ima...",
-    "url": "https://doi.org/10.1109/TASC.2023.3248386",
-    "doi": "10.1109/TASC.2023.3248386"
+    "url": "https://doi.org/10.1109/tasc.2022.3233639",
+    "doi": "10.1109/tasc.2022.3233639"
   },
   {
     "slug": "design-and-verification-of-sfq-cell-library-for-superconducting-lsi-digital-circuits",
@@ -890,8 +890,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Constructing multi-thousand-junction Single-Flux-Quantum (SFQ) Large-Scale Integrated (LSI) circuits requires a robust, standardized cell library with uniform routing grids, balanced DC power distribution, and wide parametric yield margins. Variations in junction critical curr...",
-    "url": "https://doi.org/10.1109/77.783832",
-    "doi": "10.1109/77.783832"
+    "url": "https://doi.org/10.1109/tasc.2021.3062570",
+    "doi": "10.1109/tasc.2021.3062570"
   },
   {
     "slug": "design-automation-of-superconductive-digital-circuits-a-review",
@@ -910,8 +910,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Superconductive digital electronics—spanning Rapid Single Flux Quantum (RSFQ), Energy-Efficient RSFQ (ERSFQ/eSFQ), Reciprocal Quantum Logic (RQL), and Adiabatic Quantum Flux Parametron (AQFP)—offer operating frequencies exceeding $100\\text{ GHz}$ and energy efficiencies approa...",
-    "url": "https://doi.org/10.1109/TASC.2021.3060109",
-    "doi": "10.1109/TASC.2021.3060109"
+    "url": "https://doi.org/10.1109/mnano.2021.3113218",
+    "doi": "10.1109/mnano.2021.3113218"
   },
   {
     "slug": "design-for-testability-of-sfq-circuits",
@@ -929,8 +929,8 @@
       "circuits-and-logic"
     ],
     "innovation": "As Superconductive Single-Flux-Quantum (SFQ) integrated circuits expand toward VLSI complexities ($> 50,000$ Josephson junctions), diagnosing fabrication defects and validating internal state transitions becomes a dominant yield bottleneck. Unlike semiconductor CMOS, SFQ logic...",
-    "url": "https://doi.org/10.1109/TASC.2013.2248766",
-    "doi": "10.1109/TASC.2013.2248766"
+    "url": "https://doi.org/10.1109/tasc.2017.2759239",
+    "doi": "10.1109/tasc.2017.2759239"
   },
   {
     "slug": "design-of-binary-convolution-operation-circuit-for-binarized-neural-networks-using-single-flux-quantum-circuit",
@@ -948,8 +948,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Deep Convolutional Neural Networks (CNNs) represent the state of the art in machine vision and AI, but their computational complexity is dominated by multi-bit floating-point multiply-accumulate (MAC) operations. **Binarized Neural Networks (BNNs)** quantize both activations a...",
-    "url": "https://doi.org/10.1109/TASC.2020.3005899",
-    "doi": "10.1109/TASC.2020.3005899"
+    "url": "https://doi.org/10.1109/tasc.2022.3140286",
+    "doi": "10.1109/tasc.2022.3140286"
   },
   {
     "slug": "design-of-digital-filter-for-digital-squid-with-sub-flux-quantum-feedback-resolution",
@@ -964,8 +964,8 @@
       "sensors-and-metrology"
     ],
     "innovation": "Digital SQUIDs (Superconducting Quantum Interference Devices) with integrated Single-Flux-Quantum (SFQ) feedback logic offer unmatched linearity, wide dynamic range, and direct digital output for biomagnetic imaging (MEG/MCG) and quantum sensor readouts. However, standard Digi...",
-    "url": "https://doi.org/10.1109/TASC.2014.2372775",
-    "doi": "10.1109/TASC.2014.2372775"
+    "url": "https://doi.org/10.1109/tasc.2019.2908625",
+    "doi": "10.1109/tasc.2019.2908625"
   },
   {
     "slug": "design-of-discrete-hopfield-neural-network-using-a-single-flux-quantum-circuit",
@@ -983,8 +983,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Superconducting neuromorphic computing promises ultra-high-speed, energy-efficient acceleration for NP-hard combinatorial optimization, pattern recognition, and associative memory. The **Discrete Hopfield Neural Network (DHNN)** is a recurrent, fully connected network where bi...",
-    "url": "https://doi.org/10.1109/TASC.2018.2839755",
-    "doi": "10.1109/TASC.2018.2839755"
+    "url": "https://doi.org/10.1109/tasc.2021.3132862",
+    "doi": "10.1109/tasc.2021.3132862"
   },
   {
     "slug": "design-of-sfq-counting-analog-to-digital-converter",
@@ -1000,8 +1000,8 @@
       "sensors-and-metrology"
     ],
     "innovation": "Direct digitizing of wideband RF and microwave signals with high dynamic range is a signature advantage of superconductor electronics. The **SFQ-counting Analog-to-Digital Converter (ADC)** functions as a direct voltage-to-frequency converter (VFC) paired with a high-speed dig...",
-    "url": "https://doi.org/10.1088/0953-2048/12/11/321",
-    "doi": "10.1088/0953-2048/12/11/321"
+    "url": "https://doi.org/10.1109/77.403034",
+    "doi": "10.1109/77.403034"
   },
   {
     "slug": "development-of-an-all-sfq-superconducting-field-programmable-gate-array",
@@ -1019,8 +1019,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "Field-Programmable Gate Arrays (FPGAs) are indispensable for rapid prototyping, reconfigurable accelerators, and adaptable logic systems. However, previous superconducting FPGA concepts relied on cryogenic CMOS SRAMs or magnetic spin valves for configuration storage, requiring...",
-    "url": "https://doi.org/10.1109/TASC.2021.3060111",
-    "doi": "10.1109/TASC.2021.3060111"
+    "url": "https://doi.org/10.1109/tasc.2018.2886208",
+    "doi": "10.1109/tasc.2018.2886208"
   },
   {
     "slug": "development-of-multi-layer-fabrication-process-for-sfq-large-scale-integrated-digital-circuits",
@@ -1037,8 +1037,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Transitioning Single-Flux-Quantum (SFQ) circuits from small-scale laboratory demonstrations to Large Scale Integrated (LSI) chips containing tens of thousands of Josephson junctions requires semiconductor-grade multi-layer fabrication processes with tight parameter uniformitie...",
-    "url": "https://doi.org/10.1109/77.403086",
-    "doi": "10.1109/77.403086"
+    "url": "https://doi.org/10.1109/tasc.2021.3065277",
+    "doi": "10.1109/tasc.2021.3065277"
   },
   {
     "slug": "development-of-superconductor-advanced-integrated-circuit-design-flow-using-synopsys-tools",
@@ -1056,8 +1056,8 @@
       "circuits-and-logic"
     ],
     "innovation": "As Superconductive Integrated Circuit (SC-IC) complexity expands toward tens of thousands of gates, manual schematic capture and manual layout routing become impossible. However, commercial semiconductor Electronic Design Automation (EDA) toolchains (such as Synopsys Design Co...",
-    "url": "https://doi.org/10.1109/TASC.2013.2248764",
-    "doi": "10.1109/TASC.2013.2248764"
+    "url": "https://doi.org/10.1109/tasc.2021.3058088",
+    "doi": "10.1109/tasc.2021.3058088"
   },
   {
     "slug": "differential-propagation-delay-measurement-of-rsfq-library-cells-using-ring-oscillators",
@@ -1074,8 +1074,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Accurate cell-level propagation delay characterization is the foundational requirement for Static Timing Analysis (STA), clock-tree synthesis, and timing closure in Superconductive Single-Flux-Quantum (SFQ) standard cell libraries. However, because SFQ logic cell delays are on...",
-    "url": "https://doi.org/10.1109/TASC.2014.2372754",
-    "doi": "10.1109/TASC.2014.2372754"
+    "url": "https://doi.org/10.1109/tasc.2022.3149233",
+    "doi": "10.1109/tasc.2022.3149233"
   },
   {
     "slug": "digital-output-data-links-from-superconductor-integrated-circuits",
@@ -1090,8 +1090,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "Exporting multi-gigabit digital data from cryogenic superconducting integrated circuits ($4.2\\text{ K}$) to room-temperature ($300\\text{ K}$) semiconductor systems is a major bottleneck in superconducting supercomputing and quantum processor controllers. Conventional approache...",
-    "url": "https://doi.org/10.1109/TASC.2013.2244145",
-    "doi": "10.1109/TASC.2013.2244145"
+    "url": "https://doi.org/10.1109/tasc.2019.2910469",
+    "doi": "10.1109/tasc.2019.2910469"
   },
   {
     "slug": "distance-to-failure-maximization-optimization-algorithm-for-sfq-logic-cells",
@@ -1110,8 +1110,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Single-Flux-Quantum (SFQ) logic cells operate within complex, non-convex operational parameter spaces bounded by multi-junction dynamic stability limits. Due to fabrication process variations (e.g., critical current $I_c$ spreads, sheet inductance $L_{\\text{sq}}$ shifts, and r...",
-    "url": "https://doi.org/10.1109/TASC.2023.3248384",
-    "doi": "10.1109/TASC.2023.3248384"
+    "url": "https://doi.org/10.1109/tasc.2020.2994453",
+    "doi": "10.1109/tasc.2020.2994453"
   },
   {
     "slug": "distributed-self-clock-a-suitable-architecture-for-sfq-circuits",
@@ -1127,8 +1127,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Synchronizing large-scale Single-Flux-Quantum (SFQ) circuits via traditional global clock distribution networks (such as centralized H-trees) imposes severe performance penalties. Active clock trees composed of thousands of continuously biased Josephson Transmission Line (JTL)...",
-    "url": "https://doi.org/10.1109/TASC.2020.3006443",
-    "doi": "10.1109/TASC.2020.3006443"
+    "url": "https://doi.org/10.1109/tasc.2020.3007175",
+    "doi": "10.1109/tasc.2020.3007175"
   },
   {
     "slug": "effects-of-adaptive-dc-biasing-on-operational-margins-in-ersfq-circuits",
@@ -1145,8 +1145,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Energy-Efficient Rapid Single Flux Quantum (ERSFQ) logic achieves zero static power dissipation by replacing resistive DC bias networks with superconducting bias inductors ($L_b$) and Josephson junction current limiters ($J_b$). However, because bias currents are shared across...",
-    "url": "https://doi.org/10.1109/TASC.2016.2644264",
-    "doi": "10.1109/TASC.2016.2644264"
+    "url": "https://doi.org/10.1109/tasc.2017.2669581",
+    "doi": "10.1109/tasc.2017.2669581"
   },
   {
     "slug": "effects-of-nonsinusoidal-current-phase-relationships-on-single-flux-quantum-circuits",
@@ -1162,8 +1162,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Standard Single-Flux-Quantum (SFQ) circuit theory assumes ideal tunnel junctions (SIS) governed by the first Josephson sinusoidal current-phase relationship (CPR), $I(\\phi) = I_c \\sin\\phi$. However, alternative Josephson technologies—such as high-$T_c$ grain boundary junctions...",
-    "url": "https://doi.org/10.1109/TASC.2005.849767",
-    "doi": "10.1109/TASC.2005.849767"
+    "url": "https://doi.org/10.1109/tasc.2022.3223853",
+    "doi": "10.1109/tasc.2022.3223853"
   },
   {
     "slug": "emerging-attacks-on-logic-locking-in-sfq-circuits-and-related-countermeasures",
@@ -1180,8 +1180,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Hardware security for Superconductive Single-Flux-Quantum (SFQ) integrated circuits is becoming crucial as superconducting quantum accelerators and high-performance cryogenic processors transition to untrusted commercial foundry fabrication. **Logic Locking** protects intellec...",
-    "url": "https://doi.org/10.1109/TVLSI.2023.3323067",
-    "doi": "10.1109/TVLSI.2023.3323067"
+    "url": "https://doi.org/10.1109/tasc.2022.3151881",
+    "doi": "10.1109/tasc.2022.3151881"
   },
   {
     "slug": "energy-efficient-and-compact-ersfq-decoder-for-cryogenic-ram",
@@ -1197,8 +1197,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Cryogenic memories for high-speed superconducting processors demand ultra-low latency address decoders that can activate wordlines at tens of gigahertz without imposing severe heat loads on $4.2\\text{ K}$ cryocoolers. Conventional RSFQ decoders based on binary splitter trees a...",
-    "url": "https://doi.org/10.1109/TASC.2016.2644265",
-    "doi": "10.1109/TASC.2016.2644265"
+    "url": "https://doi.org/10.1109/tasc.2016.2646926",
+    "doi": "10.1109/tasc.2016.2646926"
   },
   {
     "slug": "energy-efficient-digital-data-link",
@@ -1217,8 +1217,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Inter-chip and multi-chip module (MCM) communication in large-scale superconducting computing systems represents a severe power and thermal bottleneck. Standard SFQ off-chip transmitters generate millivolt-level pulses that suffer heavy attenuation, high reflections, and large...",
-    "url": "https://doi.org/10.1109/TASC.2014.2372782",
-    "doi": "10.1109/TASC.2014.2372782"
+    "url": "https://doi.org/10.1109/tasc.2016.2636252",
+    "doi": "10.1109/tasc.2016.2636252"
   },
   {
     "slug": "ersfq-8-bit-parallel-arithmetic-logic-unit",
@@ -1236,8 +1236,8 @@
       "circuits-and-logic"
     ],
     "innovation": "We have designed and tested a parallel 8-bit ERSFQ arithmetic logic unit (ALU). The ALU design employs wave-pipelined instruction execution and features modular bit-slice architecture that is easily extendable to any number of bits and adap...",
-    "url": "https://doi.org/10.1109/TASC.2019.2904484",
-    "doi": "10.1109/TASC.2019.2904484"
+    "url": "https://doi.org/10.1109/tasc.2019.2904484",
+    "doi": "10.1109/tasc.2019.2904484"
   },
   {
     "slug": "ersfq-8-bit-parallel-binary-shifter-for-energy-efficient-superconducting-cpu",
@@ -1254,8 +1254,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Binary barrel shifters are essential execution units in high-performance microprocessors, executing bit manipulation, floating-point normalization, and address indexing in a single clock cycle. In conventional RSFQ technology, static bias resistors dissipate milliwatts of stat...",
-    "url": "https://doi.org/10.1109/TASC.2016.2644262",
-    "doi": "10.1109/TASC.2016.2644262"
+    "url": "https://doi.org/10.1109/tasc.2019.2904490",
+    "doi": "10.1109/tasc.2019.2904490"
   },
   {
     "slug": "extraction-of-dc-biased-sfq-circuit-verilog-models",
@@ -1274,8 +1274,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Design automation for large-scale Superconductive Single-Flux-Quantum (SFQ) circuits is severely hindered by the lack of accurate digital abstractions compatible with standard Electronic Design Automation (EDA) flows. Unlike CMOS gates, SFQ logic cells communicate via picoseco...",
-    "url": "https://doi.org/10.1109/TVLSI.2020.3045263",
-    "doi": "10.1109/TVLSI.2020.3045263"
+    "url": "https://doi.org/10.1109/tasc.2018.2829776",
+    "doi": "10.1109/tasc.2018.2829776"
   },
   {
     "slug": "flux-mitigation-in-wide-superconductive-striplines",
@@ -1290,8 +1290,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Ambient magnetic fields and on-chip return currents can nucleate **Abrikosov vortices (fluxons)** within superconducting thin films during cool-down through the critical temperature $T_c$. In wide superconducting striplines—such as DC power distribution buses, wide ground retu...",
-    "url": "https://doi.org/10.1109/TASC.2021.3056085",
-    "doi": "10.1109/TASC.2021.3056085"
+    "url": "https://doi.org/10.1109/tasc.2022.3154348",
+    "doi": "10.1109/tasc.2022.3154348"
   },
   {
     "slug": "fully-functional-operation-of-low-power-64-kb-josephson-cmos-hybrid-memories",
@@ -1307,8 +1307,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "Superconducting computing systems operating at tens of gigahertz require high-capacity, low-latency cryogenic memories. While all-Josephson memories provide picosecond access times, their integration density is severely constrained by magnetic loop area ($L I_c > \\Phi_0$). Con...",
-    "url": "https://doi.org/10.1109/TASC.2014.2371900",
-    "doi": "10.1109/TASC.2014.2371900"
+    "url": "https://doi.org/10.1109/tasc.2016.2646911",
+    "doi": "10.1109/tasc.2016.2646911"
   },
   {
     "slug": "globally-asynchronous-locally-synchronous-clocking-and-shared-interconnect-for-large-scale-sfq-systems",
@@ -1323,8 +1323,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper introduces a **Globally Asynchronous, Locally Synchronous (GALS)** clocking methodology and a **shared-bus interconnect architecture** tailored to large-scale Single-Flux-Quantum (SFQ) integrated circuits. In conventional RSFQ systems, distributing a high-frequency ...",
-    "url": "https://doi.org/10.1109/TASC.2019.2902345",
-    "doi": "10.1109/TASC.2019.2902345"
+    "url": "https://doi.org/10.1109/tasc.2019.2909985",
+    "doi": "10.1109/tasc.2019.2909985"
   },
   {
     "slug": "gray-zone-and-threshold-current-measurements-of-the-josephson-balanced-comparator",
@@ -1342,8 +1342,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "The **Josephson balanced comparator**—consisting of a matched pair of Josephson junctions (JJs) connected in series with respect to a clock pulse and in parallel with respect to an input signal—is the fundamental decision-making element in Single-Flux-Quantum (SFQ) logic, anal...",
-    "url": "https://doi.org/10.1109/TASC.2021.3060100",
-    "doi": "10.1109/TASC.2021.3060100"
+    "url": "https://doi.org/10.1109/tasc.2021.3063329",
+    "doi": "10.1109/tasc.2021.3063329"
   },
   {
     "slug": "hardware-random-number-generator-using-josephson-oscillation-and-sfq-logic-circuits",
@@ -1358,8 +1358,8 @@
       "circuits-and-logic"
     ],
     "innovation": "True hardware random number generators (HRNGs) are indispensable primitives for cryptography, stochastic computing, Monte Carlo simulations, and quantum key distribution. In superconducting electronics, achieving high-throughput entropy generation with minimal circuit complexi...",
-    "url": "https://doi.org/10.1109/TASC.2020.3005898",
-    "doi": "10.1109/TASC.2020.3005898"
+    "url": "https://doi.org/10.1109/tasc.2020.2992248",
+    "doi": "10.1109/tasc.2020.2992248"
   },
   {
     "slug": "high-capacity-dff-cells-for-unary-computing-using-single-flux-quantum-circuits",
@@ -1376,8 +1376,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Unary computing (UC) represents numerical values through the count of Single-Flux-Quantum (SFQ) pulses within a prescribed time sequence window $L$. While UC allows arithmetic units (such as adders, multipliers, and non-linear activation functions) to be implemented with remar...",
-    "url": "https://doi.org/10.1109/TASC.2025.3538415",
-    "doi": "10.1109/TASC.2025.3538415"
+    "url": "https://doi.org/10.1109/tasc.2025.3602472",
+    "doi": "10.1109/tasc.2025.3602472"
   },
   {
     "slug": "high-speed-memory-driven-by-sfq-pulses-based-on-0-pi-squid",
@@ -1393,8 +1393,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Developing dense, ultra-fast, and energy-efficient cryogenic memory remains the preeminent bottleneck in constructing scalable superconducting computing systems. Conventional RSFQ memories based on bistable SQUIDs require continuous DC bias current or large geometrical loop in...",
-    "url": "https://doi.org/10.1109/TASC.2021.3060101",
-    "doi": "10.1109/TASC.2021.3060101"
+    "url": "https://doi.org/10.1109/tasc.2021.3060351",
+    "doi": "10.1109/tasc.2021.3060351"
   },
   {
     "slug": "implementation-of-neuro-inspired-arithmetic-and-logic-circuits",
@@ -1411,8 +1411,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Artificial neurons provide a new way of computation for neuro-inspired algorithms, and the abilities may efficiently solve the challenges. We propose implementations of logic gates (and, or, xor, and Majority), full adder, full subtractor, ...",
-    "url": "https://doi.org/10.1109/TASC.2023.3295835",
-    "doi": "10.1109/TASC.2023.3295835"
+    "url": "https://doi.org/10.1109/tasc.2023.3295835",
+    "doi": "10.1109/tasc.2023.3295835"
   },
   {
     "slug": "inductive-and-capacitive-coupling-noise-in-superconductive-vlsi-circuits",
@@ -1429,8 +1429,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "The increasing complexity of modern superconductive circuits, and single flux quantum (SFQ) circuits in particular, has made the issue of coupling noise of growing importance. Limited metal resources within superconductive circuits have exa...",
-    "url": "https://doi.org/10.1109/TASC.2023.3320885",
-    "doi": "10.1109/TASC.2023.3320885"
+    "url": "https://doi.org/10.1109/tasc.2023.3320885",
+    "doi": "10.1109/tasc.2023.3320885"
   },
   {
     "slug": "influence-of-the-superconducting-ground-plane-on-the-performance-of-rsfq-cells",
@@ -1448,8 +1448,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Single-flux-quantum (SFQ) digital circuits are mostly based on cells that rely on reliable foundry processes that make use of a superconducting ground plane as a reference for the active elements and the microstrip line interconnects. The q...",
-    "url": "https://doi.org/10.1109/TASC.2017.2654345",
-    "doi": "10.1109/TASC.2017.2654345"
+    "url": "https://doi.org/10.1109/tasc.2017.2654345",
+    "doi": "10.1109/tasc.2017.2654345"
   },
   {
     "slug": "integrated-superconducting-transition-edge-sensor-energy-readout-ister",
@@ -1467,8 +1467,8 @@
       "circuits-and-logic"
     ],
     "innovation": "We describe a million-pixel-scale multiplexed readout for superconducting Transition Edge Sensor (TES) microcalorimeters, using Rapid Single Flux Quantum (RSFQ) digital circuits. Depending on the application and the power dissipation requir...",
-    "url": "https://doi.org/10.1109/TASC.2023.3271276",
-    "doi": "10.1109/TASC.2023.3271276"
+    "url": "https://doi.org/10.1109/tasc.2023.3271276",
+    "doi": "10.1109/tasc.2023.3271276"
   },
   {
     "slug": "interconnect-routing-for-large-scale-rsfq-circuits",
@@ -1487,8 +1487,8 @@
       "circuits-and-logic"
     ],
     "innovation": "The increasing complexity of modern rapid single flux quantum (RSFQ) circuits has made on-chip signal routing, an issue of growing importance. In this paper, several methods for routing large-scale RSFQ circuits are described, and a process...",
-    "url": "https://doi.org/10.1109/TASC.2019.2903023",
-    "doi": "10.1109/TASC.2019.2903023"
+    "url": "https://doi.org/10.1109/tasc.2019.2903023",
+    "doi": "10.1109/tasc.2019.2903023"
   },
   {
     "slug": "interfacing-superconducting-qubits-with-cryogenic-logic-readout",
@@ -1504,8 +1504,8 @@
       "circuits-and-logic"
     ],
     "innovation": "As superconducting quantum processors increase in size and complexity, the scalability of standard techniques for qubit control and readout becomes a limiting factor. Replacing room temperature analog components with cryogenic digital compo...",
-    "url": "https://doi.org/10.1109/TASC.2019.2908884",
-    "doi": "10.1109/TASC.2019.2908884"
+    "url": "https://doi.org/10.1109/tasc.2019.2908884",
+    "doi": "10.1109/tasc.2019.2908884"
   },
   {
     "slug": "investigation-of-timing-parameters-in-single-flux-quantum-circuits-using-low-critical-current-junctions-and-low-bias-voltages",
@@ -1522,8 +1522,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2021.3067827",
-    "doi": "10.1109/TASC.2021.3067827"
+    "url": "https://doi.org/10.1109/tasc.2021.3067827",
+    "doi": "10.1109/tasc.2021.3067827"
   },
   {
     "slug": "jj-soma-toward-a-spiking-neuromorphic-processor-architecture",
@@ -1542,8 +1542,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Neuromorphic computing and artificial neurons have been shown to improve the solution for some of the complex problems for conventional computers. We present a spiking soma Josephson junction-based soma (JJ-Soma) circuit that consists of a ...",
-    "url": "https://doi.org/10.1109/TASC.2023.3270766",
-    "doi": "10.1109/TASC.2023.3270766"
+    "url": "https://doi.org/10.1109/tasc.2023.3270766",
+    "doi": "10.1109/tasc.2023.3270766"
   },
   {
     "slug": "joinus-a-user-friendly-open-source-software-to-simulate-digital-superconductor-circuits",
@@ -1560,8 +1560,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "Single-flux-quantum-based circuits are the subjects of renewed attention due to their high speed and very high energy efficiency. However, the need of cryogenic temperature, the complex physics of Josephson junctions, and the lack of proper...",
-    "url": "https://doi.org/10.1109/TASC.2020.2976600",
-    "doi": "10.1109/TASC.2020.2976600"
+    "url": "https://doi.org/10.1109/tasc.2020.2976600",
+    "doi": "10.1109/tasc.2020.2976600"
   },
   {
     "slug": "josephson-junction-stuck-at-fault-detection-in-sfq-circuits",
@@ -1580,8 +1580,8 @@
       "circuits-and-logic"
     ],
     "innovation": "High reliability is an important requirement for all electronic integrated circuits including superconductive systems. Reliability and yield can be categorized by the failure paths, sequence of faults due to a physical failure, and failure ...",
-    "url": "https://doi.org/10.1109/TASC.2023.3260144",
-    "doi": "10.1109/TASC.2023.3260144"
+    "url": "https://doi.org/10.1109/tasc.2023.3260144",
+    "doi": "10.1109/tasc.2023.3260144"
   },
   {
     "slug": "josephson-latching-driver-designed-using-10-ka-cm-nb-process-as-interface-for-josephson-cmos-hybrid-memory",
@@ -1599,8 +1599,8 @@
       "circuits-and-logic"
     ],
     "innovation": "In this study, we designed, fabricated, and experimentally tested a Josephson latching driver (JLD), a superconductor-to-semiconductor interface circuit for use in Josephson-CMOS hybrid memory, utilizing a 10-kA/cm2 Nb process. The JLD is c...",
-    "url": "https://doi.org/10.1109/TASC.2024.3508714",
-    "doi": "10.1109/TASC.2024.3508714"
+    "url": "https://doi.org/10.1109/tasc.2024.3508714",
+    "doi": "10.1109/tasc.2024.3508714"
   },
   {
     "slug": "length-matching-constrained-chip-routing-for-via-minimization-in-rsfq-circuits",
@@ -1617,8 +1617,8 @@
       "circuits-and-logic"
     ],
     "innovation": "It is known that the row-based placement in a rapid single-flux-quantum circuit can be constructed for a given set of logic cells. In this article, given a set of two-pin nets with their extension lengths in a passive transmission line (PTL...",
-    "url": "https://doi.org/10.1109/TASC.2025.3613953",
-    "doi": "10.1109/TASC.2025.3613953"
+    "url": "https://doi.org/10.1109/tasc.2025.3613953",
+    "doi": "10.1109/tasc.2025.3613953"
   },
   {
     "slug": "logic-locking-in-single-flux-quantum-circuits",
@@ -1637,8 +1637,8 @@
       "circuits-and-logic"
     ],
     "innovation": "The hardware security of RSFQ circuits has become an issue of growing importance for prospective exascale computing systems. Hardware security in RSFQ circuits is particularly relevant to large scale data centers operating with sensitive in...",
-    "url": "https://doi.org/10.1109/TASC.2021.3065301",
-    "doi": "10.1109/TASC.2021.3065301"
+    "url": "https://doi.org/10.1109/tasc.2021.3065301",
+    "doi": "10.1109/tasc.2021.3065301"
   },
   {
     "slug": "logic-optimization-complex-cell-design-and-retiming-of-single-flux-quantum-circuits",
@@ -1658,8 +1658,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Single flux quantum (SFQ) technology has emerged as a promising beyond-CMOS technology with Josephson junctions (JJs) as active devices in a superconducting circuit. In this paper, we (i) describe the algorithms and the methodology we used ...",
-    "url": "https://doi.org/10.1109/TASC.2018.2856833",
-    "doi": "10.1109/TASC.2018.2856833"
+    "url": "https://doi.org/10.1109/tasc.2018.2856833",
+    "doi": "10.1109/tasc.2018.2856833"
   },
   {
     "slug": "low-power-single-flux-quantum-standard-cell-library-using-250-a-cm2-process-for-qubit-control-applications",
@@ -1678,8 +1678,8 @@
       "circuits-and-logic"
     ],
     "innovation": "In this paper, we report the development of a low-power single-flux-quantum (SFQ) standard cell library and experimental results, including the cell design, high-speed test of shift-registers, delay measurement using ring oscillators, and d...",
-    "url": "https://doi.org/10.1109/TASC.2024.3521892",
-    "doi": "10.1109/TASC.2024.3521892"
+    "url": "https://doi.org/10.1109/tasc.2024.3521892",
+    "doi": "10.1109/tasc.2024.3521892"
   },
   {
     "slug": "magnetic-flux-flow-diagrams-for-design-and-analysis-of-josephson-junction-circuits",
@@ -1695,8 +1695,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Josephson junction circuits, such as superconducting quantum interference devices (SQUIDs) and single-flux-quantum circuits, have been successfully applied in both the analog and digital domains. Due to phase-based working principles, their...",
-    "url": "https://doi.org/10.1109/TASC.2023.3290199",
-    "doi": "10.1109/TASC.2023.3290199"
+    "url": "https://doi.org/10.1109/tasc.2023.3290199",
+    "doi": "10.1109/tasc.2023.3290199"
   },
   {
     "slug": "margin-and-yield-optimization-of-single-flux-quantum-logic-cells-using-swarm-optimization-techniques",
@@ -1716,8 +1716,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Single flux quantum (SFQ) logic family is an attractive alternative to CMOS technology with the promise of more than two–three orders of magnitude improvement in energy-delay product. However, component-level parameter variations that arise...",
-    "url": "https://doi.org/10.1109/TASC.2022.3223883",
-    "doi": "10.1109/TASC.2022.3223883"
+    "url": "https://doi.org/10.1109/tasc.2022.3223883",
+    "doi": "10.1109/tasc.2022.3223883"
   },
   {
     "slug": "measurement-of-inductance-in-niobium-nitride-films-for-single-flux-quantum-circuits",
@@ -1735,8 +1735,8 @@
       "circuits-and-logic"
     ],
     "innovation": "In recent years, rapid single flux quantum (RSFQ) circuits, which are promising for the development of high-speed digital electronics, have attracted widespread interest. Niobium nitride (NbN) films have also attracted significant attention...",
-    "url": "https://doi.org/10.1109/TASC.2020.3016983",
-    "doi": "10.1109/TASC.2020.3016983"
+    "url": "https://doi.org/10.1109/tasc.2020.3016983",
+    "doi": "10.1109/tasc.2020.3016983"
   },
   {
     "slug": "multi-input-sfq-multiplexers",
@@ -1754,8 +1754,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A multiplexer is a digital structure that controls signal flow, selecting among multiple inputs to produce a single output. A two-input to one output (2:1) multiplexer is commonly used in single flux quantum (SFQ) systems. When three or mor...",
-    "url": "https://doi.org/10.1109/TASC.2025.3538651",
-    "doi": "10.1109/TASC.2025.3538651"
+    "url": "https://doi.org/10.1109/tasc.2025.3538651",
+    "doi": "10.1109/tasc.2025.3538651"
   },
   {
     "slug": "mutual-and-self-inductance-in-planarized-multilayered-superconductor-integrated-circuits-microstrips-striplines-bends-meanders-ground-plane-perforations",
@@ -1773,8 +1773,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Data are presented on mutual and self-inductance of various inductors used in multilayered superconductor integrated circuits: microstrips and striplines with widths from 250 nm to a few micrometers, located on the same layer at various dis...",
-    "url": "https://doi.org/10.1109/TASC.2022.3162758",
-    "doi": "10.1109/TASC.2022.3162758"
+    "url": "https://doi.org/10.1109/tasc.2022.3162758",
+    "doi": "10.1109/tasc.2022.3162758"
   },
   {
     "slug": "noise-properties-of-digital-squid-using-double-relaxation-oscillation-squid-comparator-with-relaxation-oscillation-resonant-circuit",
@@ -1791,8 +1791,8 @@
       "circuits-and-logic"
     ],
     "innovation": "We designed a digital superconducting quantum interference device (SQUID) system that contains a double relaxation oscillation SQUID (DROS) as a magnetic flux comparator that is connected to an additional relaxation oscillation (RO) circuit...",
-    "url": "https://doi.org/10.1109/TASC.2017.2677422",
-    "doi": "10.1109/TASC.2017.2677422"
+    "url": "https://doi.org/10.1109/tasc.2017.2677422",
+    "doi": "10.1109/tasc.2017.2677422"
   },
   {
     "slug": "optimization-of-delay-time-stabilization-for-single-flux-quantum-cell-library",
@@ -1811,8 +1811,8 @@
       "circuits-and-logic"
     ],
     "innovation": "The precise timing analysis of superconducting integrated circuits, particularly cells in a standard cell library, is essential for high-yield superconducting large-scale integration design. In particular, the delay time for individual cell...",
-    "url": "https://doi.org/10.1109/TASC.2020.3004888",
-    "doi": "10.1109/TASC.2020.3004888"
+    "url": "https://doi.org/10.1109/tasc.2020.3004888",
+    "doi": "10.1109/tasc.2020.3004888"
   },
   {
     "slug": "optimization-of-passive-transmission-lines-for-single-flux-quantum-circuits",
@@ -1831,8 +1831,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Passive transmission lines (PTLs) provide an energy-efficient means of transporting pulsed single flux quantum (SFQ) signals between logic gates and blocks on a chip, or even between chips through a multi-chip module carrier. Although funct...",
-    "url": "https://doi.org/10.1109/TASC.2021.3062589",
-    "doi": "10.1109/TASC.2021.3062589"
+    "url": "https://doi.org/10.1109/tasc.2021.3062589",
+    "doi": "10.1109/tasc.2021.3062589"
   },
   {
     "slug": "optimizing-hc2-lc-a-robust-clock-distribution-network-for-sfq-circuits",
@@ -1851,8 +1851,8 @@
       "circuits-and-logic"
     ],
     "innovation": "As the world collects more data, the electronics industry is demanding faster and more energy efficient supercomputers, but this is becoming an increasingly challenging goal as Moore's law nears its end. Superconducting electronics, and sin...",
-    "url": "https://doi.org/10.1109/TASC.2019.2933366",
-    "doi": "10.1109/TASC.2019.2933366"
+    "url": "https://doi.org/10.1109/tasc.2019.2933366",
+    "doi": "10.1109/tasc.2019.2933366"
   },
   {
     "slug": "partitioning-rsfq-circuits-for-current-recycling",
@@ -1869,8 +1869,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Development and comparative evaluation of automated Electronic Design Automation (EDA) partitioning methodologies for serial biasing (current recycling) in large-scale RSFQ integrated circuits. Formulates multi-objective algorithms that simultaneously minimize inter-island cut...",
-    "url": "https://doi.org/10.1109/TASC.2021.3069150",
-    "doi": "10.1109/TASC.2021.3069150"
+    "url": "https://doi.org/10.1109/tasc.2021.3065287",
+    "doi": "10.1109/tasc.2021.3065287"
   },
   {
     "slug": "pbmap-a-path-balancing-technology-mapping-algorithm-for-single-flux-quantum-logic-circuits",
@@ -1888,8 +1888,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This paper presents a path balancing technology mapping algorithm, which is a new algorithm for generating a mapping solution for a given Boolean network such that the average logic level difference among fanin gates of each gate in the net...",
-    "url": "https://doi.org/10.1109/TASC.2018.2880343",
-    "doi": "10.1109/TASC.2018.2880343"
+    "url": "https://doi.org/10.1109/tasc.2018.2880343",
+    "doi": "10.1109/tasc.2018.2880343"
   },
   {
     "slug": "postrouting-optimization-of-the-working-clock-frequency-of-single-flux-quantum-circuits",
@@ -1908,8 +1908,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "The first machine-learning-assisted postrouting frequency optimization framework for large-scale SFQ circuits. Integrates DBSCAN clustering to identify wiring congestion hotspots, bounded maze ripup-and-reroute, localized plowing operations to clear congested routing channels,...",
-    "url": "https://doi.org/10.1109/TCAD.2024.3418579",
-    "doi": "10.1109/TCAD.2024.3418579"
+    "url": "https://doi.org/10.1109/tasc.2020.3005584",
+    "doi": "10.1109/tasc.2020.3005584"
   },
   {
     "slug": "qgdr-a-via-minimization-oriented-routing-tool-for-large-scale-superconductive-single-flux-quantum-circuits",
@@ -1926,8 +1926,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "An open-source, highly scalable Global and Detailed Routing (qGDR) tool specifically engineered for large-scale Single Flux Quantum (SFQ) circuits. Focuses on minimizing superconducting via counts and parasitic inductances through a 2-stage framework: (1) single-layer projecte...",
-    "url": "https://doi.org/10.1109/TCAD.2024.3353597",
-    "doi": "10.1109/TCAD.2024.3353597"
+    "url": "https://doi.org/10.1109/tasc.2019.2915771",
+    "doi": "10.1109/tasc.2019.2915771"
   },
   {
     "slug": "qssta-a-statistical-static-timing-analysis-tool-for-superconducting-single-flux-quantum-circuits",
@@ -1947,8 +1947,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Superconducting single flux quantum (SFQ) technology is an ultra-high performance and low power technology. The technology, however, lacks many of the design automation tools and capabilities that are commonplace in CMOS technology. This ar...",
-    "url": "https://doi.org/10.1109/TASC.2020.3005082",
-    "doi": "10.1109/TASC.2020.3005082"
+    "url": "https://doi.org/10.1109/tasc.2020.3005082",
+    "doi": "10.1109/tasc.2020.3005082"
   },
   {
     "slug": "qsta-a-static-timing-analysis-tool-for-superconducting-single-flux-quantum-circuits",
@@ -1967,8 +1967,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Superconducting single-flux-quantum (SFQ) technology is a beyond-complementary metal-oxide-semiconductor (CMOS) technology, promising ultrahigh processing speed and low power consumption. A timing analysis tool for SFQ circuits should check...",
-    "url": "https://doi.org/10.1109/TASC.2020.2970218",
-    "doi": "10.1109/TASC.2020.2970218"
+    "url": "https://doi.org/10.1109/tasc.2020.2970218",
+    "doi": "10.1109/tasc.2020.2970218"
   },
   {
     "slug": "rapid-single-flux-quantum-t-flip-flop-operating-up-to-770-ghz",
@@ -1984,8 +1984,8 @@
       "circuits-and-logic"
     ],
     "innovation": "This landmark 1999 paper demonstrates experimental operation of Rapid Single Flux Quantum (RSFQ) Toggle Flip-Flops (TFFs / frequency dividers) at record-setting speeds up to **770 GHz** at 4.2 K. Fabricated using an all-electron-beam-lithography (EBL) planarized Nb/AlO$_x$/Nb ...",
-    "url": "https://doi.org/10.1109/77.783957",
-    "doi": "10.1109/77.783957"
+    "url": "https://doi.org/10.1109/77.783712",
+    "doi": "10.1109/77.783712"
   },
   {
     "slug": "readout-circuit-based-on-single-flux-quantum-logic-circuit-for-photon-number-resolving-snspd-array",
@@ -2001,8 +2001,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Monolithic integration of a 6-pixel Superconducting Nanowire Single-Photon Detector (SNSPD) array with an on-chip SFQ photon-number-resolving (PNR) digital processor. Combines magnetically coupled MC-DC/SFQ front-ends, an SFQ binary counter adder tree, and series-stacked Doubl...",
-    "url": "https://doi.org/10.1109/TASC.2023.3242252",
-    "doi": "10.1109/TASC.2023.3242252"
+    "url": "https://doi.org/10.1109/tasc.2018.2809483",
+    "doi": "10.1109/tasc.2018.2809483"
   },
   {
     "slug": "reduction-of-the-supply-current-of-single-flux-quantum-time-to-digital-converters-by-current-recycling-techniques",
@@ -2020,8 +2020,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Demonstration of a VLSI-scale 9,570-junction Single Flux Quantum Time-to-Digital Converter (SFQ TDC) with an integrated $12 \\times 24$-bit FIFO memory buffer incorporating a 2-island serial biasing (current recycling) architecture. By isolating ground planes across a $20\\ \\mu\\...",
-    "url": "https://doi.org/10.1109/TASC.2021.3069411",
-    "doi": "10.1109/TASC.2021.3069411"
+    "url": "https://doi.org/10.1109/tasc.2016.2646916",
+    "doi": "10.1109/tasc.2016.2646916"
   },
   {
     "slug": "reed-muller-error-correction-code-encoder-for-sfq-to-cmos-interface-circuits",
@@ -2038,8 +2038,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Design, optimization, and fault-tolerance evaluation of an on-chip superconducting Error-Correction Code (ECC) encoder based on the first-order Reed-Muller $\\text{RM}(1,3)$ code for cryogenic SFQ-to-CMOS digital output interfaces. Leverages the unique efficiency of SFQ XOR gat...",
-    "url": "https://doi.org/10.1109/TASC.2023.3282200",
-    "doi": "10.1109/TASC.2023.3282200"
+    "url": "https://doi.org/10.1109/tasc.2026.3664826",
+    "doi": "10.1109/tasc.2026.3664826"
   },
   {
     "slug": "repeater-insertion-in-sfq-interconnect",
@@ -2056,8 +2056,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Identification of standing-wave resonance effects in lossless superconducting Passive Transmission Lines (PTLs) and development of an automated Repeater Insertion algorithm for large-scale SFQ clock and data distribution networks. Demonstrates that standing-wave reflections at...",
-    "url": "https://doi.org/10.1109/TASC.2020.3000982",
-    "doi": "10.1109/TASC.2020.3000982"
+    "url": "https://doi.org/10.1109/tasc.2020.3000982",
+    "doi": "10.1109/tasc.2020.3000982"
   },
   {
     "slug": "research-on-power-dissipation-of-ersfq-circuits",
@@ -2074,8 +2074,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A comprehensive investigation into anomalous static power dissipation regimes in Energy-Efficient Rapid Single Flux Quantum (ERSFQ) circuits. Identifies and characterizes three distinct operational states—True ERSFQ (zero static power), MIDSFQ (intermediate dissipation from hy...",
-    "url": "https://doi.org/10.1109/TASC.2024.3364402",
-    "doi": "10.1109/TASC.2024.3364402"
+    "url": "https://doi.org/10.1109/tasc.2021.3068230",
+    "doi": "10.1109/tasc.2021.3068230"
   },
   {
     "slug": "research-on-the-bias-network-of-energy-efficient-single-flux-quantum-circuits",
@@ -2091,8 +2091,8 @@
       "circuits-and-logic"
     ],
     "innovation": "In-depth theoretical and numerical investigation of the multi-level inductive bias distribution network in Energy-Efficient Single Flux Quantum (ERSFQ) digital circuits using PSCAN. Identifies the parasitic \"DC SQUID effect\" arising between parallel bias lines that induces int...",
-    "url": "https://doi.org/10.1109/TASC.2023.3268800",
-    "doi": "10.1109/TASC.2023.3268800"
+    "url": "https://doi.org/10.1109/tasc.2019.2910049",
+    "doi": "10.1109/tasc.2019.2910049"
   },
   {
     "slug": "results-from-the-coldflux-superconductor-integrated-circuit-design-tool-project",
@@ -2112,8 +2112,8 @@
       "circuits-and-logic"
     ],
     "innovation": "In five and a half years, the ColdFlux project under the IARPA SuperTools program pushed the boundaries of digital and analog superconductor electronic design automation (S-EDA) tools. The SuperTools program demanded significant beyond-stat...",
-    "url": "https://doi.org/10.1109/TASC.2023.3306381",
-    "doi": "10.1109/TASC.2023.3306381"
+    "url": "https://doi.org/10.1109/tasc.2023.3306381",
+    "doi": "10.1109/tasc.2023.3306381"
   },
   {
     "slug": "rf-waveform-synthesizers-with-quantum-based-voltage-accuracy-for-communications-metrology",
@@ -2129,8 +2129,8 @@
       "sensors-and-metrology"
     ],
     "innovation": "Development and demonstration of cryogenic Josephson Arbitrary Waveform Synthesizers (JAWS) operating in the gigahertz radio-frequency (RF) spectrum (sub-6 GHz 5G and satellite communications metrology). Demonstrates lumped-element $50\\ \\Omega$ matched circuits, distributed ba...",
-    "url": "https://doi.org/10.1109/TASC.2021.3063546",
-    "doi": "10.1109/TASC.2021.3063546"
+    "url": "https://doi.org/10.1109/tasc.2019.2898407",
+    "doi": "10.1109/tasc.2019.2898407"
   },
   {
     "slug": "rsfq-logic-memory-family-a-new-josephson-junction-technology-for-sub-terahertz-clock-frequency-digital-systems",
@@ -2167,8 +2167,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A definitive, rigorous scaling treatise analyzing the fundamental physical and geometrical limits imposed by AC clock excitation and flux bias transformers in ultra-low-power superconducting electronics (AQFP, Parametrons, RQL, eSFQ). Establishes exact electromagnetic models a...",
-    "url": "https://doi.org/10.1109/TASC.2022.3228945",
-    "doi": "10.1109/TASC.2022.3228945"
+    "url": "https://doi.org/10.1109/tasc.2022.3230373",
+    "doi": "10.1109/tasc.2022.3230373"
   },
   {
     "slug": "scalable-asynchronous-single-flux-quantum-up-down-counter-using-josephson-trapping-lines-and-alpha-cells",
@@ -2186,8 +2186,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A scalable, fully asynchronous signed up-down counter architecture for Single Flux Quantum (SFQ) unary computing and neuromorphic spiking systems. By combining unidirectional Josephson Trapping Lines (JTrLs) with bidirectional multi-fanout $\\alpha$-Splitter ($\\alpha$-SPL) cell...",
-    "url": "https://doi.org/10.1109/TASC.2025.3571216",
-    "doi": "10.1109/TASC.2025.3571216"
+    "url": "https://doi.org/10.1109/tasc.2025.3623195",
+    "doi": "10.1109/tasc.2025.3623195"
   },
   {
     "slug": "sense-amplifier-for-spin-based-cryogenic-memory-cells",
@@ -2203,8 +2203,8 @@
       "circuits-and-logic"
     ],
     "innovation": "An ultra-high-speed, energy-efficient sense amplifier (SA) architecture for spin-based cryogenic memory arrays (MTJs, spin valves, spin-transfer torque cells) operating at $4.2\\text{ K}$. Built upon a timed, flux-biased DC-to-SFQ decision converter, the proposed sense amplifie...",
-    "url": "https://doi.org/10.1109/TASC.2019.2912166",
-    "doi": "10.1109/TASC.2019.2912166"
+    "url": "https://doi.org/10.1109/tasc.2019.2912166",
+    "doi": "10.1109/tasc.2019.2912166"
   },
   {
     "slug": "serial-biasing-technique-for-electronic-design-automation-in-rsfq-circuits",
@@ -2223,8 +2223,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A comprehensive physical layout architecture, cell library design methodology, and 3D electromagnetic design rules enabling automated Electronic Design Automation (EDA) place-and-route for serially biased RSFQ circuits. Demonstrates horizontal and vertical Cross-Domain Return ...",
-    "url": "https://doi.org/10.1109/TASC.2022.3197779",
-    "doi": "10.1109/TASC.2022.3197779"
+    "url": "https://doi.org/10.1109/tasc.2022.3214767",
+    "doi": "10.1109/tasc.2022.3214767"
   },
   {
     "slug": "sfq-bias-for-sfq-digital-circuits",
@@ -2239,8 +2239,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A paradigm-shifting biasing architecture that powers SFQ digital logic circuits directly using **single flux quanta ($\\Phi_0$)** rather than traditional DC power rails or bulky AC resonant transformers. Demonstrates asymmetric SQUID-based superconducting \"diodes\" that rectify ...",
-    "url": "https://doi.org/10.1109/TASC.2021.3065768",
-    "doi": "10.1109/TASC.2021.3065768"
+    "url": "https://doi.org/10.1109/tasc.2021.3067231",
+    "doi": "10.1109/tasc.2021.3067231"
   },
   {
     "slug": "sfq-dqfp-interface-circuits",
@@ -2258,8 +2258,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Design, optimization, and verification of bidirectional interface circuits bridging high-speed Rapid Single Flux Quantum (RSFQ) processing cores ($> 20 - 50\\text{ GHz}$) with energy-efficient Directly Coupled Quantum Flux Parametron (DQFP) logic ($2 - 5\\text{ GHz}$). Demonstra...",
-    "url": "https://doi.org/10.1109/TASC.2023.3264575",
-    "doi": "10.1109/TASC.2023.3264575"
+    "url": "https://doi.org/10.1109/tasc.2023.3264575",
+    "doi": "10.1109/tasc.2023.3264575"
   },
   {
     "slug": "sfq-parallel-encoders-promising-for-video-imaging-with-superconductor-stripline-detectors",
@@ -2274,8 +2274,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Demonstration of a high-speed, monolithic readout system integrating Superconductor Stripline Detectors (SSLDs) with SQUID-based comparators, SFQ synchronizers, and high-throughput parallel address encoders. The architecture eliminates multi-pixel crosstalk during simultaneous...",
-    "url": "https://doi.org/10.1109/TASC.2020.3027962",
-    "doi": "10.1109/TASC.2020.3027962"
+    "url": "https://doi.org/10.1109/tasc.2020.3013385",
+    "doi": "10.1109/tasc.2020.3013385"
   },
   {
     "slug": "side-channel-leakage-in-sfq-circuits-and-related-attacks-on-qubit-control-and-readout-systems",
@@ -2292,8 +2292,8 @@
       "circuits-and-logic"
     ],
     "innovation": "First formal identification and quantitative analysis of power and bias-network side-channel leakage mechanisms in cryogenic Single Flux Quantum (RSFQ and ERSFQ) control and readout circuits for superconducting quantum processors. Demonstrates non-invasive eavesdropping attack...",
-    "url": "https://doi.org/10.1109/TASC.2023.3283287",
-    "doi": "10.1109/TASC.2023.3283287"
+    "url": "https://doi.org/10.1109/tasc.2023.3277864",
+    "doi": "10.1109/tasc.2023.3277864"
   },
   {
     "slug": "signal-integrity-simulations-of-4jl-gate-pulses-from-4-k-to-50-k",
@@ -2309,8 +2309,8 @@
       "compute-architectures"
     ],
     "innovation": "A comprehensive end-to-end signal integrity (SI) modeling and simulation methodology for high-speed cryogenic data links spanning from a $4.2\\text{ K}$ superconducting SFQ processor to a $50\\text{ K}$ cryo-CMOS memory module. By integrating JoSIM non-linear superconducting cir...",
-    "url": "https://doi.org/10.1109/TASC.2025.3562624",
-    "doi": "10.1109/TASC.2025.3562624"
+    "url": "https://doi.org/10.1109/tasc.2024.3510518",
+    "doi": "10.1109/tasc.2024.3510518"
   },
   {
     "slug": "silicon-technology-inspired-test-structures-and-methodology-for-sfq-model-to-hardware-correlation",
@@ -2327,8 +2327,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A comprehensive Process Characterization Module (iPCM) test vehicle suite and measurement methodology adapted from silicon CMOS manufacturing paradigms to superconducting Single Flux Quantum (SFQ) integrated circuits. Implements modular 26-pad chiplet test structures in reticl...",
-    "url": "https://doi.org/10.1109/TASC.2019.2904944",
-    "doi": "10.1109/TASC.2019.2904944"
+    "url": "https://doi.org/10.1109/tasc.2019.2898410",
+    "doi": "10.1109/tasc.2019.2898410"
   },
   {
     "slug": "simulation-of-the-margins-in-single-flux-quantum-circuits-containing-pi-shifted-josephson-junctions",
@@ -2344,8 +2344,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2019.2908866",
-    "doi": "10.1109/TASC.2019.2908866"
+    "url": "https://doi.org/10.1109/tasc.2019.2904700",
+    "doi": "10.1109/tasc.2019.2904700"
   },
   {
     "slug": "single-flux-quantum-based-event-driven-encoder-for-large-pixel-superconducting-nanowire-single-photon-detector-array",
@@ -2360,8 +2360,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2019.2902996",
-    "doi": "10.1109/TASC.2019.2902996"
+    "url": "https://doi.org/10.1109/tasc.2019.2899845",
+    "doi": "10.1109/tasc.2019.2899845"
   },
   {
     "slug": "single-flux-quantum-bipolar-digital-to-analog-converter-comprising-polarity-switchable-double-flux-quantum-amplifier",
@@ -2378,8 +2378,8 @@
       "sensors-and-metrology"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2017.2662002",
-    "doi": "10.1109/TASC.2017.2662002"
+    "url": "https://doi.org/10.1109/tasc.2016.2625739",
+    "doi": "10.1109/tasc.2016.2625739"
   },
   {
     "slug": "single-flux-quantum-circuit-operation-at-millikelvin-temperatures",
@@ -2396,8 +2396,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2026.3538415",
-    "doi": "10.1109/TASC.2026.3538415"
+    "url": "https://doi.org/10.1109/tasc.2025.3639528",
+    "doi": "10.1109/tasc.2025.3639528"
   },
   {
     "slug": "single-flux-quantum-multiplier-circuits-for-synthesizing-gigahertz-waveforms-with-quantum-based-accuracy",
@@ -2414,8 +2414,8 @@
       "sensors-and-metrology"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2021.3051601",
-    "doi": "10.1109/TASC.2021.3051601"
+    "url": "https://doi.org/10.1109/tasc.2021.3057013",
+    "doi": "10.1109/tasc.2021.3057013"
   },
   {
     "slug": "single-flux-quantum-sfq-first-in-first-out-fifo-synchronizers-new-designs-and-paradigms",
@@ -2434,8 +2434,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2020.3005829",
-    "doi": "10.1109/TASC.2020.3005829"
+    "url": "https://doi.org/10.1109/tasc.2020.2997260",
+    "doi": "10.1109/tasc.2020.2997260"
   },
   {
     "slug": "single-source-sfq-multiclock-generator-using-resistor-jtl-branches",
@@ -2454,8 +2454,8 @@
       "circuits-and-logic"
     ],
     "innovation": "A compact, scalable, and energy-efficient on-chip SFQ multiclock generation architecture capable of generating multiple, independent, stable clock frequencies simultaneously from a **single constant DC voltage source**. By pairing resistor-degraded Josephson transmission line ...",
-    "url": "https://doi.org/10.1109/TASC.2025.3630889",
-    "doi": "10.1109/TASC.2025.3630889"
+    "url": "https://doi.org/10.1109/tasc.2025.3630889",
+    "doi": "10.1109/tasc.2025.3630889"
   },
   {
     "slug": "small-area-sorting-network-based-on-unary-coding-using-single-flux-quantum-circuits",
@@ -2472,8 +2472,8 @@
       "sensors-and-metrology"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2024.3516801",
-    "doi": "10.1109/TASC.2024.3516801"
+    "url": "https://doi.org/10.1109/tasc.2024.3493881",
+    "doi": "10.1109/tasc.2024.3493881"
   },
   {
     "slug": "splitter-trees-in-single-flux-quantum-circuits",
@@ -2490,8 +2490,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2021.3069105",
-    "doi": "10.1109/TASC.2021.3069105"
+    "url": "https://doi.org/10.1109/tasc.2021.3070802",
+    "doi": "10.1109/tasc.2021.3070802"
   },
   {
     "slug": "stacked-josephson-junctions-as-inductors-for-single-flux-quantum-circuits",
@@ -2506,8 +2506,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2019.2902636",
-    "doi": "10.1109/TASC.2019.2902636"
+    "url": "https://doi.org/10.1109/tasc.2019.2898406",
+    "doi": "10.1109/tasc.2019.2898406"
   },
   {
     "slug": "static-timing-analysis-for-single-flux-quantum-circuits-composed-of-various-gates",
@@ -2525,8 +2525,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2022.3168801",
-    "doi": "10.1109/TASC.2022.3168801"
+    "url": "https://doi.org/10.1109/tasc.2022.3161052",
+    "doi": "10.1109/tasc.2022.3161052"
   },
   {
     "slug": "stripline-topology-for-flux-mitigation",
@@ -2544,8 +2544,8 @@
       "circuits-and-logic"
     ],
     "innovation": "The increasing complexity of modern single flux quantum (SFQ) circuits has increased the importance of flux trapping and trapped magnetic fields within SFQ systems. This trapped flux reduces margins while damaging the operability of superco...",
-    "url": "https://doi.org/10.1109/TASC.2023.3249641",
-    "doi": "10.1109/TASC.2023.3249641"
+    "url": "https://doi.org/10.1109/tasc.2023.3249641",
+    "doi": "10.1109/tasc.2023.3249641"
   },
   {
     "slug": "study-on-single-flux-quantum-floating-point-divider-based-on-goldschmidts-algorithm",
@@ -2562,8 +2562,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2019.2908867",
-    "doi": "10.1109/TASC.2019.2908867"
+    "url": "https://doi.org/10.1109/tasc.2019.2902800",
+    "doi": "10.1109/tasc.2019.2902800"
   },
   {
     "slug": "superconducting-magnetic-field-programmable-gate-array",
@@ -2582,8 +2582,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2018.2793132",
-    "doi": "10.1109/TASC.2018.2793132"
+    "url": "https://doi.org/10.1109/tasc.2018.2797262",
+    "doi": "10.1109/tasc.2018.2797262"
   },
   {
     "slug": "superconducting-nb-nanobridges-for-reduced-footprint-and-efficient-next-generation-electronics",
@@ -2598,8 +2598,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2022.3216801",
-    "doi": "10.1109/TASC.2022.3216801"
+    "url": "https://doi.org/10.1109/tasc.2022.3218895",
+    "doi": "10.1109/tasc.2022.3218895"
   },
   {
     "slug": "superconducting-vlsi-logic-cell-library-using-dc-powered-clockless-dynamic-sfq-gates-and-asic-style-layout-template",
@@ -2617,8 +2617,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2023.3271801",
-    "doi": "10.1109/TASC.2023.3271801"
+    "url": "https://doi.org/10.1109/tasc.2023.3263141",
+    "doi": "10.1109/tasc.2023.3263141"
   },
   {
     "slug": "superconductor-electronics-fabrication-process-with-monx-kinetic-inductors-and-self-shunted-josephson-junctions",
@@ -2633,8 +2633,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Recent progress in superconductor electronics fabrication has enabled single-flux-quantum (SFQ) digital circuits with close to one million Josephson junctions (JJs) on 1-cm2 chips. Increasing the integration scale further is challenging bec...",
-    "url": "https://doi.org/10.1109/TASC.2018.2809442",
-    "doi": "10.1109/TASC.2018.2809442"
+    "url": "https://doi.org/10.1109/tasc.2018.2809442",
+    "doi": "10.1109/tasc.2018.2809442"
   },
   {
     "slug": "superconductor-logic-implementation-with-all-jj-inductor-free-cell-library",
@@ -2651,8 +2651,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2025.3538412",
-    "doi": "10.1109/TASC.2025.3538412"
+    "url": "https://doi.org/10.1109/tasc.2024.3430975",
+    "doi": "10.1109/tasc.2024.3430975"
   },
   {
     "slug": "suzuki-stack-circuit-with-differential-output",
@@ -2668,8 +2668,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2022.3218501",
-    "doi": "10.1109/TASC.2022.3218501"
+    "url": "https://doi.org/10.1109/tasc.2022.3230761",
+    "doi": "10.1109/tasc.2022.3230761"
   },
   {
     "slug": "synchronous-sfq-address-encoder-for-superconductor-detector-arrays",
@@ -2684,8 +2684,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2021.3060767",
-    "doi": "10.1109/TASC.2021.3060767"
+    "url": "https://doi.org/10.1109/tasc.2021.3065000",
+    "doi": "10.1109/tasc.2021.3065000"
   },
   {
     "slug": "system-level-comparison-of-superconductor-semiconductor-interface-circuits",
@@ -2701,8 +2701,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2026.3548901",
-    "doi": "10.1109/TASC.2026.3548901"
+    "url": "https://doi.org/10.1109/tasc.2026.3657738",
+    "doi": "10.1109/tasc.2026.3657738"
   },
   {
     "slug": "systemverilog-modeling-of-sfq-and-aqfp-circuits",
@@ -2721,8 +2721,8 @@
       "circuits-and-logic"
     ],
     "innovation": "Exascale computing and its associated increasingly massive amounts of data require increasingly efficient computing platforms; and semiconductor technology is struggling to keep up. Meanwhile, superconducting electronics (SCE) is increasing...",
-    "url": "https://doi.org/10.1109/TASC.2019.2957196",
-    "doi": "10.1109/TASC.2019.2957196"
+    "url": "https://doi.org/10.1109/tasc.2019.2957196",
+    "doi": "10.1109/tasc.2019.2957196"
   },
   {
     "slug": "ternary-digital-output-data-link-from-sfq-circuits",
@@ -2738,8 +2738,8 @@
       "quantum-and-detectors"
     ],
     "innovation": "Data transmission from single flux quantum (SFQ) circuits to room temperature electronics requires the use of superconductor output drivers and semiconductor amplifiers. The state-of-the-art superconductor output drivers such as SFQ-to-DC c...",
-    "url": "https://doi.org/10.1109/TASC.2024.3510520",
-    "doi": "10.1109/TASC.2024.3510520"
+    "url": "https://doi.org/10.1109/tasc.2024.3510520",
+    "doi": "10.1109/tasc.2024.3510520"
   },
   {
     "slug": "the-josephson-balanced-comparator-as-a-sensor-to-monitor-clock-sources-for-rsfq-ersfq-circuits",
@@ -2758,8 +2758,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2024.3518299",
-    "doi": "10.1109/TASC.2024.3518299"
+    "url": "https://doi.org/10.1109/tasc.2024.3494773",
+    "doi": "10.1109/tasc.2024.3494773"
   },
   {
     "slug": "timing-characterization-for-static-timing-analysis-of-single-flux-quantum-circuits",
@@ -2779,8 +2779,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2019.2908865",
-    "doi": "10.1109/TASC.2019.2908865"
+    "url": "https://doi.org/10.1109/tasc.2019.2891166",
+    "doi": "10.1109/tasc.2019.2891166"
   },
   {
     "slug": "timing-jitter-characterization-of-the-sfq-coincidence-circuit-by-optically-time-controlled-signals-from-sspds",
@@ -2798,8 +2798,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2019.2907923",
-    "doi": "10.1109/TASC.2019.2907923"
+    "url": "https://doi.org/10.1109/tasc.2019.2906258",
+    "doi": "10.1109/tasc.2019.2906258"
   },
   {
     "slug": "toward-superconducting-neuromorphic-computing-using-single-flux-quantum-circuits",
@@ -2817,8 +2817,8 @@
       "cell-library-and-fabrication"
     ],
     "innovation": "Current artificial intelligence faces challenges in improving computational efficiency due to increasing scale and complexity. Superconducting circuit, as one of the most promising technologies in the post-Moore era, offers ultrahigh-speed ...",
-    "url": "https://doi.org/10.1109/TASC.2025.3544687",
-    "doi": "10.1109/TASC.2025.3544687"
+    "url": "https://doi.org/10.1109/tasc.2025.3544687",
+    "doi": "10.1109/tasc.2025.3544687"
   },
   {
     "slug": "very-large-scale-integration-of-josephson-junction-based-superconductor-random-access-memories",
@@ -2836,8 +2836,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2019.2902640",
-    "doi": "10.1109/TASC.2019.2902640"
+    "url": "https://doi.org/10.1109/tasc.2019.2904971",
+    "doi": "10.1109/tasc.2019.2904971"
   },
   {
     "slug": "wave-pipelining-in-dsfq-circuits",
@@ -2854,8 +2854,8 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2022.3198007",
-    "doi": "10.1109/TASC.2022.3198007"
+    "url": "https://doi.org/10.1109/tasc.2021.3135956",
+    "doi": "10.1109/tasc.2021.3135956"
   },
   {
     "slug": "yba_2cu_3o_7-delta-single-flux-quantum-flip-flop-directly-written-with-a-focused-helium-ion-beam",
@@ -2872,7 +2872,7 @@
       "circuits-and-logic"
     ],
     "innovation": "",
-    "url": "https://doi.org/10.1109/TASC.2021.3070267",
-    "doi": "10.1109/TASC.2021.3070267"
+    "url": "https://doi.org/10.1109/tasc.2021.3069904",
+    "doi": "10.1109/tasc.2021.3069904"
   }
 ]
