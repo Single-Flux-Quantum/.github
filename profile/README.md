@@ -11,8 +11,6 @@ Open **superconducting digital electronics research**, **EDA tools**, and a **cu
 ## Start Here
 
 - **[Interactive SFQ Paper Map](https://single-flux-quantum.github.io/.github/)** — Search, filter by research domain, and sort across 156+ curated papers with direct publisher links.
-- **[Parent Lab Repository (`sfq-lab`)](https://github.com/single-flux-quantum/sfq-lab)** — In-depth circuit analyses, open problem tracking (`PROBLEM.md`), and bibliography sync.
-- **[Research Roadmap & Open Problems](https://github.com/single-flux-quantum/sfq-lab/blob/main/docs/PROBLEM.md)** — Scored impact/ease open problems across logic families, cryo-memory, clocking, and quantum control.
 
 ---
 
