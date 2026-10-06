@@ -7,6 +7,15 @@ Open **superconducting digital electronics research**, **EDA tools**, a **beginn
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
 [![Corpus: 1352+ Papers](https://img.shields.io/badge/Corpus-1352%2B%20Papers-blue)](https://github.com/single-flux-quantum/sfq-lab)
 
+[![Stars](https://img.shields.io/github/stars/single-flux-quantum/sfq-lab?style=flat&logo=github)](https://github.com/single-flux-quantum/sfq-lab/stargazers)
+[![Forks](https://img.shields.io/github/forks/single-flux-quantum/sfq-lab?style=flat&logo=github)](https://github.com/single-flux-quantum/sfq-lab/network/members)
+[![Watchers](https://img.shields.io/github/watchers/single-flux-quantum/sfq-lab?style=flat&logo=github)](https://github.com/single-flux-quantum/sfq-lab/watchers)
+[![Contributors](https://img.shields.io/github/contributors/single-flux-quantum/sfq-lab)](https://github.com/single-flux-quantum/sfq-lab/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/single-flux-quantum/sfq-lab)](https://github.com/single-flux-quantum/sfq-lab/commits/main)
+[![Open Issues](https://img.shields.io/github/issues/single-flux-quantum/sfq-lab)](https://github.com/single-flux-quantum/sfq-lab/issues)
+[![Org Followers](https://img.shields.io/github/followers/single-flux-quantum?label=followers&logo=github)](https://github.com/single-flux-quantum)
+[![Learn Stars](https://img.shields.io/github/stars/single-flux-quantum/sfq-learn-public?label=learn%20stars&logo=github)](https://github.com/single-flux-quantum/sfq-learn-public/stargazers)
+
 ---
 
 ## Start Here

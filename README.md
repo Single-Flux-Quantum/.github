@@ -5,6 +5,15 @@
 [![SFQ Learn](https://img.shields.io/badge/Learn-SFQ%20Curriculum-0A7EA4?logo=readthedocs&logoColor=white)](https://single-flux-quantum.github.io/sfq-learn-public/)
 [![Corpus: 1352+ Papers](https://img.shields.io/badge/Corpus-1352%2B%20Papers-blue)](https://github.com/single-flux-quantum/sfq-lab)
 
+[![Stars](https://img.shields.io/github/stars/single-flux-quantum/sfq-lab?style=flat&logo=github)](https://github.com/single-flux-quantum/sfq-lab/stargazers)
+[![Forks](https://img.shields.io/github/forks/single-flux-quantum/sfq-lab?style=flat&logo=github)](https://github.com/single-flux-quantum/sfq-lab/network/members)
+[![Watchers](https://img.shields.io/github/watchers/single-flux-quantum/sfq-lab?style=flat&logo=github)](https://github.com/single-flux-quantum/sfq-lab/watchers)
+[![Contributors](https://img.shields.io/github/contributors/single-flux-quantum/sfq-lab)](https://github.com/single-flux-quantum/sfq-lab/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/single-flux-quantum/sfq-lab)](https://github.com/single-flux-quantum/sfq-lab/commits/main)
+[![Open Issues](https://img.shields.io/github/issues/single-flux-quantum/sfq-lab)](https://github.com/single-flux-quantum/sfq-lab/issues)
+[![Org Followers](https://img.shields.io/github/followers/single-flux-quantum?label=followers&logo=github)](https://github.com/single-flux-quantum)
+[![Learn Stars](https://img.shields.io/github/stars/single-flux-quantum/sfq-learn-public?label=learn%20stars&logo=github)](https://github.com/single-flux-quantum/sfq-learn-public/stargazers)
+
 Special GitHub organization repository for **[Single-Flux-Quantum](https://github.com/single-flux-quantum)**: [`profile/README.md`](profile/README.md) renders as the organization's public homepage, and [`docs/`](docs/) deploys to **GitHub Pages** as an interactive, client-side searchable and sortable **SFQ Paper Map** covering 1352+ curated research papers on superconducting digital electronics.
 
 - **Repository**: https://github.com/single-flux-quantum/.github
