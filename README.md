@@ -2,23 +2,25 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
 [![GitHub Pages](https://img.shields.io/badge/Pages-SFQ%20Paper%20Map-181717?logo=github)](https://single-flux-quantum.github.io/.github/)
-[![Corpus: 156 Papers](https://img.shields.io/badge/Corpus-156%20Papers-blue)](https://github.com/single-flux-quantum/sfq-lab)
+[![SFQ Learn](https://img.shields.io/badge/Learn-SFQ%20Curriculum-0A7EA4?logo=readthedocs&logoColor=white)](https://single-flux-quantum.github.io/sfq-learn-public/)
+[![Corpus: 1352+ Papers](https://img.shields.io/badge/Corpus-1352%2B%20Papers-blue)](https://github.com/single-flux-quantum/sfq-lab)
 
-Special GitHub organization repository for **[Single-Flux-Quantum](https://github.com/single-flux-quantum)**: [`profile/README.md`](profile/README.md) renders as the organization's public homepage, and [`docs/`](docs/) deploys to **GitHub Pages** as an interactive, client-side searchable and sortable **SFQ Paper Map** covering 156+ curated research papers on superconducting digital electronics.
+Special GitHub organization repository for **[Single-Flux-Quantum](https://github.com/single-flux-quantum)**: [`profile/README.md`](profile/README.md) renders as the organization's public homepage, and [`docs/`](docs/) deploys to **GitHub Pages** as an interactive, client-side searchable and sortable **SFQ Paper Map** covering 1352+ curated research papers on superconducting digital electronics.
 
 - **Repository**: https://github.com/single-flux-quantum/.github
 - **Organization homepage**: https://github.com/single-flux-quantum
 - **Interactive paper map**: https://single-flux-quantum.github.io/.github/
+- **SFQ learning curriculum**: https://single-flux-quantum.github.io/sfq-learn-public/
 - **Parent lab monorepo**: [single-flux-quantum/sfq-lab](https://github.com/single-flux-quantum/sfq-lab) (syncs this tree from `share/github`)
 - **License**: CC BY 4.0 (see [`LICENSE`](LICENSE))
 
 ## TL;DR
 
 - **Topic**: Single Flux Quantum (SFQ) and superconducting digital electronics research
-- **Total papers**: 156 curated and analyzed papers (1989–2026)
+- **Total papers**: 1352 curated catalog entries (export from `sfq-lab/papers`)
 - **Modality**: Structured bibliographic database (`papers.json`), static org homepage (`profile/README.md`), and client-side web application (`docs/index.html`)
+- **Learning**: Beginner curriculum in [sfq-learn-public](https://github.com/single-flux-quantum/sfq-learn-public)
 - **Research domains**: 9 core categories (Circuits & Logic, Cryo-EDA, Clocking & Power, Hybrid CMOS Interfaces, Cryo-Memory, Compute/Processors, Quantum & Detectors, Sensors & Metrology, Cell Libraries)
-- **Primary venues**: IEEE Trans. Appl. Supercond. (151), IEEE TCAD (2), IEEE TVLSI (2), Supercond. Sci. Technol. (1)
 - **Deployment**: Zero-dependency static site hosted on GitHub Pages via Actions or direct branch deployment
 - **Synchronization**: Automated regeneration from parent lab via `python scripts/export_papers_catalog.py`
 - **Citation**: See [Citation](#citation) below
