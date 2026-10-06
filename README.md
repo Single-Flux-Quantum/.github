@@ -74,7 +74,7 @@ Special GitHub organization repository for **[Single-Flux-Quantum](https://githu
 ├── docs/
 │   ├── .nojekyll                 # Disables Jekyll build engine on Pages
 │   ├── index.html                # Interactive Paper Map single-page app
-│   └── papers.json               # 156-paper catalog database
+│   └── papers.json               # 1352+ paper catalog database
 ├── profile/
 │   └── README.md                 # Public GitHub org homepage
 ├── LICENSE                       # CC BY 4.0 license deed notice
@@ -120,42 +120,21 @@ Each item in [`docs/papers.json`](docs/papers.json) contains the following field
 
 ## Stats and Distribution
 
-### Temporal distribution
-
-The 156 papers span foundational milestones through 2026 state-of-the-art:
-
-| Timeframe | Paper Count | Representative Focus |
-| :--- | :---: | :--- |
-| **2023–2026** | 50 | Millikelvin qubit controllers, 50-GFLOPS FPUs, InductEx crosstalk mitigation, 4-Nb cell libraries |
-| **2019–2022** | 68 | qSTA/qSSTA timing analysis, current recycling, hybrid CMOS memory interfaces, PTL routing |
-| **2015–2018** | 24 | ERSFQ low-power benchmarking, sub-flux feedback SQUIDs, gate-level pipelining |
-| **Prior to 2015** | 14 | Foundational RSFQ logic families, early Josephson DAC/ADCs, latching drivers |
-| **Total** | **156** | **Complete corpus** |
-
-### Publication venues
-
-| Venue | Count | Share |
-| :--- | :---: | :---: |
-| IEEE Transactions on Applied Superconductivity (*IEEE Trans. Appl. Supercond.*) | 151 | 96.8% |
-| IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (*IEEE TCAD*) | 2 | 1.3% |
-| IEEE Transactions on Very Large Scale Integration Systems (*IEEE TVLSI*) | 2 | 1.3% |
-| Superconductor Science and Technology (*Supercond. Sci. Technol.*) | 1 | 0.6% |
-
-### Research domain coverage
+The catalog currently holds **1352+** curated entries spanning foundational milestones through 2026 state-of-the-art. Use the **[Interactive SFQ Paper Map](https://single-flux-quantum.github.io/.github/)** for live counts, year filters, venue breakdown, and multi-domain tagging — static README tables are not regenerated on every export.
 
 Papers are classified using multi-label tagging across 9 core SFQ sub-disciplines:
 
-| Domain Slug | Display Name | Papers Tagged |
-| :--- | :--- | :---: |
-| `quantum-and-detectors` | Quantum Control & Detector Readout | 144 |
-| `clocking-and-power` | Clocking & Power Distribution Networks | 131 |
-| `cryo-memory` | Cryogenic Memory & Storage Systems | 129 |
-| `circuits-and-logic` | Logic Families (RSFQ, ERSFQ, AQFP, 4JL) | 116 |
-| `compute-architectures` | Microprocessors & Digital Compute | 98 |
-| `cell-library-and-fabrication` | Cell Libraries & Fabrication Processes | 77 |
-| `hybrid-interfaces` | Superconductor–Semiconductor Interfaces | 72 |
-| `cryo-eda` | Cryogenic Electronic Design Automation (EDA) | 57 |
-| `sensors-and-metrology` | Sensors, Metrology & Voltage Standards | 24 |
+| Domain Slug | Display Name |
+| :--- | :--- |
+| `quantum-and-detectors` | Quantum Control & Detector Readout |
+| `clocking-and-power` | Clocking & Power Distribution Networks |
+| `cryo-memory` | Cryogenic Memory & Storage Systems |
+| `circuits-and-logic` | Logic Families (RSFQ, ERSFQ, AQFP, 4JL) |
+| `compute-architectures` | Microprocessors & Digital Compute |
+| `cell-library-and-fabrication` | Cell Libraries & Fabrication Processes |
+| `hybrid-interfaces` | Superconductor–Semiconductor Interfaces |
+| `cryo-eda` | Cryogenic Electronic Design Automation (EDA) |
+| `sensors-and-metrology` | Sensors, Metrology & Voltage Standards |
 
 ## Quick Start
 
