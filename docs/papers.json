@@ -11535,6 +11535,21 @@
     "doi": ""
   },
   {
+    "slug": "investigation-of-non-inductive-bifilar-pancake-sfcl-losses-in-electric-aircraft-cryogenic-propulsion",
+    "title": "Investigation of Non-Inductive Bifilar Pancake SFCL Losses in Electric Aircraft Cryogenic Propulsion",
+    "authors": "Mingxuan Sui, Xianwu Zeng, Jiawen Xi, Wenkai Yan, Xiaoze Pei",
+    "year": "2026",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "cryo-memory, compute-architectures",
+    "categories": [
+      "cryo-memory",
+      "compute-architectures"
+    ],
+    "innovation": "Measures AC losses of a non-inductive bifilar YBCO pancake R-SFCL in sub-cooled LN2 (77–65 K) vs Norris strip models.",
+    "url": "https://doi.org/10.1109/TASC.2026.3671233",
+    "doi": "10.1109/TASC.2026.3671233"
+  },
+  {
     "slug": "investigation-of-passive-transmission-lines-for-the-mit-ll-sfq5ee-process",
     "title": "Investigation Of Passive Transmission Lines For The Mit Ll Sfq5Ee Process",
     "authors": "",
@@ -12872,7 +12887,7 @@
   },
   {
     "slug": "meissner-levitation-of-a-millimeter-size-neodymium-magnet-within-a-superconducting-radio-frequency-cavity",
-    "title": "Meissner Levitation of a Millimeter-Size Neodymium Magnet Within a Superconducting Radio Frequency Cavity",
+    "title": "Meissner Levitation Of A Millimeter Size Neodymium Magnet Within A Superconducting Radio Frequency Cavity",
     "authors": "N. K. Raut, J. Miller, J. Pate, R. Chiao, J. E. Sharping",
     "year": "2021",
     "venue": "IEEE Trans. Appl. Supercond.",
@@ -18333,6 +18348,20 @@
     "innovation": "",
     "url": "https://doi.org/10.1109/TASC.2022.3168801",
     "doi": "10.1109/TASC.2022.3168801"
+  },
+  {
+    "slug": "status-of-the-25-t-100-mm-bore-hts-solenoid-for-an-axion-dark-matter-search-experiment",
+    "title": "Status Of The 25 T 100 Mm Bore Hts Solenoid For An Axion Dark Matter Search Experiment",
+    "authors": "",
+    "year": "",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "circuits-and-logic",
+    "categories": [
+      "circuits-and-logic"
+    ],
+    "innovation": "",
+    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/status-of-the-25-t-100-mm-bore-hts-solenoid-for-an-axion-dark-matter-search-experiment/analysis.md",
+    "doi": ""
   },
   {
     "slug": "stochastic-simulation-of-sfq-logic",
