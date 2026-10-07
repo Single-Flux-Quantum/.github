@@ -18351,17 +18351,17 @@
   },
   {
     "slug": "status-of-the-25-t-100-mm-bore-hts-solenoid-for-an-axion-dark-matter-search-experiment",
-    "title": "Status Of The 25 T 100 Mm Bore Hts Solenoid For An Axion Dark Matter Search Experiment",
-    "authors": "",
-    "year": "",
+    "title": "Status of the 25 T, 100 mm Bore HTS Solenoid for an Axion Dark Matter Search Experiment",
+    "authors": "R. Gupta, M. Anerella, J. Cozzolino, P. Joshi, S. Joshi, S. Plate, W. Sampson, H. Song, P. Wanderer, W. Chung, J. Kim, B. R. Ko, S. W. Youn, Y. K. Semertzidis",
+    "year": "2019",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "compute-architectures",
     "categories": [
-      "circuits-and-logic"
+      "compute-architectures"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/status-of-the-25-t-100-mm-bore-hts-solenoid-for-an-axion-dark-matter-search-experiment/analysis.md",
-    "doi": ""
+    "innovation": "Design status for a 25 T / 100 mm-bore all-HTS no-insulation solenoid for IBS/CAPP axion search (BNL build).",
+    "url": "https://doi.org/10.1109/TASC.2019.2902319",
+    "doi": "10.1109/TASC.2019.2902319"
   },
   {
     "slug": "stochastic-simulation-of-sfq-logic",
@@ -20722,6 +20722,20 @@
     ],
     "innovation": "",
     "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/very-small-critical-current-spreads-in-nb-al-alox-nb-integrated-circuits-using-low-temperature-and-low-stress-ecr-pecvd-silicon-oxide-films/analysis.md",
+    "doi": ""
+  },
+  {
+    "slug": "voltage-current-behavior-of-a-superconducting-star-wire-in-a-6-around-1-cable-configuration",
+    "title": "Voltage Current Behavior Of A Superconducting Star Wire In A 6 Around 1 Cable Configuration",
+    "authors": "",
+    "year": "",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "circuits-and-logic",
+    "categories": [
+      "circuits-and-logic"
+    ],
+    "innovation": "",
+    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/voltage-current-behavior-of-a-superconducting-star-wire-in-a-6-around-1-cable-configuration/analysis.md",
     "doi": ""
   },
   {
