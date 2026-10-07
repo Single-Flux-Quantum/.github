@@ -14365,6 +14365,20 @@
     "doi": ""
   },
   {
+    "slug": "on-chip-resonator-for-nonlinear-kinetic-inductance-characterization-and-future-spectrometry-applications",
+    "title": "On Chip Resonator For Nonlinear Kinetic Inductance Characterization And Future Spectrometry Applications",
+    "authors": "",
+    "year": "",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "quantum-and-detectors",
+    "categories": [
+      "quantum-and-detectors"
+    ],
+    "innovation": "",
+    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/on-chip-resonator-for-nonlinear-kinetic-inductance-characterization-and-future-spectrometry-applications/analysis.md",
+    "doi": ""
+  },
+  {
     "slug": "on-using-finite-segment-methods-and-images-to-establish-the-effect-of-gate-structures-on-inter-junction-inductances-in-rsfq-circuits",
     "title": "On Using Finite Segment Methods And Images To Establish The Effect Of Gate Structures On Inter Junction Inductances In Rsfq Circuits",
     "authors": "",
@@ -19039,17 +19053,20 @@
   },
   {
     "slug": "supergan-synthesis-of-nbtingannbtin-tunnel-junctions",
-    "title": "Supergan Synthesis Of Nbtingannbtin Tunnel Junctions",
-    "authors": "",
-    "year": "",
+    "title": "SuperGaN: Synthesis of NbTiN/GaN/NbTiN Tunnel Junctions",
+    "authors": "Michael Cyberey, Scott Hinton, Christopher Moore, Robert M. Weikle; Arthur W. Lichtenberger",
+    "year": "2024",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
-      "circuits-and-logic"
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "compute-architectures",
+      "quantum-and-detectors"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/supergan-synthesis-of-nbtingannbtin-tunnel-junctions/analysis.md",
-    "doi": ""
+    "innovation": "First reported NbTiN/GaN/NbTiN SIS junctions grown by room-temperature RBTIBD with underdamped I(V) curves.",
+    "url": "https://doi.org/10.1109/TASC.2023.3330000",
+    "doi": "10.1109/TASC.2023.3330000"
   },
   {
     "slug": "supervoxhenry-tucker-enhanced-and-fft-accelerated-inductance-extraction-for-voxelized-superconducting-structures",
