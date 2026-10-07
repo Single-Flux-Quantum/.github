@@ -3091,17 +3091,21 @@
   },
   {
     "slug": "an-optoelectronic-testing-system-of-rapid-single-flux-quantum-circuits",
-    "title": "An Optoelectronic Testing System Of Rapid Single Flux Quantum Circuits",
-    "authors": "",
-    "year": "",
+    "title": "An Optoelectronic Testing System of Rapid, Single-Flux Quantum Circuits",
+    "authors": "Marc Currie, Chia-Chi Wang, Douglas Jacobs-Perkins, Roman Sobolewski, Thomas Y. Hsiang",
+    "year": "1995",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
-      "quantum-and-detectors"
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "compute-architectures",
+      "quantum-and-detectors",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-optoelectronic-testing-system-of-rapid-single-flux-quantum-circuits/analysis.md",
-    "doi": ""
+    "innovation": "MSM photodiode on a superconducting microstrip launches picosecond pulses into a two-JJ shaper that forms SFQ pulses.",
+    "url": "https://doi.org/10.1109/77.403185",
+    "doi": "10.1109/77.403185"
   },
   {
     "slug": "an-rsfq-dc-resettable-latch-for-building-memory-and-reprogrammable-circuits",
@@ -3447,17 +3451,19 @@
   },
   {
     "slug": "application-of-credit-based-flow-control-to-rsfq-micropipelines",
-    "title": "Application Of Credit Based Flow Control To Rsfq Micropipelines",
-    "authors": "",
-    "year": "",
+    "title": "Application of Credit-Based Flow Control to RSFQ Micropipelines",
+    "authors": "Dmitry Y. Zinoviev, M. Maezawa",
+    "year": "1999",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "clocking-and-power, compute-architectures",
     "categories": [
+      "clocking-and-power",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/application-of-credit-based-flow-control-to-rsfq-micropipelines/analysis.md",
-    "doi": ""
+    "innovation": "Traditional RSFQ micropipeline handshake throughput is capped by stage-to-stage round-trip (e.g. ~3.5 GHz across a 2 cm chip).",
+    "url": "https://doi.org/10.1109/77.783701",
+    "doi": "10.1109/77.783701"
   },
   {
     "slug": "application-of-hts-bscco-tapes-in-an-ironless-axial-flux-superconductor-motor",
