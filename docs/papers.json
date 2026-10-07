@@ -13261,6 +13261,20 @@
     "doi": ""
   },
   {
+    "slug": "modelling-of-a-high-temperature-superconductor-hvdc-cable-under-transient-conditions",
+    "title": "Modelling Of A High Temperature Superconductor Hvdc Cable Under Transient Conditions",
+    "authors": "",
+    "year": "",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "circuits-and-logic",
+    "categories": [
+      "circuits-and-logic"
+    ],
+    "innovation": "",
+    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/modelling-of-a-high-temperature-superconductor-hvdc-cable-under-transient-conditions/analysis.md",
+    "doi": ""
+  },
+  {
     "slug": "modular-multi-function-digital-rf-receiver-systems",
     "title": "Modular Multi Function Digital Rf Receiver Systems",
     "authors": "",
@@ -19547,6 +19561,21 @@
     "doi": ""
   },
   {
+    "slug": "testing-of-surface-mounted-superconducting-stacks-as-trapped-flux-magnets-in-a-synchronous-machine",
+    "title": "Testing of Surface Mounted Superconducting Stacks as Trapped-Flux Magnets in a Synchronous Machine",
+    "authors": "Vicente Climente-Alarcon, Anis Smara, Lukasz Tomkow, Bartek A. Glowacki",
+    "year": "2020",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "hybrid-interfaces, compute-architectures",
+    "categories": [
+      "hybrid-interfaces",
+      "compute-architectures"
+    ],
+    "innovation": "LN2 test of a modified synchronous machine with 8 surface-mounted AMSC (RE)BCO tape stacks as trapped-flux rotor magnets.",
+    "url": "https://doi.org/10.1109/TASC.2020.2976603",
+    "doi": "10.1109/TASC.2020.2976603"
+  },
+  {
     "slug": "the-0-and-pi-contact-array-model-of-bicrystal-junctions-and-interferometers",
     "title": "The 0 And Pi Contact Array Model Of Bicrystal Junctions And Interferometers",
     "authors": "",
@@ -20726,17 +20755,19 @@
   },
   {
     "slug": "voltage-current-behavior-of-a-superconducting-star-wire-in-a-6-around-1-cable-configuration",
-    "title": "Voltage Current Behavior Of A Superconducting Star Wire In A 6 Around 1 Cable Configuration",
-    "authors": "",
-    "year": "",
+    "title": "Voltage-Current Behavior of a Superconducting STAR® Wire in a 6-Around-1 Cable Configuration",
+    "authors": "Atik Chavda, Paolo Ferracin, Hugh Higley, Nghia Mai, Goran Majkic, Prakash Parthiban, Jithin Peram, Soren Prestemon, Umesh Sambangi, Jithin Sai Sandra, Kala Selvamanickam, Venkat Selvamanickam, Xiaorong Wang",
+    "year": "2025",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-memory, compute-architectures",
     "categories": [
-      "circuits-and-logic"
+      "cryo-memory",
+      "compute-architectures",
+      "cell-library-and-fabrication"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/voltage-current-behavior-of-a-superconducting-star-wire-in-a-6-around-1-cable-configuration/analysis.md",
-    "doi": ""
+    "innovation": "Three 6-around-1 cables each with one 1.3 mm STAR® wire (4 REBCO tapes) tested at 77 K self-field.",
+    "url": "https://doi.org/10.1109/TASC.2025.3531249",
+    "doi": "10.1109/TASC.2025.3531249"
   },
   {
     "slug": "wafer-bumping-process-and-inter-chip-connections-for-ultra-high-data-transfer-rates-in-multi-chip-modules-with-superconductor-integrated-circuits",
