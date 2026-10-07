@@ -12975,17 +12975,19 @@
   },
   {
     "slug": "microwave-properties-of-superconducting-atomic-layer-deposited-tin-films",
-    "title": "Microwave Properties Of Superconducting Atomic Layer Deposited Tin Films",
-    "authors": "",
-    "year": "",
+    "title": "Microwave Properties of Superconducting Atomic-Layer Deposited TiN Films",
+    "authors": "P. C. J. J. Coumou, M. R. Zuiddam, E. F. C. Driessen, P. J. de Visser, J. J. A. Baselmans, T. M. Klapwijk",
+    "year": "2012",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-memory, compute-architectures",
     "categories": [
-      "circuits-and-logic"
+      "cryo-memory",
+      "compute-architectures",
+      "quantum-and-detectors"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/microwave-properties-of-superconducting-atomic-layer-deposited-tin-films/analysis.md",
-    "doi": ""
+    "innovation": "Plasma-assisted ALD grows superconducting TiN films (6–89 nm) with thickness-tunable resistivity ($120$–$380\\,\\mu\\Omega\\mathrm{cm}$) and $T_c$ ($1.5$–$3.6\\,\\mathrm{K}$).",
+    "url": "https://doi.org/10.1063/1.3480420",
+    "doi": "10.1063/1.3480420"
   },
   {
     "slug": "microwave-surface-impedance-of-a-bi-sub-2-sr-sub-2-cacu-sub-2-o-sub-8-single-crystal-and-derivation-of-rho-sub-c-t-b",
@@ -13588,6 +13590,22 @@
     "innovation": "",
     "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/nano-strip-three-terminal-superconducting-device-for-cryogenic-detector-readout/analysis.md",
     "doi": ""
+  },
+  {
+    "slug": "nanoscale-electrodynamic-response-of-nb-superconductors",
+    "title": "Nanoscale Electrodynamic Response of Nb Superconductors",
+    "authors": "Tamin Tai, Behnood G. Ghamsari, Steven M. Anlage",
+    "year": "2012",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "cryo-eda, compute-architectures",
+    "categories": [
+      "cryo-eda",
+      "compute-architectures",
+      "quantum-and-detectors"
+    ],
+    "innovation": "Integrates a commercial hard-disk magnetic write head into a cryogenic near-field microwave microscope to probe Nb locally at GHz frequencies and RF fields up to ~$H_c$.",
+    "url": "https://doi.org/10.1109/tasc.2003.813694",
+    "doi": "10.1109/tasc.2003.813694"
   },
   {
     "slug": "nb-al-nb-junctions-with-a-wide-range-of-characteristic-voltages-for-superconducting-electronic-applications",
@@ -17417,6 +17435,22 @@
     "innovation": "",
     "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/short-term-frequency-stability-of-rsfq-ring-oscillators/analysis.md",
     "doi": ""
+  },
+  {
+    "slug": "shunt-controlled-resistive-state-of-superconducting-wires",
+    "title": "Shunt-Controlled Resistive State of Superconducting Wires",
+    "authors": "K. Harrabi, Z. Alzoubi, L. R. Cadorim, M. V. Milošević",
+    "year": "2026",
+    "venue": "arXiv preprint (cond-mat.supr-con)",
+    "category": "clocking-and-power, compute-architectures",
+    "categories": [
+      "clocking-and-power",
+      "compute-architectures",
+      "quantum-and-detectors"
+    ],
+    "innovation": "Pulsed $I$–$V$ of 20 nm × 10 µm NbTiN strips with off-chip shunts $R_\\mathrm{sh}\\in\\{0.03,0.05,0.075,1.3\\}\\,\\Omega$ shows two resistive stages and a negative-differential-resistance jump between them.",
+    "url": "https://doi.org/10.1126/science.1090390",
+    "doi": "10.1126/science.1090390"
   },
   {
     "slug": "shunting-yba-2-cu-3-o-7-x-josephson-junctions-and-arrays-fabricated-by-he-fib",
