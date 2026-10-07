@@ -2561,17 +2561,21 @@
   },
   {
     "slug": "advanced-fabrication-processes-for-superconductor-electronics-current-status-and-new-developments",
-    "title": "Advanced Fabrication Processes For Superconductor Electronics Current Status And New Developments",
-    "authors": "",
-    "year": "",
+    "title": "Advanced Fabrication Processes for Superconductor Electronics: Current Status and New Developments",
+    "authors": "Sergey K. Tolpygo, Vladimir Bolkhovsky, Ravi Rastogi, Scott Zarr, Alexandra L. Day, Evan Golden, Terence J. Weir, Alex Wynn, Leonard M. Johnson",
+    "year": "2019",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cell-library-and-fabrication",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
+      "cryo-eda",
+      "clocking-and-power",
+      "cryo-memory",
+      "compute-architectures",
       "cell-library-and-fabrication"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/advanced-fabrication-processes-for-superconductor-electronics-current-status-and-new-developments/analysis.md",
-    "doi": ""
+    "innovation": "Reviews MIT LL SFQ*ee planarized Nb processes (SFQ3ee-SFQ6ee) on 200 mm wafers and root causes of JJ nonuniformity (stress, bow/warp, topography).",
+    "url": "https://doi.org/10.1109/TASC.2019.2904919",
+    "doi": "10.1109/TASC.2019.2904919"
   },
   {
     "slug": "advanced-fluxonics-process-cj2-based-on-sub-m-sized-cross-type-nb-alox-nb-josephson-junctions-for-mixed-signal-circuits",
@@ -2681,17 +2685,19 @@
   },
   {
     "slug": "all-refractory-nbn-integrated-circuit-process",
-    "title": "All Refractory Nbn Integrated Circuit Process",
-    "authors": "",
-    "year": "",
+    "title": "All Refractory NbN Integrated Circuit Process",
+    "authors": "S. L. Thomasson, A. W. Moopenn, R. Elmadjian, J. M. Murduck, J. W. Spargo, L. A. Abelson, H. W. Chan",
+    "year": "1993",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-memory, compute-architectures",
     "categories": [
-      "circuits-and-logic"
+      "cryo-memory",
+      "compute-architectures",
+      "cell-library-and-fabrication"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/all-refractory-nbn-integrated-circuit-process/analysis.md",
-    "doi": ""
+    "innovation": "Eight-mask, all-refractory NbN/MgO/NbN IC process (min JJ 2.5 x 2.5 um2) with Mo resistors and two-level SiO2 dielectric.",
+    "url": "https://doi.org/10.1109/77.233452",
+    "doi": "10.1109/77.233452"
   },
   {
     "slug": "alternating-over-current-characteristics-of-htsc-tape-using-dft",
@@ -3096,17 +3102,20 @@
   {
     "slug": "an-rsfq-dc-resettable-latch-for-building-memory-and-reprogrammable-circuits",
     "title": "An Rsfq Dc Resettable Latch For Building Memory And Reprogrammable Circuits",
-    "authors": "",
-    "year": "",
+    "authors": "Coenrad Johann Fourie, Willem Jakobus Perold",
+    "year": "2005",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-memory, circuits-and-logic",
+    "category": "cryo-eda, hybrid-interfaces",
     "categories": [
+      "cryo-eda",
+      "hybrid-interfaces",
       "cryo-memory",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-rsfq-dc-resettable-latch-for-building-memory-and-reprogrammable-circuits/analysis.md",
-    "doi": ""
+    "innovation": "Introduces the DC-Resettable Latch (DCRL): NDRO-like RSFQ cell reset by a shared dc current/pulse instead of SFQ Reset distribution.",
+    "url": "https://doi.org/10.1109/TASC.2005.849831",
+    "doi": "10.1109/TASC.2005.849831"
   },
   {
     "slug": "an-rsfq-physical-synthesis-framework-for-superconductor-3-d-logic-process",
@@ -3125,33 +3134,39 @@
   },
   {
     "slug": "an-rsfq-superconductive-programmable-gate-array",
-    "title": "An Rsfq Superconductive Programmable Gate Array",
-    "authors": "",
-    "year": "",
+    "title": "An RSFQ Superconductive Programmable Gate Array",
+    "authors": "Coenrad J. Fourie, Hein van Heerden",
+    "year": "2007",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-memory, circuits-and-logic",
+    "category": "cryo-eda, hybrid-interfaces",
     "categories": [
+      "cryo-eda",
+      "hybrid-interfaces",
       "cryo-memory",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-rsfq-superconductive-programmable-gate-array/analysis.md",
-    "doi": ""
+    "innovation": "First reported FPGA-style Superconducting Programmable Gate Array (SPGA) in RSFQ: ~4200 junctions, 2-input LUT-based logic blocks, SRAM-like volatile switch memory.",
+    "url": "https://doi.org/10.1109/TASC.2007.897387",
+    "doi": "10.1109/TASC.2007.897387"
   },
   {
     "slug": "an-rsfq-variable-duty-cycle-oscillator-for-driving-a-superconductive-qubit",
-    "title": "An Rsfq Variable Duty Cycle Oscillator For Driving A Superconductive Qubit",
-    "authors": "",
-    "year": "",
+    "title": "An RSFQ Variable Duty Cycle Oscillator for Driving a Superconductive Qubit",
+    "authors": "Donald S. Crankshaw, Jonathan L. Habif, Xingxiang Zhou, Terry P. Orlando, Marc J. Feldman, Mark F. Bocko",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors, circuits-and-logic",
+    "category": "clocking-and-power, cryo-memory",
     "categories": [
+      "clocking-and-power",
+      "cryo-memory",
+      "compute-architectures",
       "quantum-and-detectors",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-rsfq-variable-duty-cycle-oscillator-for-driving-a-superconductive-qubit/analysis.md",
-    "doi": ""
+    "innovation": "RSFQ variable-duty-cycle oscillator: 8 GHz JTL ring clocks an NDRO gated by two out-of-phase 13-bit TFF counters (~1 us period).",
+    "url": "https://doi.org/10.1109/TASC.2003.814115",
+    "doi": "10.1109/TASC.2003.814115"
   },
   {
     "slug": "an-rtl-to-gdsii-flow-for-single-flux-quantum-circuits-based-on-an-industrial-eda-toolchain",
@@ -3484,18 +3499,21 @@
   },
   {
     "slug": "architectural-and-implementation-challenges-in-designing-high-performance-rsfq-processors-a-flux-1-microprocessor-and-beyond",
-    "title": "Architectural And Implementation Challenges In Designing High Performance Rsfq Processors A Flux 1 Microprocessor And Beyond",
-    "authors": "",
-    "year": "",
+    "title": "Architectural and Implementation Challenges in Designing High-Performance RSFQ Processors: A FLUX-1 Microprocessor and Beyond",
+    "authors": "Mikhail Dorojevets, Paul Bunyk",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "compute-architectures, circuits-and-logic",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "cryo-memory",
       "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/architectural-and-implementation-challenges-in-designing-high-performance-rsfq-processors-a-flux-1-microprocessor-and-beyond/analysis.md",
-    "doi": ""
+    "innovation": "Architecture/status paper for the first 8-bit FLUX-1 RSFQ microprocessor targeting 20 GHz in TRW 4 kA/cm2, 1.75 um Nb (2001-2002).",
+    "url": "https://doi.org/10.1109/TASC.2003.813893",
+    "doi": "10.1109/TASC.2003.813893"
   },
   {
     "slug": "architectural-considerations-in-the-design-of-a-superconducting-quantum-annealing-processor",
