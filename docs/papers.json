@@ -13186,6 +13186,23 @@
     "doi": ""
   },
   {
+    "slug": "modeling-of-thermal-quench-in-superconducting-rf-cavities",
+    "title": "Modeling of Thermal Quench in Superconducting RF Cavities",
+    "authors": "Mohamed H. Awida, Ivan Gonin, Timergali Khabiboulline, Vyacheslav P. Yakovlev",
+    "year": "2020",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "hybrid-interfaces, cryo-memory",
+    "categories": [
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
+      "cell-library-and-fabrication"
+    ],
+    "innovation": "Coupled EM–thermal COMSOL workflow predicts defect-free thermal quench fields in Nb SRF cavities, including nonlinear cryogenic material properties and Kapitza He–Nb interface resistance.",
+    "url": "https://doi.org/10.1109/TASC.2020.2978437",
+    "doi": "10.1109/TASC.2020.2978437"
+  },
+  {
     "slug": "modeling-the-effect-of-fabrication-process-on-grain-boundary-formation-in-nb-al-alo-x-nb-josephson-junction-circuit",
     "title": "Modeling The Effect Of Fabrication Process On Grain Boundary Formation In Nb Al Alo X Nb Josephson Junction Circuit",
     "authors": "",
@@ -15309,6 +15326,22 @@
     "innovation": "",
     "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/possible-application-of-flash-type-sfq-a-d-converter-to-optical-communication-systems-and-their-measuring-instruments/analysis.md",
     "doi": ""
+  },
+  {
+    "slug": "possible-indications-of-electronic-inhomogeneities-in-superconducting-nanowire-detectors",
+    "title": "Possible Indications of Electronic Inhomogeneities in Superconducting Nanowire Detectors",
+    "authors": "H. L. Hortensius, E. F. C. Driessen, T. M. Klapwijk",
+    "year": "2012",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "compute-architectures, quantum-and-detectors",
+    "categories": [
+      "compute-architectures",
+      "quantum-and-detectors",
+      "cell-library-and-fabrication"
+    ],
+    "innovation": "NbTiN SNSPD-style nanowires show sample-specific steplike retrapping $I$–$V$ patterns when current is lowered from the normal state; patterns persist after removing sharp corners / geometry constriction.",
+    "url": "https://doi.org/10.1088/0953-2048/25/6/063001",
+    "doi": "10.1088/0953-2048/25/6/063001"
   },
   {
     "slug": "postrouting-optimization-of-the-working-clock-frequency-of-single-flux-quantum-circuits",
@@ -19360,6 +19393,20 @@
     ],
     "innovation": "",
     "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/technology-related-timing-jitter-in-superconducting-electronics/analysis.md",
+    "doi": ""
+  },
+  {
+    "slug": "temperature-dependences-of-the-surface-resistance-and-the-diamagnetic-shielding-susceptibility-at-tsub-c-t-tsub-c-for-high-tsub-c-superconductors",
+    "title": "Temperature Dependences Of The Surface Resistance And The Diamagnetic Shielding Susceptibility At Tsub C T Tsub C For High Tsub C Superconductors",
+    "authors": "",
+    "year": "",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "circuits-and-logic",
+    "categories": [
+      "circuits-and-logic"
+    ],
+    "innovation": "",
+    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/temperature-dependences-of-the-surface-resistance-and-the-diamagnetic-shielding-susceptibility-at-tsub-c-t-tsub-c-for-high-tsub-c-superconductors/analysis.md",
     "doi": ""
   },
   {
