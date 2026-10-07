@@ -13202,6 +13202,21 @@
     "doi": ""
   },
   {
+    "slug": "modeling-of-stator-versus-magnet-width-effects-in-high-t-c-superconducting-dynamos",
+    "title": "Modeling of Stator versus Magnet Width Effects in High-Tc Superconducting Dynamos",
+    "authors": "Ratu Mataira, Mark D. Ainslie, Rod Badcock, Chris W. Bumby",
+    "year": "2020",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "compute-architectures, sensors-and-metrology",
+    "categories": [
+      "compute-architectures",
+      "sensors-and-metrology"
+    ],
+    "innovation": "2D H-formulation FEM sweep of HTS dynamo stator width w = 6-60 mm at fixed magnet width 6 mm.",
+    "url": "https://doi.org/10.1109/TASC.2020.2979391",
+    "doi": "10.1109/TASC.2020.2979391"
+  },
+  {
     "slug": "modeling-of-superconducting-passive-transmission-lines",
     "title": "Modeling Of Superconducting Passive Transmission Lines",
     "authors": "",
@@ -20559,17 +20574,18 @@
   },
   {
     "slug": "two-dimensional-model-of-a-high-t-c-superconducting-dynamo",
-    "title": "Two Dimensional Model Of A High T C Superconducting Dynamo",
-    "authors": "",
-    "year": "",
+    "title": "Two-Dimensional Model of a High-Tc Superconducting Dynamo",
+    "authors": "Leonid Prigozhin, Vladimir Sokolovsky",
+    "year": "2021",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-memory, compute-architectures",
     "categories": [
-      "circuits-and-logic"
+      "cryo-memory",
+      "compute-architectures"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/two-dimensional-model-of-a-high-t-c-superconducting-dynamo/analysis.md",
-    "doi": ""
+    "innovation": "2D thin-film model of an HTS dynamo: PM on rotor induces loop currents/fields in a coated-conductor stator strip.",
+    "url": "https://doi.org/10.1109/TASC.2021.3055586",
+    "doi": "10.1109/TASC.2021.3055586"
   },
   {
     "slug": "two-loop-modulator-for-sigma-delta-analog-to-digital-converter",
