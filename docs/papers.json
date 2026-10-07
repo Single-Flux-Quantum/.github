@@ -12974,6 +12974,20 @@
     "doi": ""
   },
   {
+    "slug": "microwave-properties-of-superconducting-atomic-layer-deposited-tin-films",
+    "title": "Microwave Properties Of Superconducting Atomic Layer Deposited Tin Films",
+    "authors": "",
+    "year": "",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "circuits-and-logic",
+    "categories": [
+      "circuits-and-logic"
+    ],
+    "innovation": "",
+    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/microwave-properties-of-superconducting-atomic-layer-deposited-tin-films/analysis.md",
+    "doi": ""
+  },
+  {
     "slug": "microwave-surface-impedance-of-a-bi-sub-2-sr-sub-2-cacu-sub-2-o-sub-8-single-crystal-and-derivation-of-rho-sub-c-t-b",
     "title": "Microwave Surface Impedance Of A Bi Sub 2 Sr Sub 2 Cacu Sub 2 O Sub 8 Single Crystal And Derivation Of Rho Sub C T B",
     "authors": "",
@@ -14366,17 +14380,20 @@
   },
   {
     "slug": "on-chip-resonator-for-nonlinear-kinetic-inductance-characterization-and-future-spectrometry-applications",
-    "title": "On Chip Resonator For Nonlinear Kinetic Inductance Characterization And Future Spectrometry Applications",
-    "authors": "",
-    "year": "",
-    "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors",
+    "title": "On-Chip Resonator for Nonlinear Kinetic Inductance Characterisation and Future Spectrometry Applications",
+    "authors": "Patrick Ashworth, Peter S. Barry, Chris S. Benson, Harry Gordon-Moys, Izaak Morris",
+    "year": "2026",
+    "venue": "arXiv preprint (astro-ph.IM)",
+    "category": "clocking-and-power, cryo-memory",
     "categories": [
+      "clocking-and-power",
+      "cryo-memory",
+      "compute-architectures",
       "quantum-and-detectors"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/on-chip-resonator-for-nonlinear-kinetic-inductance-characterization-and-future-spectrometry-applications/analysis.md",
-    "doi": ""
+    "innovation": "Designs and fabricates a DC-biased inductively coupled Al CPW resonator on SiN dielectric to extract nonlinear kinetic-inductance scales $I_2^*$ and $I_4^*$ from frequency shifts.",
+    "url": "https://doi.org/10.1063/1.4927444",
+    "doi": "10.1063/1.4927444"
   },
   {
     "slug": "on-using-finite-segment-methods-and-images-to-establish-the-effect-of-gate-structures-on-inter-junction-inductances-in-rsfq-circuits",
