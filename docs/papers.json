@@ -3055,18 +3055,22 @@
   },
   {
     "slug": "an-operand-routing-network-for-an-sfq-reconfigurable-data-paths-processor",
-    "title": "An Operand Routing Network For An Sfq Reconfigurable Data Paths Processor",
-    "authors": "",
-    "year": "",
+    "title": "An Operand Routing Network for an SFQ Reconfigurable Data-Paths Processor",
+    "authors": "Irina Kataeva, Hiroyuki Akaike, Akira Fujimaki, Nobuyuki Yoshikawa, Naofumi Takagi, Koji Inoue, Hiroaki Honda, Kazuaki Murakami",
+    "year": "2009",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-eda, compute-architectures",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
       "cryo-eda",
-      "compute-architectures"
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-operand-routing-network-for-an-sfq-reconfigurable-data-paths-processor/analysis.md",
-    "doi": ""
+    "innovation": "Compares NDRO-based vs crossbar-based Operand Routing Networks (ORN) for an SFQ Reconfigurable Data-Paths (SFQ-RDP) FPU array accelerator.",
+    "url": "https://doi.org/10.1109/TASC.2009.2018534",
+    "doi": "10.1109/TASC.2009.2018534"
   },
   {
     "slug": "an-optical-input-module-with-superconducting-single-flux-quantum-circuit-operating-at-1550-nm",
