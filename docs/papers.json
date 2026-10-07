@@ -12871,6 +12871,21 @@
     "doi": ""
   },
   {
+    "slug": "meissner-levitation-of-a-millimeter-size-neodymium-magnet-within-a-superconducting-radio-frequency-cavity",
+    "title": "Meissner Levitation of a Millimeter-Size Neodymium Magnet Within a Superconducting Radio Frequency Cavity",
+    "authors": "N. K. Raut, J. Miller, J. Pate, R. Chiao, J. E. Sharping",
+    "year": "2021",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "compute-architectures, quantum-and-detectors",
+    "categories": [
+      "compute-architectures",
+      "quantum-and-detectors"
+    ],
+    "innovation": "First report of Meissner levitation of a mm-scale Nd magnet inside an Al coaxial quarter-wave SRF cavity (~10 GHz, loaded $Q\\sim1400$).",
+    "url": "https://doi.org/10.1109/TASC.2021.3053206",
+    "doi": "10.1109/TASC.2021.3053206"
+  },
+  {
     "slug": "memoryless-logic-circuit-design-based-on-the-quantum-phase-slip-junctions-for-superconducting-digital-applications",
     "title": "Memoryless Logic Circuit Design Based On The Quantum Phase Slip Junctions For Superconducting Digital Applications",
     "authors": "",
@@ -19397,17 +19412,18 @@
   },
   {
     "slug": "temperature-dependences-of-the-surface-resistance-and-the-diamagnetic-shielding-susceptibility-at-tsub-c-t-tsub-c-for-high-tsub-c-superconductors",
-    "title": "Temperature Dependences Of The Surface Resistance And The Diamagnetic Shielding Susceptibility At Tsub C T Tsub C For High Tsub C Superconductors",
-    "authors": "",
-    "year": "",
+    "title": "Temperature Dependences of the Surface Resistance and the Diamagnetic Shielding Susceptibility at $T_c-T\\ll T_c$ for High-$T_c$ Superconductors",
+    "authors": "Hyun-Tak Kim, Kwang-Yong Kang, Seok-Kil Han",
+    "year": "2001",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-eda, compute-architectures",
     "categories": [
-      "circuits-and-logic"
+      "cryo-eda",
+      "compute-architectures"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/temperature-dependences-of-the-surface-resistance-and-the-diamagnetic-shielding-susceptibility-at-tsub-c-t-tsub-c-for-high-tsub-c-superconductors/analysis.md",
-    "doi": ""
+    "innovation": "Near $T_c$, ZFC shielding susceptibilities of BKBO and YBCO crystals fit $\\chi(T)/\\chi(0)=1-\\exp(-2\\Delta(T)/k_BT)$ (hopping), not the linear BCS $(1-T/T_c)$.",
+    "url": "https://doi.org/10.1109/77.919796",
+    "doi": "10.1109/77.919796"
   },
   {
     "slug": "temperature-dependent-bit-error-rate-of-a-clocked-superconducting-digital-circuit",
