@@ -543,6 +543,35 @@
       background: var(--accent-glow);
     }
 
+    .code-btn {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.2), rgba(99, 102, 241, 0.2));
+      border-color: rgba(56, 189, 248, 0.5);
+      color: var(--accent);
+      font-weight: 700;
+      box-shadow: 0 2px 8px rgba(56, 189, 248, 0.15);
+    }
+
+    .code-btn:hover {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.4), rgba(99, 102, 241, 0.4));
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .project-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.15rem 0.45rem;
+      border-radius: 5px;
+      background: rgba(16, 185, 129, 0.18);
+      color: #10b981;
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+
     .empty-state {
       padding: 4rem 2rem;
       text-align: center;
@@ -778,13 +807,22 @@
 
       function buildDomainFilters(data) {
         const counts = {};
+        let implementedCount = 0;
         data.forEach(p => {
+          if (p.project_url) implementedCount++;
           (p.categories || []).forEach(c => {
             counts[c] = (counts[c] || 0) + 1;
           });
         });
 
         // Populate select
+        if (implementedCount > 0) {
+          const optImp = document.createElement("option");
+          optImp.value = "implemented";
+          optImp.textContent = `⚡ Implemented Projects (${implementedCount})`;
+          domainSelect.appendChild(optImp);
+        }
+
         const domains = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
         domains.forEach(d => {
           const opt = document.createElement("option");
@@ -799,6 +837,16 @@
         allBtn.dataset.domain = "";
         allBtn.textContent = `All (${data.length})`;
         pillsBar.appendChild(allBtn);
+
+        if (implementedCount > 0) {
+          const impBtn = document.createElement("button");
+          impBtn.className = "pill-btn";
+          impBtn.dataset.domain = "implemented";
+          impBtn.style.borderColor = "rgba(56, 189, 248, 0.6)";
+          impBtn.style.color = "var(--accent)";
+          impBtn.textContent = `⚡ Implemented (${implementedCount})`;
+          pillsBar.appendChild(impBtn);
+        }
 
         domains.forEach(d => {
           const btn = document.createElement("button");
@@ -851,7 +899,12 @@
         const query = searchInput.value.trim().toLowerCase();
         
         let filtered = papersData.filter(p => {
-          const matchesCategory = !activeFilter || (p.categories || []).includes(activeFilter);
+          let matchesCategory = true;
+          if (activeFilter === "implemented") {
+            matchesCategory = Boolean(p.project_url);
+          } else if (activeFilter) {
+            matchesCategory = (p.categories || []).includes(activeFilter);
+          }
           if (!matchesCategory) return false;
 
           if (!query) return true;
@@ -862,6 +915,7 @@
             p.venue,
             p.year,
             p.innovation,
+            p.project_url || "",
             (p.categories || []).join(" ")
           ].join(" ").toLowerCase();
 
@@ -889,10 +943,23 @@
                ${p.innovation.length > 140 ? `<button type="button" class="toggle-summary-btn" data-target="innov-${idx}">+ More</button>` : ''}`
             : "";
 
+          const projectBadgeHtml = p.project_url
+            ? `<a href="${escapeHtml(p.project_url)}" target="_blank" rel="noopener noreferrer" class="project-badge" title="Verified Triple-Engine Implementation in GitHub">⚡ Implemented</a>`
+            : "";
+
+          const codeBtnHtml = p.project_url
+            ? `<a href="${escapeHtml(p.project_url)}" class="link-btn code-btn" target="_blank" rel="noopener noreferrer" title="View Models & Simulation Code">⚡ Code</a>`
+            : "";
+
+          const doiBtnHtml = p.url
+            ? `<a href="${escapeHtml(p.url)}" class="link-btn" target="_blank" rel="noopener noreferrer">DOI ↗</a>`
+            : "";
+
           tr.innerHTML = `
             <td class="col-title">
               <div class="paper-title">
-                <a href="${escapeHtml(p.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(p.title)}</a>
+                <a href="${escapeHtml(p.project_url || p.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(p.title)}</a>
+                ${projectBadgeHtml}
               </div>
               ${innovationHtml}
             </td>
@@ -900,10 +967,9 @@
             <td class="col-year">${escapeHtml(p.year || "—")}</td>
             <td class="col-venue">${escapeHtml(p.venue || "IEEE Trans. Appl. Supercond.")}</td>
             <td class="col-domain">${badgesHtml}</td>
-            <td class="col-links">
-              <a href="${escapeHtml(p.url)}" class="link-btn" target="_blank" rel="noopener noreferrer">
-                DOI ↗
-              </a>
+            <td class="col-links" style="display:flex;gap:0.4rem;align-items:center;flex-wrap:wrap;">
+              ${codeBtnHtml}
+              ${doiBtnHtml}
             </td>
           `;
 
