@@ -5,7 +5,7 @@ Open **superconducting digital electronics research**, **EDA tools**, a **beginn
 [![GitHub Pages](https://img.shields.io/badge/Pages-SFQ%20Paper%20Map-181717?logo=github)](https://single-flux-quantum.github.io/.github/)
 [![SFQ Learn](https://img.shields.io/badge/Learn-SFQ%20Curriculum-0A7EA4?logo=readthedocs&logoColor=white)](https://single-flux-quantum.github.io/sfq-learn-public/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-green?logo=creativecommons&logoColor=white)](https://creativecommons.org/licenses/by/4.0/)
-[![Corpus: 1378+ Papers](https://img.shields.io/badge/Corpus-1378%2B%20Papers-blue)](https://github.com/single-flux-quantum/sfq-lab)
+[![Corpus: 1379+ Papers](https://img.shields.io/badge/Corpus-1379%2B%20Papers-blue)](https://github.com/single-flux-quantum/sfq-lab)
 [![Org Followers](https://img.shields.io/github/followers/single-flux-quantum?label=followers&logo=github)](https://github.com/single-flux-quantum)
 
 ---
@@ -13,7 +13,7 @@ Open **superconducting digital electronics research**, **EDA tools**, a **beginn
 ## Start Here
 
 - **[SFQ Learning Curriculum](https://single-flux-quantum.github.io/sfq-learn-public/)** — Fundamentals → bridge → concepts → tracks (newcomer-friendly; more wording is intentional).
-- **[Interactive SFQ Paper Map](https://single-flux-quantum.github.io/.github/)** — Search, filter by research domain, and sort across 1378+ curated papers with direct publisher links.
+- **[Interactive SFQ Paper Map](https://single-flux-quantum.github.io/.github/)** — Search, filter by research domain, and sort across 1379+ curated papers with direct publisher links.
 
 ---
 

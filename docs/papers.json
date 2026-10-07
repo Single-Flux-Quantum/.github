@@ -13262,17 +13262,18 @@
   },
   {
     "slug": "modelling-of-a-high-temperature-superconductor-hvdc-cable-under-transient-conditions",
-    "title": "Modelling Of A High Temperature Superconductor Hvdc Cable Under Transient Conditions",
-    "authors": "",
-    "year": "",
+    "title": "Modelling of a High-Temperature Superconductor HVDC Cable Under Transient Conditions",
+    "authors": "Pavan Chaganti, Weijia Yuan, Min Zhang, Lie Xu, Eoin Hodge, John Fitzgerald",
+    "year": "2023",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-memory, compute-architectures",
     "categories": [
-      "circuits-and-logic"
+      "cryo-memory",
+      "compute-architectures"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/modelling-of-a-high-temperature-superconductor-hvdc-cable-under-transient-conditions/analysis.md",
-    "doi": ""
+    "innovation": "MATLAB/Simscape multiphysics model of a 100 km / 100 kV HTS HVDC cable (Table I: $I_c=13.9\\,\\mathrm{kA}$) under DC fault / quench / recovery.",
+    "url": "https://doi.org/10.1109/TASC.2023.3251948",
+    "doi": "10.1109/TASC.2023.3251948"
   },
   {
     "slug": "modular-multi-function-digital-rf-receiver-systems",
@@ -20554,6 +20555,20 @@
     ],
     "innovation": "",
     "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/twelve-giga-sample-per-second-oscillator-counter-a-d-converter-demonstration/analysis.md",
+    "doi": ""
+  },
+  {
+    "slug": "two-dimensional-model-of-a-high-t-c-superconducting-dynamo",
+    "title": "Two Dimensional Model Of A High T C Superconducting Dynamo",
+    "authors": "",
+    "year": "",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "circuits-and-logic",
+    "categories": [
+      "circuits-and-logic"
+    ],
+    "innovation": "",
+    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/two-dimensional-model-of-a-high-t-c-superconducting-dynamo/analysis.md",
     "doi": ""
   },
   {
