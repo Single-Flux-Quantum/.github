@@ -3547,16 +3547,17 @@
   {
     "slug": "asymmetrical-fib-junctions-as-components-for-hts-sfq-circuits",
     "title": "Asymmetrical Fib Junctions As Components For Hts Sfq Circuits",
-    "authors": "",
-    "year": "",
+    "authors": "Y. Mizuno, K. Miyahara, J. G. Wen, T. Utagawa, Y. Enomoto",
+    "year": "1999",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "compute-architectures, cell-library-and-fabrication",
     "categories": [
-      "circuits-and-logic"
+      "compute-architectures",
+      "cell-library-and-fabrication"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/asymmetrical-fib-junctions-as-components-for-hts-sfq-circuits/analysis.md",
-    "doi": ""
+    "innovation": "Tilting the MgO substrate during Ga FIB etch makes asymmetrical V-grooves that form grain-boundary Josephson junctions in thicker NBCO films.",
+    "url": "https://doi.org/10.1109/77.783631",
+    "doi": "10.1109/77.783631"
   },
   {
     "slug": "asymmetrical-normal-zone-propagation-analysis-considering-hall-effect-for-large-aluminum-stabilized-superconductor",
