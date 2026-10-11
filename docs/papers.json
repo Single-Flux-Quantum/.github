@@ -2730,17 +2730,20 @@
   },
   {
     "slug": "amorphous-nb-si-barrier-junctions-for-voltage-standard-and-digital-applications",
-    "title": "Amorphous Nb Si Barrier Junctions For Voltage Standard And Digital Applications",
-    "authors": "",
-    "year": "",
+    "title": "Amorphous Nb-Si Barrier Junctions for Voltage Standard and Digital Applications",
+    "authors": "David Olaya, Paul D. Dresselhaus, Samuel P. Benz, Jon Bjarnason, Erich N. Grossman",
+    "year": "2009",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "sensors-and-metrology",
+    "category": "clocking-and-power, compute-architectures",
     "categories": [
-      "sensors-and-metrology"
+      "clocking-and-power",
+      "compute-architectures",
+      "sensors-and-metrology",
+      "cell-library-and-fabrication"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/amorphous-nb-si-barrier-junctions-for-voltage-standard-and-digital-applications/analysis.md",
-    "doi": ""
+    "innovation": "Amorphous NbₓSi₁₋ₓ barriers enable tunable, stackable Nb junctions for voltage standards and potentially high-speed digital SFQ.",
+    "url": "https://doi.org/10.1109/TASC.2009.2018254",
+    "doi": "10.1109/TASC.2009.2018254"
   },
   {
     "slug": "an-8-b-multiplier-using-single-stage-full-adder-cell-in-single-flux-quantum-circuit-technology",
@@ -2988,31 +2991,36 @@
   },
   {
     "slug": "an-improved-etching-process-used-for-the-fabrication-of-submicron-nb-alo-sub-x-nb-josephson-junctions",
-    "title": "An Improved Etching Process Used For The Fabrication Of Submicron Nb Alo Sub X Nb Josephson Junctions",
-    "authors": "",
-    "year": "",
+    "title": "An Improved Etching Process Used for the Fabrication of Submicron Nb/AlOx/Nb Josephson Junctions",
+    "authors": "Masahiro Aoyagi, Masaaki Maezawa, Hiroshi Nakagawa, Itaru Kurosawa, Susumu Takada",
+    "year": "1995",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cell-library-and-fabrication",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "compute-architectures",
       "cell-library-and-fabrication"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-improved-etching-process-used-for-the-fabrication-of-submicron-nb-alo-sub-x-nb-josephson-junctions/analysis.md",
-    "doi": ""
+    "innovation": "Dummy CF4 RIE + SEM end-point detection removes etching residue that ruins submicron Nb/AlOx/Nb junctions.",
+    "url": "https://doi.org/10.1109/77.403053",
+    "doi": "10.1109/77.403053"
   },
   {
     "slug": "an-improved-nbn-integrated-circuit-process-featuring-thick-nbn-ground-plane-and-lower-parasitic-circuit-inductances",
-    "title": "An Improved Nbn Integrated Circuit Process Featuring Thick Nbn Ground Plane And Lower Parasitic Circuit Inductances",
-    "authors": "",
-    "year": "",
+    "title": "An Improved NbN Integrated Circuit Process Featuring Thick NbN Ground Plane and Lower Parasitic Circuit Inductances",
+    "authors": "G. L. Kerber, L. A. Abelson, R. N. Elmadjian, G. Hanaya, E. G. Ladizinsky",
+    "year": "1997",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "clocking-and-power, compute-architectures",
     "categories": [
-      "circuits-and-logic"
+      "clocking-and-power",
+      "compute-architectures",
+      "cell-library-and-fabrication"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-improved-nbn-integrated-circuit-process-featuring-thick-nbn-ground-plane-and-lower-parasitic-circuit-inductances/analysis.md",
-    "doi": ""
+    "innovation": "TRW 10 K NbN IC flow adds a separate thick NbN ground plane under the NbN/MgO/NbN trilayer.",
+    "url": "https://doi.org/10.1109/77.621781",
+    "doi": "10.1109/77.621781"
   },
   {
     "slug": "an-integrated-row-based-cell-placement-and-interconnect-synthesis-tool-for-large-sfq-logic-circuits",
@@ -3218,32 +3226,39 @@
   },
   {
     "slug": "an-sns-technology-process-for-ramp-junction-based-digital-superconducting-circuits",
-    "title": "An Sns Technology Process For Ramp Junction Based Digital Superconducting Circuits",
-    "authors": "",
-    "year": "",
+    "title": "An SNS Technology Process for Ramp Junction Based Digital Superconducting Circuits",
+    "authors": "Daniel Hagedorn, Marat Khabipov, Ralf Dolata, Friedrich-Immanuel Buchholz, Jürgen Niemeyer",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-memory",
+    "category": "cryo-memory, compute-architectures",
     "categories": [
-      "cryo-memory"
+      "cryo-memory",
+      "compute-architectures",
+      "sensors-and-metrology",
+      "cell-library-and-fabrication",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-sns-technology-process-for-ramp-junction-based-digital-superconducting-circuits/analysis.md",
-    "doi": ""
+    "innovation": "Improves Nb/HfTi/Nb SNS ramp-junction process with a superconducting ground plane for RSFQ-scale inductances.",
+    "url": "https://doi.org/10.1109/TASC.2003.814164",
+    "doi": "10.1109/TASC.2003.814164"
   },
   {
     "slug": "an-unshunted-comparator-as-a-device-for-quantum-measurements",
-    "title": "An Unshunted Comparator As A Device For Quantum Measurements",
-    "authors": "",
-    "year": "",
+    "title": "An Unshunted Comparator as a Device for Quantum Measurements",
+    "authors": "Michael Wulf, Xingxiang Zhou, Jonathan L. Habif, Pavel Rott, Mark F. Bocko, Marc J. Feldman",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors, sensors-and-metrology",
+    "category": "cryo-memory, compute-architectures",
     "categories": [
+      "cryo-memory",
+      "compute-architectures",
       "quantum-and-detectors",
-      "sensors-and-metrology"
+      "sensors-and-metrology",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/an-unshunted-comparator-as-a-device-for-quantum-measurements/analysis.md",
-    "doi": ""
+    "innovation": "First focused analysis of the *unshunted* SFQ Josephson comparator for flux-qubit single-shot readout.",
+    "url": "https://doi.org/10.1109/TASC.2003.814117",
+    "doi": "10.1109/TASC.2003.814117"
   },
   {
     "slug": "analysis-and-stabilization-of-signal-reflections-in-gate-to-gate-connections-for-aqfp-circuits",
@@ -3275,18 +3290,21 @@
   },
   {
     "slug": "analysis-of-a-high-temperature-superconductor-quantum-flux-parametron-operating-at-77-k",
-    "title": "Analysis Of A High Temperature Superconductor Quantum Flux Parametron Operating At 77 K",
-    "authors": "",
-    "year": "",
+    "title": "Analysis of a High-Temperature Superconductor Quantum Flux Parametron Operating at 77 K",
+    "authors": "Mark Jeffery",
+    "year": "1995",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-memory, quantum-and-detectors",
+    "category": "clocking-and-power, cryo-memory",
     "categories": [
+      "clocking-and-power",
       "cryo-memory",
-      "quantum-and-detectors"
+      "compute-architectures",
+      "quantum-and-detectors",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/analysis-of-a-high-temperature-superconductor-quantum-flux-parametron-operating-at-77-k/analysis.md",
-    "doi": ""
+    "innovation": "Analyzes a Quantum Flux Parametron (QFP) with 77 K thermal noise and shows workable error rates for ~40–50 µA activation currents.",
+    "url": "https://doi.org/10.1109/77.482144",
+    "doi": "10.1109/77.482144"
   },
   {
     "slug": "analysis-of-a-shielding-approach-for-magnetic-field-tolerant-sfq-circuits",
@@ -3309,17 +3327,20 @@
   },
   {
     "slug": "analysis-of-electromagnetic-coupling-effects-in-integrated-josephson-junction-logic-devices-by-the-fdtd-technique",
-    "title": "Analysis Of Electromagnetic Coupling Effects In Integrated Josephson Junction Logic Devices By The Fdtd Technique",
-    "authors": "",
-    "year": "",
+    "title": "Analysis of Electromagnetic Coupling Effects in Integrated Josephson Junction Logic Devices by the FDTD Technique",
+    "authors": "Boyko Dimov, Hannes Toepfer, Hermann F. Uhlmann",
+    "year": "2001",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-eda, cryo-memory",
     "categories": [
+      "cryo-eda",
+      "cryo-memory",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/analysis-of-electromagnetic-coupling-effects-in-integrated-josephson-junction-logic-devices-by-the-fdtd-technique/analysis.md",
-    "doi": ""
+    "innovation": "Uses superconducting-aware FDTD to quantify EM coupling of Nb microstrips for dense SFQ layouts.",
+    "url": "https://doi.org/10.1109/77.919540",
+    "doi": "10.1109/77.919540"
   },
   {
     "slug": "analysis-of-levitation-characteristics-of-a-radial-type-high-temperature-superconducting-bearing-based-on-numerical-simulation",
@@ -3661,76 +3682,94 @@
   },
   {
     "slug": "automated-state-machine-and-timing-characteristic-extraction-for-rsfq-circuits",
-    "title": "Automated State Machine And Timing Characteristic Extraction For Rsfq Circuits",
-    "authors": "",
-    "year": "",
+    "title": "Automated State Machine and Timing Characteristic Extraction for RSFQ Circuits",
+    "authors": "Louis C. Müller, Coenrad J. Fourie",
+    "year": "2014",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-eda, hybrid-interfaces",
     "categories": [
+      "cryo-eda",
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/automated-state-machine-and-timing-characteristic-extraction-for-rsfq-circuits/analysis.md",
-    "doi": ""
+    "innovation": "Heuristic extracts Mealy FSM + critical/delay timings from SPICE/JSIM RSFQ netlists via fluxon-storage-loop monitoring, then auto-generates VHDL cell models with timing-violation checks.",
+    "url": "https://doi.org/10.1109/TASC.2013.2284834",
+    "doi": "10.1109/TASC.2013.2284834"
   },
   {
     "slug": "automatic-josephson-transmission-line-routing-for-single-flux-quantum-cell-based-logic-circuits",
-    "title": "Automatic Josephson Transmission Line Routing For Single Flux Quantum Cell Based Logic Circuits",
-    "authors": "",
-    "year": "",
+    "title": "Automatic Josephson-Transmission-Line Routing for Single-Flux-Quantum Cell-Based Logic Circuits",
+    "authors": "Yoshio Kameda, Shinichi Yorozu",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-eda, quantum-and-detectors",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
       "cryo-eda",
-      "quantum-and-detectors"
+      "clocking-and-power",
+      "compute-architectures",
+      "quantum-and-detectors",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/automatic-josephson-transmission-line-routing-for-single-flux-quantum-cell-based-logic-circuits/analysis.md",
-    "doi": ""
+    "innovation": "Two-step JTL routing for CONNECT cell-based SFQ: commercial router places dummy wires under coarse length ratio alpha, then replace with unit JTL/splitter cells and fine-tune delays for concurrent-flow clocking.",
+    "url": "https://doi.org/10.1109/TASC.2003.813922",
+    "doi": "10.1109/TASC.2003.813922"
   },
   {
     "slug": "automatic-wire-routing-of-sfq-digital-circuits-considering-wire-length-matching",
-    "title": "Automatic Wire Routing Of Sfq Digital Circuits Considering Wire Length Matching",
-    "authors": "",
-    "year": "",
+    "title": "Automatic Wire-Routing of SFQ Digital Circuits Considering Wire-Length Matching",
+    "authors": "Nobutaka Kito, Kazuyoshi Takagi, Naofumi Takagi",
+    "year": "2016",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-eda",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
-      "cryo-eda"
+      "cryo-eda",
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "compute-architectures",
+      "cell-library-and-fabrication",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/automatic-wire-routing-of-sfq-digital-circuits-considering-wire-length-matching/analysis.md",
-    "doi": ""
+    "innovation": "ILP-based automatic PTL channel routing inserts specified extra length (zigzag matching) so delay is matched in PTLs, not JTLs.",
+    "url": "https://doi.org/10.1109/TASC.2016.2521798",
+    "doi": "10.1109/TASC.2016.2521798"
   },
   {
     "slug": "balanced-comparator-for-rsfq-qubit-readout",
-    "title": "Balanced Comparator For Rsfq Qubit Readout",
-    "authors": "",
-    "year": "",
+    "title": "Balanced Comparator for RSFQ Qubit Readout",
+    "authors": "Tom Ohki, Alexander Savin, Juha Hassel, Leif Gronberg, Tatiana Karminskaya, Anna Kidiyarova-Shevchenko",
+    "year": "2007",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors, sensors-and-metrology",
+    "category": "clocking-and-power, compute-architectures",
     "categories": [
+      "clocking-and-power",
+      "compute-architectures",
       "quantum-and-detectors",
       "sensors-and-metrology",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/balanced-comparator-for-rsfq-qubit-readout/analysis.md",
-    "doi": ""
+    "innovation": "mK balanced RSFQ comparator in VTT 30 A/cm2 process (Ic ~3.6 uA): gray zone Delta I_x = 104 nA at 3.5 GHz; electron overheating gives Teff ~140-160 mK.",
+    "url": "https://doi.org/10.1109/TASC.2007.897319",
+    "doi": "10.1109/TASC.2007.897319"
   },
   {
     "slug": "ballistic-sfq-signal-propagation-on-chip-and-chip-to-chip",
-    "title": "Ballistic Sfq Signal Propagation On Chip And Chip To Chip",
-    "authors": "",
-    "year": "",
+    "title": "Ballistic SFQ Signal Propagation On-Chip and Chip-to-Chip",
+    "authors": "Quentin P. Herr, Michael S. Wire, Andrew D. Smith",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
+      "cryo-eda",
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/ballistic-sfq-signal-propagation-on-chip-and-chip-to-chip/analysis.md",
-    "doi": ""
+    "innovation": "Compares SFQ vs DFQ-driven ballistic microstrip: on-chip SFQ OK but margins halve at microstrip resonance; chip-to-chip DFQ nearly frequency-independent despite ~13% bump attenuation.",
+    "url": "https://doi.org/10.1109/TASC.2003.813901",
+    "doi": "10.1109/TASC.2003.813901"
   },
   {
     "slug": "basic-cells-for-phase-locked-1-and-2-d-josephson-junction-arrays",
@@ -3812,17 +3851,21 @@
   },
   {
     "slug": "bit-error-rate-determination-of-rsfq-logic-cells-by-means-of-noise-analysis-of-basic-network-components",
-    "title": "Bit Error Rate Determination Of Rsfq Logic Cells By Means Of Noise Analysis Of Basic Network Components",
-    "authors": "",
-    "year": "",
+    "title": "Bit Error Rate Determination of RSFQ Logic Cells by Means of Noise Analysis of Basic Network Components",
+    "authors": "Thomas Ortlepp, Hannes Toepfer, F. Hermann Uhlmann",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-eda, cryo-memory",
     "categories": [
+      "cryo-eda",
+      "cryo-memory",
+      "compute-architectures",
+      "sensors-and-metrology",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/bit-error-rate-determination-of-rsfq-logic-cells-by-means-of-noise-analysis-of-basic-network-components/analysis.md",
-    "doi": ""
+    "innovation": "Decompose RSFQ cells into parallel/serial JJ primitives; precompute Fokker-Planck BER look-up tables; reassemble cell BER via correlation-guided splitting.",
+    "url": "https://doi.org/10.1109/TASC.2003.813920",
+    "doi": "10.1109/TASC.2003.813920"
   },
   {
     "slug": "bit-error-rate-measurement-of-a-high-speed-small-voltage-signal-using-a-superconducting-transmission-line",
@@ -3854,47 +3897,54 @@
   },
   {
     "slug": "bit-error-rate-measurements-of-rsfq-shift-register-memories",
-    "title": "Bit Error Rate Measurements Of Rsfq Shift Register Memories",
-    "authors": "",
-    "year": "",
+    "title": "Bit-Error-Rate Measurements of RSFQ Shift Register Memories",
+    "authors": "Tomohiro Hikida, Kan Fujiwara, Nobuyuki Yoshikawa, Akira Fujimaki, Hirotaka Terai, Shinichi Yorozu",
+    "year": "2007",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-memory, circuits-and-logic",
+    "category": "clocking-and-power, cryo-memory",
     "categories": [
+      "clocking-and-power",
       "cryo-memory",
-      "circuits-and-logic"
-    ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/bit-error-rate-measurements-of-rsfq-shift-register-memories/analysis.md",
-    "doi": ""
-  },
-  {
-    "slug": "bit-serial-multiplier-based-on-josephson-latching-logic",
-    "title": "Bit Serial Multiplier Based On Josephson Latching Logic",
-    "authors": "",
-    "year": "",
-    "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "compute-architectures",
-    "categories": [
-      "compute-architectures"
-    ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/bit-serial-multiplier-based-on-josephson-latching-logic/analysis.md",
-    "doi": ""
-  },
-  {
-    "slug": "bit-slice-butterfly-processing-units-for-64-point-rsfq-fft-processors",
-    "title": "Bit Slice Butterfly Processing Units For 64 Point Rsfq Fft Processors",
-    "authors": "",
-    "year": "",
-    "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "compute-architectures, circuits-and-logic",
-    "categories": [
       "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/bit-slice-butterfly-processing-units-for-64-point-rsfq-fft-processors/analysis.md",
-    "doi": ""
+    "innovation": "8x8-bit RSFQ shift-register memory + on-chip BER tester (CONNECT / SRL 2.5 kA/cm2): 4184 JJ, 2.1x3.2 mm, 515 mA bias.",
+    "url": "https://doi.org/10.1109/TASC.2007.898689",
+    "doi": "10.1109/TASC.2007.898689"
+  },
+  {
+    "slug": "bit-serial-multiplier-based-on-josephson-latching-logic",
+    "title": "Bit-Serial Multiplier Based on Josephson Latching Logic",
+    "authors": "A. Moopenn, E. R. Arambula, M. J. Lewis, H. W. Chan",
+    "year": "1993",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "clocking-and-power, hybrid-interfaces",
+    "categories": [
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures"
+    ],
+    "innovation": "Serial-parallel Josephson MVTL multiplier: 3-phase power/clock, one-cycle latency; TTL-equivalent models for design check; Nb 4-bit chip fabricated.",
+    "url": "https://doi.org/10.1109/77.233983",
+    "doi": "10.1109/77.233983"
+  },
+  {
+    "slug": "bit-slice-butterfly-processing-units-for-64-point-rsfq-fft-processors",
+    "title": "Bit-Slice Butterfly Processing Units for 64-Point RSFQ FFT Processors",
+    "authors": "Guang-Ming Tang, Pei-Yao Qu, Xiang-Yu Zheng, Jia-Hong Yang, Xiao-Chun Ye, Dong-Rui Fan, Ning-Hui Sun",
+    "year": "2020",
+    "venue": "IEEE Trans. Appl. Supercond.",
+    "category": "hybrid-interfaces, compute-architectures",
+    "categories": [
+      "hybrid-interfaces",
+      "compute-architectures",
+      "cell-library-and-fabrication",
+      "circuits-and-logic"
+    ],
+    "innovation": "First proposed RSFQ bit-slice (vs bit-serial/parallel) 8-bit BPUs for 64-point FFT: radix-2, mixed-radix, and split-radix; concurrent-flow; AIST ADP2 10 kA/cm2 library.",
+    "url": "https://doi.org/10.1109/TASC.2019.2931893",
+    "doi": "10.1109/TASC.2019.2931893"
   },
   {
     "slug": "black-box-optimization-of-superconducting-circuits-using-reduced-complexity-neural-networks",
@@ -4004,17 +4054,22 @@
   },
   {
     "slug": "c-axis-microbridges-for-rapid-single-flux-quantum-logic",
-    "title": "C Axis Microbridges For Rapid Single Flux Quantum Logic",
-    "authors": "",
-    "year": "",
+    "title": "C-axis Microbridges for Rapid Single Flux Quantum Logic",
+    "authors": "P. J. Hirst, T. G. Henrici, I. L. Atkin, J. S. Satchell, J. Moxey, N. J. Exon, M. J. Wooliscroft, T. J. Horton, R. G. Humphreys",
+    "year": "1999",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors",
+    "category": "cryo-eda, cryo-memory",
     "categories": [
-      "quantum-and-detectors"
+      "cryo-eda",
+      "cryo-memory",
+      "compute-architectures",
+      "quantum-and-detectors",
+      "cell-library-and-fabrication",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/c-axis-microbridges-for-rapid-single-flux-quantum-logic/analysis.md",
-    "doi": ""
+    "innovation": "HTS c-axis microbridge (CAM) junctions for SFQ: low stray L from groundplaned stack; need ~0.5 um diameter for Ic ~500 uA @ 40 K.",
+    "url": "https://doi.org/10.1109/77.783863",
+    "doi": "10.1109/77.783863"
   },
   {
     "slug": "calibration-of-inductance-calculations-to-measurement-data-for-superconductive-integrated-circuit-processes",
@@ -4033,16 +4088,19 @@
   {
     "slug": "can-rsfq-logic-circuits-be-scaled-to-deep-submicron-junctions",
     "title": "Can Rsfq Logic Circuits Be Scaled To Deep Submicron Junctions",
-    "authors": "",
-    "year": "",
+    "authors": "Alan M. Kadin, Cesar A. Mancini, Marc J. Feldman, Darren K. Brock",
+    "year": "2001",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/can-rsfq-logic-circuits-be-scaled-to-deep-submicron-junctions/analysis.md",
-    "doi": ""
+    "innovation": "Nb RSFQ scaling: keep Ic,min ~100 uA â†’ Jc â†‘ as aâ†“; at aâ‰²0.3 um (Jc~100 kA/cm2) junctions are intrinsically critically damped â€” no external shunt Rs needed.",
+    "url": "https://doi.org/10.1109/77.919528",
+    "doi": "10.1109/77.919528"
   },
   {
     "slug": "can-superconductive-digital-systems-compete-with-semiconductor-systems",
@@ -4060,32 +4118,40 @@
   },
   {
     "slug": "case-study-in-rsfq-design-fast-pipelined-parallel-adder",
-    "title": "Case Study In Rsfq Design Fast Pipelined Parallel Adder",
-    "authors": "",
-    "year": "",
+    "title": "Case Study in RSFQ Design: Fast Pipelined Parallel Adder",
+    "authors": "Paul Bunyk, Peter Litskevitch",
+    "year": "1999",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "compute-architectures, circuits-and-logic",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
+      "cryo-eda",
+      "clocking-and-power",
       "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/case-study-in-rsfq-design-fast-pipelined-parallel-adder/analysis.md",
-    "doi": ""
+    "innovation": "Pipelined Kogge-Stone CLA adders (32/64-bit) in concurrent-flow RSFQ; only inverter + DFF clocked gates; multipulse OR + polarity swap between stages.",
+    "url": "https://doi.org/10.1109/77.783835",
+    "doi": "10.1109/77.783835"
   },
   {
     "slug": "cell-based-design-methodology-for-bdd-sfq-logic-circuits-a-high-speed-test-and-feasibility-for-large-scale-circuit-applications",
-    "title": "Cell Based Design Methodology For Bdd Sfq Logic Circuits A High Speed Test And Feasibility For Large Scale Circuit Applications",
-    "authors": "",
-    "year": "",
+    "title": "Cell Based Design Methodology for BDD SFQ Logic Circuits: A High Speed Test and Feasibility for Large Scale Circuit Applications",
+    "authors": "N. Yoshikawa, K. Yoda, H. Hoshina, K. Kawasaki, K. Fujiwara, F. Matsuzaki; N. Nakajima",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
+      "cryo-eda",
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
+      "cell-library-and-fabrication",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/cell-based-design-methodology-for-bdd-sfq-logic-circuits-a-high-speed-test-and-feasibility-for-large-scale-circuit-applications/analysis.md",
-    "doi": ""
+    "innovation": "Five-cell BDD SFQ library (Bina + Line/Cross/Fork/Join) on Hypres Nb; dual-rail DDST, no global clock.",
+    "url": "https://doi.org/10.1109/TASC.2003.813923",
+    "doi": "10.1109/TASC.2003.813923"
   },
   {
     "slug": "characteristics-of-a-thick-high-critical-temperature-superconductor-film-used-as-a-highly-sensitive-magnetic-sensor",
@@ -4131,18 +4197,21 @@
   },
   {
     "slug": "characteristics-of-driver-and-receiver-circuits-with-a-passive-transmission-line-in-rsfq-circuits",
-    "title": "Characteristics Of Driver And Receiver Circuits With A Passive Transmission Line In Rsfq Circuits",
-    "authors": "",
-    "year": "",
+    "title": "Characteristics of Driver and Receiver Circuits with a Passive Transmission Line in RSFQ Circuits",
+    "authors": "Hideo Suzuki, Shuichi Nagasawa, Kazunori Miyahara; Youichi Enomoto",
+    "year": "2000",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "hybrid-interfaces, circuits-and-logic",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
+      "cryo-eda",
+      "clocking-and-power",
       "hybrid-interfaces",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/characteristics-of-driver-and-receiver-circuits-with-a-passive-transmission-line-in-rsfq-circuits/analysis.md",
-    "doi": ""
+    "innovation": "WinS sims of RSFQ JTL driver/receiver + lossless PTL: equivalent I/O resistance ≈ η·Rn and nearly linear in bias.",
+    "url": "https://doi.org/10.1109/77.892144",
+    "doi": "10.1109/77.892144"
   },
   {
     "slug": "characteristics-of-junctions-and-resistors-fabricated-using-an-all-nbn-superconductor-integrated-circuit-foundry-process",
@@ -4174,17 +4243,21 @@
   },
   {
     "slug": "characteristics-of-voltage-multipliers-for-a-josephson-d-a-converter",
-    "title": "Characteristics Of Voltage Multipliers For A Josephson D A Converter",
-    "authors": "",
-    "year": "",
+    "title": "Characteristics of Voltage Multipliers for a Josephson D/A Converter",
+    "authors": "Fuminori Hirayama, Masaaki Maezawa, Hitoshi Sasaki; Akira Shoji",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "compute-architectures",
+    "category": "clocking-and-power, compute-architectures",
     "categories": [
-      "compute-architectures"
+      "clocking-and-power",
+      "compute-architectures",
+      "quantum-and-detectors",
+      "sensors-and-metrology",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/characteristics-of-voltage-multipliers-for-a-josephson-d-a-converter/analysis.md",
-    "doi": ""
+    "innovation": "Parasitic C between magnetically coupled JTL and SQUID stages causes inter-cell interference that kills constant-voltage step height in 2-D VMs.",
+    "url": "https://doi.org/10.1109/TASC.2003.813912",
+    "doi": "10.1109/TASC.2003.813912"
   },
   {
     "slug": "characterization-and-improvement-of-a-ybco-multilayer-film-process-for-hts-circuit-applications",
@@ -4202,17 +4275,21 @@
   },
   {
     "slug": "characterization-of-4-k-cmos-devices-and-circuits-for-hybrid-josephson-cmos-systems",
-    "title": "Characterization Of 4 K Cmos Devices And Circuits For Hybrid Josephson Cmos Systems",
-    "authors": "",
-    "year": "",
+    "title": "Characterization of 4 K CMOS Devices and Circuits for Hybrid Josephson-CMOS Systems",
+    "authors": "N. Yoshikawa, T. Tomida, M. Tokuda, Q. Liu, X. Meng, S. R. Whiteley; T. Van Duzer",
+    "year": "2005",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "hybrid-interfaces",
+    "category": "hybrid-interfaces, cryo-memory",
     "categories": [
-      "hybrid-interfaces"
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
+      "sensors-and-metrology",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/characterization-of-4-k-cmos-devices-and-circuits-for-hybrid-josephson-cmos-systems/analysis.md",
-    "doi": ""
+    "innovation": "BSIM3 4.2 K models for 0.18/0.25/0.35 µm CMOS; ~**40%** inverter speedup vs 300 K; junction C drops ~10×.",
+    "url": "https://doi.org/10.1109/TASC.2005.849786",
+    "doi": "10.1109/TASC.2005.849786"
   },
   {
     "slug": "characterization-of-a-superconducting-power-filter-for-embedded-electrical-grid-application",
@@ -4245,17 +4322,20 @@
   },
   {
     "slug": "characterization-of-an-on-chip-magnetic-shielding-technique-for-improving-sfq-circuit-performance",
-    "title": "Characterization Of An On Chip Magnetic Shielding Technique For Improving Sfq Circuit Performance",
-    "authors": "",
-    "year": "",
+    "title": "Characterization of an On-Chip Magnetic Shielding Technique for Improving SFQ Circuit Performance",
+    "authors": "R. Collot, P. Febvre, J. Kunert, H.-G. Meyer, R. Stolz; J. L. Issler",
+    "year": "2016",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "clocking-and-power, compute-architectures",
     "categories": [
+      "clocking-and-power",
+      "compute-architectures",
+      "quantum-and-detectors",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/characterization-of-an-on-chip-magnetic-shielding-technique-for-improving-sfq-circuit-performance/analysis.md",
-    "doi": ""
+    "innovation": "FLUXONICS Nb loops (M1/M2, 10 µm, grounded vias) around cells — no extra shield plane — cut local on-chip field by **>4×** (best: M1+M2).",
+    "url": "https://doi.org/10.1109/TASC.2016.2542117",
+    "doi": "10.1109/TASC.2016.2542117"
   },
   {
     "slug": "characterization-of-flux-trapping-in-and-fabrication-of-large-scale-superconductor-circuits-using-ac-biased-shift-registers-with-108500-josephson-junctions",
@@ -4291,17 +4371,22 @@
   },
   {
     "slug": "characterization-of-hts-sfq-circuits-using-interface-engineered-josephson-junctions",
-    "title": "Characterization Of Hts Sfq Circuits Using Interface Engineered Josephson Junctions",
-    "authors": "",
-    "year": "",
+    "title": "Characterization of HTS SFQ Circuits using Interface-engineered Josephson Junctions",
+    "authors": "K. Saitoh, Y. Soutome, T. Fukazawa, Y. Tarutani, K. Takagi",
+    "year": "2001",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "hybrid-interfaces",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
-      "hybrid-interfaces"
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
+      "sensors-and-metrology",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/characterization-of-hts-sfq-circuits-using-interface-engineered-josephson-junctions/analysis.md",
-    "doi": ""
+    "innovation": "YBCO IEJ HTS RSFQ: TFF voltage divider to 155 GHz (15 K) / 19 GHz (27 K); thermal-noise SPICE explains Vd collapse.",
+    "url": "https://doi.org/10.1109/77.919464",
+    "doi": "10.1109/77.919464"
   },
   {
     "slug": "characterization-of-local-dielectric-properties-of-superconductor-tex-rm-yba-2rm-cu-3rm-o-7-delta-tex-using-evanescent-microwave-microscopy",
@@ -4319,18 +4404,21 @@
   },
   {
     "slug": "characterization-of-macroscopic-quantum-behavior-using-rsfq-circuitry",
-    "title": "Characterization Of Macroscopic Quantum Behavior Using Rsfq Circuitry",
-    "authors": "",
-    "year": "",
+    "title": "Characterization of Macroscopic Quantum Behavior Using RSFQ Circuitry",
+    "authors": "Pavel Rott; Marc J. Feldman",
+    "year": "2001",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors, circuits-and-logic",
+    "category": "clocking-and-power, cryo-memory",
     "categories": [
+      "clocking-and-power",
+      "cryo-memory",
+      "compute-architectures",
       "quantum-and-detectors",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/characterization-of-macroscopic-quantum-behavior-using-rsfq-circuitry/analysis.md",
-    "doi": ""
+    "innovation": "On-chip RSFQ apparatus for rf-SQUID energy-level quantization (ELQ) via rapid current sweep (~100 A/s) and ~100 ps timing — heavy RT filtering only for slow I/O.",
+    "url": "https://doi.org/10.1109/77.919520",
+    "doi": "10.1109/77.919520"
   },
   {
     "slug": "charge-based-superconducting-digital-logic-family-using-quantum-phase-slip-junctions",
@@ -4393,17 +4481,22 @@
   },
   {
     "slug": "chip-to-chip-communication-using-a-single-flux-quantum-pulse",
-    "title": "Chip To Chip Communication Using A Single Flux Quantum Pulse",
-    "authors": "",
-    "year": "",
+    "title": "Chip-to-Chip Communication Using a Single Flux Quantum Pulse",
+    "authors": "Masaaki Maezawa, Hirotake Yamamori; Akira Shoji",
+    "year": "2000",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
-      "quantum-and-detectors"
+      "cryo-eda",
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "compute-architectures",
+      "quantum-and-detectors",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/chip-to-chip-communication-using-a-single-flux-quantum-pulse/analysis.md",
-    "doi": ""
+    "innovation": "Active MCM: Josephson Tx/Rx on **both** chip and substrate; solder-bump flip-chip SFQ pulse hop.",
+    "url": "https://doi.org/10.1109/77.848308",
+    "doi": "10.1109/77.848308"
   },
   {
     "slug": "chiral-edge-states-in-mesoscopic-superconductors",
@@ -4449,31 +4542,39 @@
   },
   {
     "slug": "circuits-for-chip-to-chip-transportation-of-bits-from-single-flux-quantum-circuits",
-    "title": "Circuits For Chip To Chip Transportation Of Bits From Single Flux Quantum Circuits",
-    "authors": "",
-    "year": "",
+    "title": "Circuits for Chip-to-Chip Transportation of Bits from Single Flux Quantum Circuits",
+    "authors": "A. H. Miklich, A. H. Worsham, D. L. Miller; J. X. Przybysz",
+    "year": "1997",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
-      "quantum-and-detectors"
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
+      "quantum-and-detectors",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/circuits-for-chip-to-chip-transportation-of-bits-from-single-flux-quantum-circuits/analysis.md",
-    "doi": ""
+    "innovation": "Non-latching Nb SFQ digital amp: series dc-SQUID stack Tx + inductively coupled clocked-race Rx (HTS-compatible topology).",
+    "url": "https://doi.org/10.1109/77.621693",
+    "doi": "10.1109/77.621693"
   },
   {
     "slug": "classical-and-quantum-operation-modes-of-the-reversible-josephson-junction-logic-circuits",
-    "title": "Classical And Quantum Operation Modes Of The Reversible Josephson Junction Logic Circuits",
-    "authors": "",
-    "year": "",
+    "title": "Classical and Quantum Operation Modes of the Reversible Josephson-Junction Logic Circuits",
+    "authors": "Vasili K. Semenov, George V. Danilov; Dmitri V. Averin",
+    "year": "2007",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors",
+    "category": "clocking-and-power, cryo-memory",
     "categories": [
+      "clocking-and-power",
+      "cryo-memory",
+      "compute-architectures",
       "quantum-and-detectors"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/classical-and-quantum-operation-modes-of-the-reversible-josephson-junction-logic-circuits/analysis.md",
-    "doi": ""
+    "innovation": "nSQUID reversible gate: Hypres **100 A/cm²** 8-cell circular shift register in classical adiabatic mode.",
+    "url": "https://doi.org/10.1109/TASC.2007.898260",
+    "doi": "10.1109/TASC.2007.898260"
   },
   {
     "slug": "clock-driven-on-chip-testing-for-superconductor-logic-circuits",
@@ -4491,18 +4592,21 @@
   },
   {
     "slug": "clock-line-considerations-for-an-sfq-large-scale-reconfigurable-data-paths-processor",
-    "title": "Clock Line Considerations For An Sfq Large Scale Reconfigurable Data Paths Processor",
-    "authors": "",
-    "year": "",
+    "title": "Clock Line Considerations for an SFQ Large Scale Reconfigurable Data Paths Processor",
+    "authors": "Irina Kataeva, Hiroyuki Akaike, Akira Fujimaki, Nobuyuki Yoshikawa, Shuichi Nagasawa; Naofumi Takagi",
+    "year": "2011",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "clocking-and-power, compute-architectures",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
+      "cryo-eda",
       "clocking-and-power",
-      "compute-architectures"
+      "cryo-memory",
+      "compute-architectures",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/clock-line-considerations-for-an-sfq-large-scale-reconfigurable-data-paths-processor/analysis.md",
-    "doi": ""
+    "innovation": "Global co-flow clock on a ~32×32 SFQ RDP would accumulate jitter comparable to the period after few stages; FPU clocks dominate over ORN.",
+    "url": "https://doi.org/10.1109/TASC.2010.2092402",
+    "doi": "10.1109/TASC.2010.2092402"
   },
   {
     "slug": "clocked-gate-reduction-with-clockless-gates-in-technology-mapping-for-rsfq-logic-circuits",
@@ -4573,31 +4677,38 @@
   },
   {
     "slug": "cnet-design-of-an-rsfq-switching-network-for-petaflops-scale-computing",
-    "title": "Cnet Design Of An Rsfq Switching Network For Petaflops Scale Computing",
-    "authors": "",
-    "year": "",
+    "title": "CNET: Design of an RSFQ Switching Network for Petaflops-Scale Computing",
+    "authors": "L. Wittie, D. Yu. Zinoviev, G. Sazaklis; K. Likharev",
+    "year": "1999",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "hybrid-interfaces, cryo-memory",
     "categories": [
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/cnet-design-of-an-rsfq-switching-network-for-petaflops-scale-computing/analysis.md",
-    "doi": ""
+    "innovation": "HTMT “COOL-0” cryonetwork (CNET) study: connect **4,096** RSFQ SPELLs (+ SRAM interfaces) with RSFQ packet switches.",
+    "url": "https://doi.org/10.1109/77.783913",
+    "doi": "10.1109/77.783913"
   },
   {
     "slug": "co-doped-ybco-sns-junctions-for-superconductive-integrated-circuits",
-    "title": "Co Doped Ybco Sns Junctions For Superconductive Integrated Circuits",
-    "authors": "",
-    "year": "",
+    "title": "Co-Doped-YBCO SNS Junctions for Superconductive Integrated Circuits",
+    "authors": "Alfred E. Lee, Jerome A. Luine; Claire L. Pettiette-Hall",
+    "year": "1995",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "hybrid-interfaces, cryo-memory",
     "categories": [
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
+      "cell-library-and-fabrication",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/co-doped-ybco-sns-junctions-for-superconductive-integrated-circuits/analysis.md",
-    "doi": ""
+    "innovation": "TRW PLD process for HTS **SNS edge junctions** with Co-doped YBCO barrier on YBCO electrodes.",
+    "url": "https://doi.org/10.1109/77.403218",
+    "doi": "10.1109/77.403218"
   },
   {
     "slug": "coldflux-superconducting-eda-and-tcad-tools-project-overview-and-progress",
@@ -5051,17 +5162,20 @@
   },
   {
     "slug": "cryogenic-test-bed-applied-to-9-k-nbn-rsfq-devices-operation",
-    "title": "Cryogenic Test Bed Applied To 9 K Nbn Rsfq Devices Operation",
-    "authors": "",
-    "year": "",
+    "title": "Cryogenic Test-Bed Applied to 9 K NbN RSFQ Devices Operation",
+    "authors": "M. Aurino, E. Baggetta, S. Bouat, V. Michal, D. Renaud, C. Bornier, M. Laine, J.-C. Villégier",
+    "year": "2011",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/cryogenic-test-bed-applied-to-9-k-nbn-rsfq-devices-operation/analysis.md",
-    "doi": ""
+    "innovation": "Orange-ILL He cryostat test-bed stabilizes DUT ~2.9–20 K (<0.1 K oscillations; ~30 mK reported) for NbN HyperSCAN chips.",
+    "url": "https://doi.org/10.1109/TASC.2010.2086417",
+    "doi": "10.1109/TASC.2010.2086417"
   },
   {
     "slug": "current-biased-kinetic-inductance-detector-using-hbox-mgb",
@@ -5609,18 +5723,24 @@
   },
   {
     "slug": "demonstration-of-signal-transmission-between-adiabatic-quantum-flux-parametrons-and-rapid-single-flux-quantum-circuits-using-superconductive-microstrip-lines",
-    "title": "Demonstration Of Signal Transmission Between Adiabatic Quantum Flux Parametrons And Rapid Single Flux Quantum Circuits Using Superconductive Microstrip Lines",
-    "authors": "",
-    "year": "",
+    "title": "Demonstration of Signal Transmission Between Adiabatic Quantum-Flux-Parametrons and Rapid Single-Flux-Quantum Circuits Using Superconductive Microstrip Lines",
+    "authors": "Fumihiro China, Naoki Tsuji, Tatsuya Narama, Naoki Takeuchi, Thomas Ortlepp, Yuki Yamanashi, Nobuyuki Yoshikawa",
+    "year": "2017",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-memory, quantum-and-detectors",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
+      "cryo-eda",
+      "clocking-and-power",
+      "hybrid-interfaces",
       "cryo-memory",
-      "quantum-and-detectors"
+      "compute-architectures",
+      "quantum-and-detectors",
+      "sensors-and-metrology",
+      "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/demonstration-of-signal-transmission-between-adiabatic-quantum-flux-parametrons-and-rapid-single-flux-quantum-circuits-using-superconductive-microstrip-lines/analysis.md",
-    "doi": ""
+    "innovation": "AQFP/RSFQ and RSFQ/AQFP interfaces convert AQFP currents to SFQ pulses for ~4.3 mm PTL interconnects between AQFP gates (beyond ~1 mm direct-wire limit).",
+    "url": "https://doi.org/10.1109/TASC.2016.2642046",
+    "doi": "10.1109/TASC.2016.2642046"
   },
   {
     "slug": "demonstration-of-single-flux-quantum-64-b-lookup-table-with-cryo-cmos-decoders-for-reconfiguration",
@@ -7802,17 +7922,20 @@
   },
   {
     "slug": "effects-of-superconducting-return-currents-on-rsfq-circuit-performance",
-    "title": "Effects Of Superconducting Return Currents On Rsfq Circuit Performance",
-    "authors": "",
-    "year": "",
+    "title": "Effects of Superconducting Return Currents on RSFQ Circuit Performance",
+    "authors": "Alan M. Kadin, Robert J. Webber, Saad Sarwana",
+    "year": "2005",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "clocking-and-power, compute-architectures",
     "categories": [
+      "clocking-and-power",
+      "compute-architectures",
+      "sensors-and-metrology",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/effects-of-superconducting-return-currents-on-rsfq-circuit-performance/analysis.md",
-    "doi": ""
+    "innovation": "Spreading ground-return currents (~100 mA mismatches on ~1 A chips) make ~25 µT in-plane H and ~0.1 Φ0 in typical RSFQ loops—comparable to earth-field / critical margins.",
+    "url": "https://doi.org/10.1109/TASC.2005.849789",
+    "doi": "10.1109/TASC.2005.849789"
   },
   {
     "slug": "effects-of-the-design-parameters-on-characteristics-of-the-inductances-and-jjs-in-hts-rsfq-circuits",
@@ -9220,18 +9343,21 @@
   },
   {
     "slug": "flux-1-rsfq-microprocessor-physical-design-and-test-results",
-    "title": "Flux 1 Rsfq Microprocessor Physical Design And Test Results",
-    "authors": "",
-    "year": "",
+    "title": "FLUX-1 RSFQ Microprocessor: Physical Design and Test Results",
+    "authors": "Paul Bunyk, Mike Leung, John Spargo, Mikhail Dorojevets",
+    "year": "2003",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "compute-architectures, circuits-and-logic",
+    "category": "cryo-eda, clocking-and-power",
     "categories": [
+      "cryo-eda",
+      "clocking-and-power",
+      "hybrid-interfaces",
       "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/flux-1-rsfq-microprocessor-physical-design-and-test-results/analysis.md",
-    "doi": ""
+    "innovation": "Physical-design lessons from Flux-1 (~60k JJ, ~20 GHz target) on TRW 1.75 µm / 4 kA/cm² Nb: gate-level PTL routing with intermediate WIRA skyplane.",
+    "url": "https://doi.org/10.1109/TASC.2003.813890",
+    "doi": "10.1109/TASC.2003.813890"
   },
   {
     "slug": "flux-chip-design-of-a-20-ghz-16-bit-ultrapipelined-rsfq-processor-prototype-based-on-1-75-m-lts-technology",
@@ -11905,18 +12031,21 @@
   },
   {
     "slug": "josephson-output-interfaces-for-rsfq-circuits",
-    "title": "Josephson Output Interfaces For Rsfq Circuits",
-    "authors": "",
-    "year": "",
+    "title": "Josephson Output Interfaces for RSFQ Circuits",
+    "authors": "Oleg A. Mukhanov, Sergey V. Rylov, Dmitri V. Gaidarenko, Noshir B. Dubash, Valery V. Borzenets",
+    "year": "1997",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "hybrid-interfaces, circuits-and-logic",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
+      "clocking-and-power",
       "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/josephson-output-interfaces-for-rsfq-circuits/analysis.md",
-    "doi": ""
+    "innovation": "DC-powered async RSFQ→mV drivers (SFQ/dc + JTL amp + 24-SQUID stack) to 2–4 mV; eye/BER to 8 / 7 Gb/s.",
+    "url": "https://doi.org/10.1109/77.621825",
+    "doi": "10.1109/77.621825"
   },
   {
     "slug": "josephson-sampler-response-using-a-binary-search-algorithm",
@@ -12403,18 +12532,20 @@
   },
   {
     "slug": "low-jc-rapid-single-flux-quantum-rsfq-qubit-control-circuit",
-    "title": "Low Jc Rapid Single Flux Quantum Rsfq Qubit Control Circuit",
-    "authors": "",
-    "year": "",
+    "title": "Low-Jc Rapid Single Flux Quantum (RSFQ) Qubit Control Circuit",
+    "authors": "Thomas A. Ohki, Michael Wulf, Marc J. Feldman",
+    "year": "2007",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors, circuits-and-logic",
+    "category": "hybrid-interfaces, compute-architectures",
     "categories": [
+      "hybrid-interfaces",
+      "compute-architectures",
       "quantum-and-detectors",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/low-jc-rapid-single-flux-quantum-rsfq-qubit-control-circuit/analysis.md",
-    "doi": ""
+    "innovation": "30 A/cm² RSFQ TFF “bump” drivers with tunable flux transformers for monolithic phase-qubit control; 4 K tests of Hypres bump + transformer transfer (~10 mΦ0 max).",
+    "url": "https://doi.org/10.1109/TASC.2007.898701",
+    "doi": "10.1109/TASC.2007.898701"
   },
   {
     "slug": "low-power-digital-gates-in-ersfq-and-nsquid-technology",
@@ -14593,18 +14724,23 @@
   },
   {
     "slug": "operation-of-a-superconductive-demultiplexer-using-rapid-single-flux-quantum-rsfq-technology",
-    "title": "Operation Of A Superconductive Demultiplexer Using Rapid Single Flux Quantum Rsfq Technology",
-    "authors": "",
-    "year": "",
+    "title": "Operation of a Superconductive Demultiplexer Using Rapid Single Flux Quantum (RSFQ) Technology",
+    "authors": "Steven B. Kaplan, Oleg A. Mukhanov",
+    "year": "1995",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "quantum-and-detectors, circuits-and-logic",
+    "category": "clocking-and-power, hybrid-interfaces",
     "categories": [
+      "clocking-and-power",
+      "hybrid-interfaces",
+      "cryo-memory",
+      "compute-architectures",
       "quantum-and-detectors",
+      "sensors-and-metrology",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/operation-of-a-superconductive-demultiplexer-using-rapid-single-flux-quantum-rsfq-technology/analysis.md",
-    "doi": ""
+    "innovation": "Shift-and-dump RSFQ demux of NDRO cells + TFF clock prescaler for 10 GS/s digitizer I/O.",
+    "url": "https://doi.org/10.1109/77.403186",
+    "doi": "10.1109/77.403186"
   },
   {
     "slug": "operation-of-an-adiabatic-quantum-flux-parametron-gate-using-an-on-chip-ac-power-source",
@@ -15609,17 +15745,21 @@
   },
   {
     "slug": "processing-and-characterization-of-high-jc-nbn-superconducting-tunnel-junctions-for-thz-analog-circuits-and-rsfq",
-    "title": "Processing And Characterization Of High Jc Nbn Superconducting Tunnel Junctions For Thz Analog Circuits And Rsfq",
-    "authors": "",
-    "year": "",
+    "title": "Processing and Characterization of High Jc NbN Superconducting Tunnel Junctions for THz Analog Circuits and RSFQ",
+    "authors": "V. Larrey, J.-C. Villégier, M. Salez, F. Miletto-Granozio, A. Karpov",
+    "year": "1999",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "circuits-and-logic",
+    "category": "cryo-memory, compute-architectures",
     "categories": [
+      "cryo-memory",
+      "compute-architectures",
+      "quantum-and-detectors",
+      "cell-library-and-fabrication",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/processing-and-characterization-of-high-jc-nbn-superconducting-tunnel-junctions-for-thz-analog-circuits-and-rsfq/analysis.md",
-    "doi": ""
+    "innovation": "Room-temperature sputtered NbN/MgO/NbN STJs + 250°C anneal: ~1 µm², Jc ≳ 10–20 kA/cm², Vm ~25 mV.",
+    "url": "https://doi.org/10.1109/77.783713",
+    "doi": "10.1109/77.783713"
   },
   {
     "slug": "programmable-bistable-vortex-logic-for-scalable-superconductor-electronics",
@@ -16269,19 +16409,21 @@
   },
   {
     "slug": "rapid-single-flux-quantum-rsfq-shift-register-family",
-    "title": "Rapid Single Flux Quantum Rsfq Shift Register Family",
-    "authors": "",
-    "year": "",
+    "title": "Rapid Single Flux Quantum (RSFQ) Shift Register Family",
+    "authors": "Oleg A. Mukhanov",
+    "year": "1993",
     "venue": "IEEE Trans. Appl. Supercond.",
-    "category": "cryo-memory, quantum-and-detectors",
+    "category": "clocking-and-power, cryo-memory",
     "categories": [
+      "clocking-and-power",
       "cryo-memory",
+      "compute-architectures",
       "quantum-and-detectors",
       "circuits-and-logic"
     ],
-    "innovation": "",
-    "url": "https://github.com/single-flux-quantum/sfq-lab/blob/main/papers/rapid-single-flux-quantum-rsfq-shift-register-family/analysis.md",
-    "doi": ""
+    "innovation": "Novel buffered RSFQ shift-register cell (4 JJ/bit) relaxes clock/data skew vs classic 2-JJ designs; supports same-direction clock+data for circular SRs.",
+    "url": "https://doi.org/10.1109/77.233529",
+    "doi": "10.1109/77.233529"
   },
   {
     "slug": "rapid-single-flux-quantum-t-flip-flop-operating-up-to-770-ghz",
